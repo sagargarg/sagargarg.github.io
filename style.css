@@ -4,7 +4,7 @@ body, html{
 	border: 0px;
 }
 
-.about, .skills, .projects, .resume, .contact {   /*about me, skills, projects, resume, contact*/
+.name, .about, .skills, .projects, .resume, .contact {   /*about me, skills, projects, resume, contact*/
 	display: inline-block;
 	color: gray;
 	height: 50px;
@@ -27,17 +27,13 @@ body, html{
 
 .navbar navbar-default navbar-fixed-top {
 	position: fixed;
-	
+
 }
 
 .name {
-	display: inline-block;
 	color: black;
-	height: 50px;
 	width: 400px;
-	text-align: center;
 	font-size: 30px;
-	font-weight: bold;
 }
 
 body div div a {
