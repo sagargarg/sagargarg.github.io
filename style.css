@@ -23,6 +23,7 @@ body, html{
 	margin-right: -10px;
 	border: none;
 	border: 1px solid gray;
+	position: fixed;
 	
 }
 
