@@ -13,7 +13,7 @@ body, html{
 	font-weight: bold;
 	font-size: 20px;
 }
-.header {
+#header {
 	height: 40px;
 	width: 100%;
 	background-color: white;
@@ -23,6 +23,11 @@ body, html{
 	border: 1px solid gray;
 	position: fixed;
 	padding-bottom: 20px;
+}
+
+.navbar navbar-default navbar-fixed-top {
+	position: fixed;
+	
 }
 
 .name {
