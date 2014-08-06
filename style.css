@@ -49,6 +49,10 @@ h1 {
 	margin-top: 10px;
 }
 
+.web-text, .phone-text, .engineer-text {
+	font-size: 15px;
+}
+
 /*.minus2 {
 	text-align: center;
 	margin-top: 0px;
