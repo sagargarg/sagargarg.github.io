@@ -2,20 +2,10 @@ body, html{
 	font-family: 'Nunito', sans-serif;
 	height: 100%;
 	border: 0px;
-	}
-
-.dec {
-text-decoration: none;
-color: gray;
-}	
-
-.decname {
-text-decoration: none;
-color: black;
 }
-	
-.name, .about, .skills, .projects, .resume, .contact {   /*about me, skills, projects, resume, contact*/
-	display: inline-block;
+/*
+.name, .about, .skills, .projects, .resume, .contact {   about me, skills, projects, resume, contact*/
+	/*display: inline-block;
 	color: gray;
 	height: 50px;
 	width: 130px;
@@ -72,4 +62,4 @@ h1 {
 text-align: center;
 font-size: 50px;
 margin-top: 100px;
-}
+}*/
