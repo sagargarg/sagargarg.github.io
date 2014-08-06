@@ -40,6 +40,10 @@ h1 {
 	background: green;
 }
 
+.computer, .mobile, .engineering {
+	text-align: center;
+}
+
 
 /*.minus2 {
 	text-align: center;
