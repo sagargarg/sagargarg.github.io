@@ -17,6 +17,17 @@ h1 {
 	/*margin-left: -30px;*/
 }
 
+.picture {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.aboutme {
+	font-size: 20px;
+	text-align: center;
+	margin-top: 20px;
+}
+
 /*.minus2 {
 	text-align: center;
 	margin-top: 0px;
