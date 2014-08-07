@@ -52,8 +52,18 @@ h1 {
 	font-size: 15px;
 }
 
-.html-picture {
-	border-radius: 50%;
+.html-picture, .css-picture, .js-picture {
+}
+
+
+.html, .css, .js, .jq {
+	margin-left: 60px;
+	font-size: 30px;
+	margin-top: -45px;
+}
+
+.js-picture, .jq-picture {
+	margin-left: -5px;
 }
 
 /*.minus2 {
