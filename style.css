@@ -56,7 +56,7 @@ h1 {
 }
 
 
-.html, .css, .js, .jq {
+.html, .css, .js, .jq, .android, .apple {
 	margin-left: 60px;
 	font-size: 30px;
 	margin-top: -45px;
@@ -65,6 +65,18 @@ h1 {
 .js-picture, .jq-picture {
 	margin-left: -5px;
 }
+
+.android-picture, .apple-picture {
+	margin-left: -10px;
+}
+
+.android, .apple {
+	margin-left: 70px;
+}
+
+/*.container {
+	background: red;
+}*/
 
 /*.minus2 {
 	text-align: center;
