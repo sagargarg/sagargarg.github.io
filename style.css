@@ -72,6 +72,12 @@ h1 {
 
 .email, .github, .facebook, .google {
 	font-size: 20px;
+	margin-left: 5px;
+}
+
+.email-picture, .github-picture, .facebook-picture, .google-picture {
+	font-size: 15px;
+	margin-left: 20px;
 }
 
 /*.container {
