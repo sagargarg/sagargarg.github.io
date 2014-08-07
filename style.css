@@ -70,6 +70,10 @@ h1 {
 	margin-left: 70px;
 }
 
+.email, .github, .facebook, .google {
+	font-size: 20px;
+}
+
 /*.container {
 	background: red;
 }*/
