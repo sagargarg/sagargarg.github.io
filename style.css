@@ -14,11 +14,36 @@ h3, h5 {
 	text-align: center;
 }
 
-.minus1 {
-	text-align: center;
-	margin-top: -10px;
-	/*margin-left: -30px;*/
+.red-divider {
+    border: 0;
+    height: 1px;
+    background: #e74c3c;
+    background-image: -webkit-linear-gradient(left, #ccc, #e74c3c, #ccc); 
+    background-image: -moz-linear-gradient(left, #ccc, #e74c3c, #ccc); 
+    background-image: -ms-linear-gradient(left, #ccc, #e74c3c, #ccc); 
+    background-image: -o-linear-gradient(left, #ccc, #e74c3c, #ccc); 
 }
+
+.green-divider{
+    border: 0;
+    height: 1px;
+    background: #63c591;
+    background-image: -webkit-linear-gradient(left, #ccc, #63c591 #ccc); 
+    background-image: -moz-linear-gradient(left, #ccc, #63c591 #ccc); 
+    background-image: -ms-linear-gradient(left, #ccc, #63c591, #ccc); 
+    background-image: -o-linear-gradient(left, #ccc, #63c591, #ccc); 
+}
+
+.blue-divider{
+    border: 0;
+    height: 1px;
+    background: #2f64ea;
+    background-image: -webkit-linear-gradient(left, #ccc, #2f64ea, #ccc); 
+    background-image: -moz-linear-gradient(left, #ccc, #2f64ea, #ccc); 
+    background-image: -ms-linear-gradient(left, #ccc, #2f64ea, #ccc); 
+    background-image: -o-linear-gradient(left, #ccc, #2f64ea, #ccc); 
+}
+
 .picture {
 	text-align: center;
 	margin-top: 10px;
@@ -67,36 +92,6 @@ a:hover {
 
 .email-picture, .github-picture, .facebook-picture, .google-picture {
 	text-align: center;
-}
-
-.red-divider {
-    border: 0;
-    height: 1px;
-    background: #e74c3c;
-    background-image: -webkit-linear-gradient(left, #ccc, #e74c3c, #ccc); 
-    background-image: -moz-linear-gradient(left, #ccc, #e74c3c, #ccc); 
-    background-image: -ms-linear-gradient(left, #ccc, #e74c3c, #ccc); 
-    background-image: -o-linear-gradient(left, #ccc, #e74c3c, #ccc); 
-}
-
-.green-divider{
-    border: 0;
-    height: 1px;
-    background: #63c591;
-    background-image: -webkit-linear-gradient(left, #ccc, #63c591 #ccc); 
-    background-image: -moz-linear-gradient(left, #ccc, #63c591 #ccc); 
-    background-image: -ms-linear-gradient(left, #ccc, #63c591, #ccc); 
-    background-image: -o-linear-gradient(left, #ccc, #63c591, #ccc); 
-}
-
-.blue-divider{
-    border: 0;
-    height: 1px;
-    background: #2f64ea;
-    background-image: -webkit-linear-gradient(left, #ccc, #2f64ea, #ccc); 
-    background-image: -moz-linear-gradient(left, #ccc, #2f64ea, #ccc); 
-    background-image: -ms-linear-gradient(left, #ccc, #2f64ea, #ccc); 
-    background-image: -o-linear-gradient(left, #ccc, #2f64ea, #ccc); 
 }
 
 .htmlfin, .cssfin, .jsfin, .jqfin, .javafin, .bsfin, .androidfin, .applefin, .arduinofin {
