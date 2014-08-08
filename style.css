@@ -14,11 +14,42 @@ h3, h5 {
 	text-align: center;
 }
 
+.red-divider {
+    border: 0;
+    height: 1px;
+    background: #e74c3c;
+    background-image: -webkit-linear-gradient(left, #ccc, #e74c3c, #ccc); 
+    background-image: -moz-linear-gradient(left, #ccc, #e74c3c, #ccc); 
+    background-image: -ms-linear-gradient(left, #ccc, #e74c3c, #ccc); 
+    background-image: -o-linear-gradient(left, #ccc, #e74c3c, #ccc); 
+}
+
+.green-divider{
+    border: 0;
+    height: 1px;
+    background: #63c591;
+    background-image: -webkit-linear-gradient(left, #ccc, #63c591 #ccc); 
+    background-image: -moz-linear-gradient(left, #ccc, #63c591 #ccc); 
+    background-image: -ms-linear-gradient(left, #ccc, #63c591, #ccc); 
+    background-image: -o-linear-gradient(left, #ccc, #63c591, #ccc); 
+}
+
+.blue-divider{
+    border: 0;
+    height: 1px;
+    background: #2f64ea;
+    background-image: -webkit-linear-gradient(left, #ccc, #2f64ea, #ccc); 
+    background-image: -moz-linear-gradient(left, #ccc, #2f64ea, #ccc); 
+    background-image: -ms-linear-gradient(left, #ccc, #2f64ea, #ccc); 
+    background-image: -o-linear-gradient(left, #ccc, #2f64ea, #ccc); 
+}
+
 .minus1 {
 	text-align: center;
 	margin-top: -10px;
 	/*margin-left: -30px;*/
 }
+
 .picture {
 	text-align: center;
 	margin-top: 10px;
@@ -70,36 +101,6 @@ h3, h5 {
 	font-size: 15px;
 	margin-left: 20px;
 	text-decoration: none;
-}
-
-.red-divider {
-    border: 0;
-    height: 1px;
-    background: #e74c3c;
-    background-image: -webkit-linear-gradient(left, #ccc, #e74c3c, #ccc); 
-    background-image: -moz-linear-gradient(left, #ccc, #e74c3c, #ccc); 
-    background-image: -ms-linear-gradient(left, #ccc, #e74c3c, #ccc); 
-    background-image: -o-linear-gradient(left, #ccc, #e74c3c, #ccc); 
-}
-
-.green-divider{
-    border: 0;
-    height: 1px;
-    background: #63c591;
-    background-image: -webkit-linear-gradient(left, #ccc, #63c591 #ccc); 
-    background-image: -moz-linear-gradient(left, #ccc, #63c591 #ccc); 
-    background-image: -ms-linear-gradient(left, #ccc, #63c591, #ccc); 
-    background-image: -o-linear-gradient(left, #ccc, #63c591, #ccc); 
-}
-
-.blue-divider{
-    border: 0;
-    height: 1px;
-    background: #2f64ea;
-    background-image: -webkit-linear-gradient(left, #ccc, #2f64ea, #ccc); 
-    background-image: -moz-linear-gradient(left, #ccc, #2f64ea, #ccc); 
-    background-image: -ms-linear-gradient(left, #ccc, #2f64ea, #ccc); 
-    background-image: -o-linear-gradient(left, #ccc, #2f64ea, #ccc); 
 }
 
 a:visited {
