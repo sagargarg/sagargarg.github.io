@@ -56,12 +56,6 @@ h3, h5 {
 	font-size: 15px;
 }
 
-.html, .css, .js, .jq, .android, .apple, .arduino, .java, .bootstrap {
-	margin-left: 60px;
-	font-size: 30px;
-	margin-top: -45px;
-}
-
 .js-picture, .jq-picture, .android-picture, .apple-picture, .arduino-picture {
 	margin-left: -5px;
 }
