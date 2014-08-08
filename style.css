@@ -1,4 +1,5 @@
-body, html{
+body,
+html{
 	font-family: 'Nunito', sans-serif;
 	height: 100%;
 	border: 0px;
@@ -10,7 +11,8 @@ h1 {
 	font-size: 50px;
 }
 
-h3, h5 {
+h3,
+h5 {
 	text-align: center;
 }
 
@@ -68,20 +70,23 @@ h3, h5 {
 	background: green;
 }
 
-.computer, .mobile, .engineering {
-	text-align: center;
+.computer,
+.mobile,
+.engineering {
+	text-lign: center;
 }
 
-.web, .phone, .engineer {
+.web,
+.phone,
+.engineer {
 	font-size: 20px;
 	margin-top: 10px;
 }
 
-.web-text, .phone-text, .engineer-text {
+.web-text,
+.phone-text,
+.engineer-text {
 	font-size: 15px;
-}
-
-.html-picture, .css-picture, .js-picture {
 }
 
 a:hover {
@@ -90,22 +95,43 @@ a:hover {
 	text-decoration: none;
 }
 
-.email-picture, .github-picture, .facebook-picture, .google-picture {
+.email-picture,
+.github-picture,
+.facebook-picture,
+.google-picture {
 	text-align: center;
 }
 
-.htmlfin, .cssfin, .jsfin, .jqfin, .javafin, .bsfin, .androidfin, .applefin, .arduinofin {
+.htmlfin,
+.cssfin,
+.jsfin,
+.jqfin,
+.javafin,
+.bsfin,
+.androidfin,
+.applefin,
+.arduinofin {
 	text-align: center;
 	font-size: 20px;
 }
 
+.bsfin {
+	margin-top: 4px;
+}
+
 /*
-.email, .github, .facebook, .google {
+.email,
+.github,
+.facebook,
+.google {
 	font-size: 20px;
 	margin-left: 5px;
 }
 
-.email-picture, .github-picture, .facebook-picture, .google-picture {
+.email-picture,
+.github-picture,
+.facebook-picture,
+.google-picture {
 	font-size: 15px;
 	margin-left: 300px;
 	text-decoration: none;
