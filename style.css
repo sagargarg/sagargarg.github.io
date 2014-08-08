@@ -62,12 +62,16 @@ h1 {
 	margin-top: -45px;
 }
 
-.js-picture, .jq-picture {
+.js-picture, .jq-picture, .android-picture, .apple-picture, .arduino-picture {
 	margin-left: -5px;
 }
 
 .android, .apple, .arduino, .java {
-	margin-left: 70px;
+	margin-left: 60px;
+}
+
+.java {
+	margin-left: 55px;
 }
 
 .email, .github, .facebook, .google {
@@ -78,7 +82,25 @@ h1 {
 .email-picture, .github-picture, .facebook-picture, .google-picture {
 	font-size: 15px;
 	margin-left: 20px;
+	text-decoration: none;
 }
+
+a:visited {
+	color: black;
+}
+
+a:link {
+	color: black;
+}
+
+a:hover {
+	font-size: 17px;
+}
+
+a:active {
+	color: gray;
+}
+
 
 /*.container {
 	background: red;
