@@ -99,6 +99,16 @@ h3, h5 {
     background-image: -o-linear-gradient(left, #ccc, #e74c3c, #ccc); 
 }
 
+.green-divider{
+    border: 0;
+    height: 1px;
+    background: #63c591;
+    background-image: -webkit-linear-gradient(left, #ccc, #63c591 #ccc); 
+    background-image: -moz-linear-gradient(left, #ccc, #63c591 #ccc); 
+    background-image: -ms-linear-gradient(left, #ccc, #63c591, #ccc); 
+    background-image: -o-linear-gradient(left, #ccc, #63c591, #ccc); 
+}
+
 a:visited {
 	color: black;
 }
