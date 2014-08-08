@@ -56,6 +56,11 @@ h3, h5 {
 	font-size: 15px;
 }
 
+.htmlfin, .cssfin, .jsfin, .jqfin, .javafin, .bsfin, .androidfin, .applefin, .arduinofin {
+	text-align: center;
+	font-size: 20px;
+}
+
 .email, .github, .facebook, .google {
 	font-size: 20px;
 	margin-left: 5px;
@@ -95,11 +100,6 @@ h3, h5 {
     background-image: -moz-linear-gradient(left, #ccc, #2f64ea, #ccc); 
     background-image: -ms-linear-gradient(left, #ccc, #2f64ea, #ccc); 
     background-image: -o-linear-gradient(left, #ccc, #2f64ea, #ccc); 
-}
-
-.htmlfin, .cssfin, .jsfin, .jqfin, .javafin, .bsfin, .androidfin, .applefin, .arduinofin {
-	text-align: center;
-	font-size: 20px;
 }
 
 a:visited {
