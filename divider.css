@@ -36,3 +36,13 @@
     background-image: -ms-linear-gradient(left, #ccc, #2f64ea, #ccc); 
     background-image: -o-linear-gradient(left, #ccc, #2f64ea, #ccc); 
 }
+
+.red-divider2 {
+    border: 0;
+    height: 1px;
+    background: #e74c3c;
+    background-image: -webkit-linear-gradient(left, #ccc, #e74c3c, #222); 
+    background-image: -moz-linear-gradient(left, #ccc, #e74c3c, #222); 
+    background-image: -ms-linear-gradient(left, #ccc, #e74c3c, #222); 
+    background-image: -o-linear-gradient(left, #ccc, #e74c3c, #222); 
+}
