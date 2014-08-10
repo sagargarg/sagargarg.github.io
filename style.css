@@ -119,16 +119,31 @@ a:hover {
 	margin-top: 4px;
 }
 
-.intro-picture {
-	margin-top: 30px;
+.introduction{
+	display: table;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: url(https://raw.githubusercontent.com/sagargarg/sagargarg.github.io/master/logos/IMG_2069.JPG) no-repeat center center scroll;
+	
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
-.caption {
-	font-size: 120px;
+.intro-container{
+	display: table-cell;
+	vertical-align: middle;
 	text-align: center;
-	margin-top: -900px;
-	color: white;
 }
+
+.intro-text{
+	font-size: 100px;
+	padding-top: 75px;
+	margin-bottom: 25px;
+}
+
 
 /*
 .email,
