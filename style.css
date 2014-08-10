@@ -133,7 +133,6 @@ a:hover {
 }
 
 .intro-container{
-	display: table-cell;
 	vertical-align: middle;
 	text-align: center;
 }
@@ -142,6 +141,7 @@ a:hover {
 	font-size: 100px;
 	padding-top: 75px;
 	margin-bottom: 25px;
+	color: white;
 }
 
 
