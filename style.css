@@ -8,7 +8,7 @@
 */
 
 body,
-html{
+html {
 	font-family: 'Nunito', sans-serif, serif;
 	height: 100%;
 	border: 0px;
@@ -25,35 +25,6 @@ h5 {
 	text-align: center;
 }
 
-.red-divider {
-    border: 0;
-    height: 1px;
-    background: #e74c3c;
-    background-image: -webkit-linear-gradient(left, #ccc, #e74c3c, #ccc); 
-    background-image: -moz-linear-gradient(left, #ccc, #e74c3c, #ccc); 
-    background-image: -ms-linear-gradient(left, #ccc, #e74c3c, #ccc); 
-    background-image: -o-linear-gradient(left, #ccc, #e74c3c, #ccc); 
-}
-
-.green-divider{
-    border: 0;
-    height: 1px;
-    background: #63c591;
-    background-image: -webkit-linear-gradient(left, #ccc, #63c591 #ccc); 
-    background-image: -moz-linear-gradient(left, #ccc, #63c591 #ccc); 
-    background-image: -ms-linear-gradient(left, #ccc, #63c591, #ccc); 
-    background-image: -o-linear-gradient(left, #ccc, #63c591, #ccc); 
-}
-
-.blue-divider{
-    border: 0;
-    height: 1px;
-    background: #2f64ea;
-    background-image: -webkit-linear-gradient(left, #ccc, #2f64ea, #ccc); 
-    background-image: -moz-linear-gradient(left, #ccc, #2f64ea, #ccc); 
-    background-image: -ms-linear-gradient(left, #ccc, #2f64ea, #ccc); 
-    background-image: -o-linear-gradient(left, #ccc, #2f64ea, #ccc); 
-}
 
 .picture {
 	text-align: center;
