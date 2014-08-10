@@ -25,7 +25,6 @@ h5 {
 	text-align: center;
 }
 
-
 .picture {
 	text-align: center;
 	margin-top: 10px;
@@ -101,15 +100,6 @@ a:hover {
 
 /*
 
-h2 {
-	z-index: 2;
-	font-size: 120px;
-	text-align: center;
-	color: white;
-	position: absolute;
-	margin-top: 100px;
-}
-
 .email,
 .github,
 .facebook,
@@ -130,3 +120,5 @@ h2 {
 .container {
 	background: red;
 }
+
+*/
