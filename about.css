@@ -25,3 +25,9 @@
 	font-size: 20px;
 	margin-top: 10px;
 }
+
+.web-text,
+.phone-text,
+.engineer-text {
+	font-size: 15px;
+}
