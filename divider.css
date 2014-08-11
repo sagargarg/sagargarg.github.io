@@ -17,17 +17,17 @@
     background-image: -o-linear-gradient(left, #fff, #e74c3c, #fff); 
 }
 
-.green-divider{
+.green-divider {
     border: 0;
     height: 1px;
-    background: #63c591;
-    background-image: -webkit-linear-gradient(left, #222, #63c591 #222); 
-    background-image: -moz-linear-gradient(left, #222, #63c591 #222); 
-    background-image: -ms-linear-gradient(left, #222, #63c591, #222); 
-    background-image: -o-linear-gradient(left, #222, #63c591, #222); 
+    background: #e74c3c;
+    background-image: -webkit-linear-gradient(left, #222, #e74c3c, #222); 
+    background-image: -moz-linear-gradient(left, #222, #e74c3c, #222); 
+    background-image: -ms-linear-gradient(left, #222, #e74c3c, #222); 
+    background-image: -o-linear-gradient(left, #222, #e74c3c, #222); 
 }
 
-.blue-divider{
+.blue-divider {
     border: 0;
     height: 1px;
     background: #2f64ea;
