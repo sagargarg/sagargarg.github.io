@@ -23,3 +23,7 @@
 	padding-top: 100px;
 	color: white;
 }
+
+body header nav div div ul li a:hover {
+	font-size: 25px;
+}
