@@ -12,3 +12,9 @@
 .info {
 	font-size: 20px;
 }
+
+.computer,
+.mobile,
+.engineering {
+	text-align: center;
+}
