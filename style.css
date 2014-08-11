@@ -37,12 +37,6 @@ h5 {
 	background: green;
 }
 
-.web-text,
-.phone-text,
-.engineer-text {
-	font-size: 15px;
-}
-
 a:hover {
 	font-size: 18px;
 	font-weight: bold;
