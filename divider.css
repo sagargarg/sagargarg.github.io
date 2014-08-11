@@ -20,11 +20,11 @@
 .green-divider {
     border: 0;
     height: 1px;
-    background: #e74c3c;
-    background-image: -webkit-linear-gradient(left, #222, #e74c3c, #222); 
-    background-image: -moz-linear-gradient(left, #222, #e74c3c, #222); 
-    background-image: -ms-linear-gradient(left, #222, #e74c3c, #222); 
-    background-image: -o-linear-gradient(left, #222, #e74c3c, #222); 
+    background: #00ff00;
+    background-image: -webkit-linear-gradient(left, #222, #00ff00, #222); 
+    background-image: -moz-linear-gradient(left, #222, #00ff00, #222); 
+    background-image: -ms-linear-gradient(left, #222, #00ff00, #222); 
+    background-image: -o-linear-gradient(left, #222, #00ff00, #222); 
 }
 
 .blue-divider {
