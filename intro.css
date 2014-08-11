@@ -27,3 +27,7 @@
 body header nav div div ul li a:hover {
 	font-size: 16px;
 }
+
+body header nav div a:hover {
+	font-size: 20px;
+}
