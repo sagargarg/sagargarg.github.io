@@ -21,10 +21,10 @@
     border: 0;
     height: 1px;
     background: #63c591;
-    background-image: -webkit-linear-gradient(left, #ccc, #63c591 #ccc); 
-    background-image: -moz-linear-gradient(left, #ccc, #63c591 #ccc); 
-    background-image: -ms-linear-gradient(left, #ccc, #63c591, #ccc); 
-    background-image: -o-linear-gradient(left, #ccc, #63c591, #ccc); 
+    background-image: -webkit-linear-gradient(left, #333, #63c591 #333); 
+    background-image: -moz-linear-gradient(left, #333, #63c591 #333); 
+    background-image: -ms-linear-gradient(left, #333, #63c591, #333); 
+    background-image: -o-linear-gradient(left, #333, #63c591, #333); 
 }
 
 .blue-divider{
