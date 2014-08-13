@@ -5,30 +5,7 @@
  / ___ | / /_/ // /_/ // /_/ // /_ _ / /__ (__  )(__  ) 
 /_/  |_|/_.___/ \____/ \__,_/ \__/(_)\___//____//____/  
                                                         
-
-
-.info {
-	font-size: 20px;
-}
-
-.computer,
-.mobile,
-.engineering {
-	text-align: center;
-}
-
-.web,
-.phone,
-.engineer {
-	font-size: 20px;
-	margin-top: 10px;
-}
-
-.web-text,
-.phone-text,
-.engineer-text {
-	font-size: 15px;
-}*/
+*/
 
 .facebook-picture {
     text-align: center;
@@ -42,4 +19,23 @@
 
 .about-info {
     font-size: 20px;
+}
+
+.computer,
+.mobile,
+.engineering {
+    text-align: center;
+}
+
+.web,
+.phone,
+.engineer {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.web-text,
+.phone-text,
+.engineer-text {
+    font-size: 15px;
 }
