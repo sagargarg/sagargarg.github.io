@@ -19,7 +19,7 @@
 
 .green-divider {
     border: 0;
-    height: 1px;
+    height: 2px;
     background: #2ecc71 ;
     background-image: -webkit-linear-gradient(left, #333, #2ecc71 , #333); 
     background-image: -moz-linear-gradient(left, #333, #2ecc71 , #333); 
@@ -29,7 +29,7 @@
 
 .blue-divider {
     border: 0;
-    height: 1px;
+    height: 2px;
     background: #2f64ea;
     background-image: -webkit-linear-gradient(left, #fff, #2f64ea, #fff); 
     background-image: -moz-linear-gradient(left, #fff, #2f64ea, #fff); 
@@ -39,7 +39,7 @@
 
 .red-divider2 {
     border: 0;
-    height: 1px;
+    height: 2px;
     background: #e74c3c;
     background-image: -webkit-linear-gradient(left, #222, #e74c3c, #222); 
     background-image: -moz-linear-gradient(left, #222, #e74c3c, #222); 
