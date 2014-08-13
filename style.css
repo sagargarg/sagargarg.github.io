@@ -16,6 +16,15 @@ h5 {
 	text-align: center;
 }
 
+body div div div div a:hover {
+	font-size: 18px;
+	text-decoration: none;
+}
+
+body header div div div div a:hover {
+	font-size: 40px;
+}
+
 .color1 {
 	background: red;
 }
