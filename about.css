@@ -21,21 +21,21 @@
     font-size: 20px;
 }
 
-.computer,
-.mobile,
-.engineering {
+.engineer,
+.web,
+.mobile {
     text-align: center;
 }
 
-.web,
-.phone,
-.engineer {
+.engineer-title,
+.web-title,
+.mobile-title {
     font-size: 20px;
     margin-top: 10px;
 }
 
+.engineer-text,
 .web-text,
-.phone-text,
-.engineer-text {
+.mobile-text {
     font-size: 15px;
 }
