@@ -7,17 +7,6 @@
                                                         
 
 
-.picture {
-	text-align: center;
-	margin-top: 10px;
-}
-
-.aboutme {
-	font-size: 20px;
-	text-align: center;
-	margin-top: 20px;
-}
-
 .info {
 	font-size: 20px;
 }
@@ -49,4 +38,8 @@
 .aboutme-header {
     text-align: center;
     font-size: 50px;
+}
+
+.about-info {
+    font-size: 20px;
 }
