@@ -9,7 +9,7 @@
 
 .red-divider {
     border: 0;
-    height: 1px;
+    height: 2px;
     background: #e74c3c;
     background-image: -webkit-linear-gradient(left, #fff, #e74c3c, #fff); 
     background-image: -moz-linear-gradient(left, #fff, #e74c3c, #fff); 
