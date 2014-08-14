@@ -43,7 +43,7 @@ body header div div div div a:hover {
 
 .intro .intro-body .intro-text {
     font-size: 18px;
-    color:rgba(0,0,0,0.5);
+    color:rgba(0,0,0,0.95);
 }
 
 @media(min-width:767px) {
