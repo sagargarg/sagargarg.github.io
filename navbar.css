@@ -32,9 +32,6 @@
         letter-spacing: 1px;
         background: 0 0;
         color: green;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
 
     .top-nav-collapse {
@@ -69,12 +66,6 @@
 .navbar-custom .nav li.active {
     outline: none;
     background-color: rgba(255,255,255,.3);
-}
-
-.navbar-custom .nav li a {
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
 }
 
 .navbar-custom .nav li a:hover,
