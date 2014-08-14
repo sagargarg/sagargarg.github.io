@@ -11,3 +11,20 @@
     background: #333;
     color: white;
 }
+
+.htmlfin,
+.cssfin,
+.jsfin,
+.jqfin,
+.javafin,
+.bsfin,
+.androidfin,
+.applefin,
+.arduinofin {
+    text-align: center;
+    font-size: 20px;
+}
+
+.bsfin {
+    margin-top: 4px;
+}
