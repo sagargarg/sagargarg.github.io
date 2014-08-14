@@ -16,52 +16,6 @@ h5 {
     text-align: center;
 }
 
-.color1 {
-    background: red;
-}
-
-.color2 {
-    background: blue;
-}
-
-.color3 {
-    background: green;
-}
-
-.email-picture,
-.github-picture,
-.facebook-picture,
-.google-picture {
-    text-align: center;
-}
-
-.htmlfin,
-.cssfin,
-.jsfin,
-.jqfin,
-.javafin,
-.bsfin,
-.androidfin,
-.applefin,
-.arduinofin {
-    text-align: center;
-    font-size: 20px;
-}
-
-.bsfin {
-    margin-top: 4px;
-}
-
-.contact-containter {
-    background: #222;
-    color: white;
-}
-
-.skill-containter {
-    background: #333;
-    color: white;
-}
-
 body nav div a:hover {
     font-size: 18px;
 }
