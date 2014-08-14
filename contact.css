@@ -1,0 +1,11 @@
+.email-picture,
+.github-picture,
+.facebook-picture,
+.google-picture {
+    text-align: center;
+}
+
+.contact-containter {
+    background: #222;
+    color: white;
+}
