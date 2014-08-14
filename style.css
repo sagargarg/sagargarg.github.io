@@ -1,28 +1,8 @@
+body,
 html {
-    width: 100%;
+    font-family: 'Nunito', sans-serif, serif;
     height: 100%;
-}
-
-body {
-    font-family: 'Nunito', sans-serif, serif;
-    background-color: #fff;
-}
-
-h1,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0 0 35px;
-    font-family: 'Nunito', sans-serif, serif;
-    letter-spacing: 1px;
-}
-
-h2 {
-    margin: 0 0 35px;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    letter-spacing: 1px;
+    border: 0px;
 }
 
 h1 {
@@ -36,10 +16,50 @@ h5 {
     text-align: center;
 }
 
-p {
-    margin: 0 0 25px;
-    font-size: 18px;
-    line-height: 1.5;
+.color1 {
+    background: red;
+}
+
+.color2 {
+    background: blue;
+}
+
+.color3 {
+    background: green;
+}
+
+.email-picture,
+.github-picture,
+.facebook-picture,
+.google-picture {
+    text-align: center;
+}
+
+.htmlfin,
+.cssfin,
+.jsfin,
+.jqfin,
+.javafin,
+.bsfin,
+.androidfin,
+.applefin,
+.arduinofin {
+    text-align: center;
+    font-size: 20px;
+}
+
+.bsfin {
+    margin-top: 4px;
+}
+
+.contact-containter {
+    background: #222;
+    color: white;
+}
+
+.skill-containter {
+    background: #333;
+    color: white;
 }
 
 body nav div a:hover {
@@ -50,12 +70,40 @@ body nav div div li a:hover {
     font-size: 14px;
 }
 
-@media(min-width:767px) {
-    p {
-        margin: 0 0 35px;
-        font-size: 20px;
-        line-height: 1.6;
-    }
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Nunito', sans-serif, serif;
+    background-color: #fff;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+h2 {
+    margin: 0 0 35px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+h1,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 35px;
+    font-family: 'Nunito', sans-serif, serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+    margin: 0 0 25px;
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 a {
@@ -70,6 +118,8 @@ a:focus {
     text-decoration: none;
     color: #11505d;
 }
+
+
 
 ul.banner-social-buttons {
     margin-top: 0;
