@@ -8,6 +8,7 @@ body {
     height: 100%;
     font-family: 'Nunito', sans-serif, serif;
     background-color: #fff;
+    webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
 h1,
@@ -67,7 +68,6 @@ a:focus {
 }
 
 
-
 ul.banner-social-buttons {
     margin-top: 0;
 }
@@ -90,14 +90,6 @@ ul.banner-social-buttons {
     }
 }
 
-footer {
-    padding: 50px 0;
-}
-
-footer p {
-    margin: 0;
-}
-
 ::-moz-selection {
     text-shadow: none;
     background: #fcfcfc;
@@ -116,8 +108,4 @@ img::selection {
 
 img::-moz-selection {
     background: 0 0;
-}
-
-body {
-    webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
