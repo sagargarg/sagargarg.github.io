@@ -1,51 +1,11 @@
-h1 {
-    text-align: center;
-    margin-top: 50px;
-    font-size: 50px;
-}
-
-h3,
-h5 {
-    text-align: center;
-}
-
-.email-picture,
-.github-picture,
-.facebook-picture,
-.google-picture {
-    text-align: center;
-}
-
-.contact-containter {
-    background: #222;
-    color: white;
-}
-
-body nav div a:hover {
-    font-size: 18px;
-}
-
-body nav div div li a:hover {
-    font-size: 14px;
-}
-
-body {
-    width: 100%;
-    height: 100%;
-    font-family: 'Nunito', sans-serif, serif;
-    background-color: #fff;
-}
-
 html {
     width: 100%;
     height: 100%;
 }
 
-h2 {
-    margin: 0 0 35px;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    letter-spacing: 1px;
+body {
+    font-family: 'Nunito', sans-serif, serif;
+    background-color: #fff;
 }
 
 h1,
@@ -58,10 +18,36 @@ h6 {
     letter-spacing: 1px;
 }
 
+h2 {
+    margin: 0 0 35px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+h3,
+h5 {
+    text-align: center;
+}
+
 p {
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
+}
+
+body nav div a:hover {
+    font-size: 18px;
+}
+
+body nav div div li a:hover {
+    font-size: 14px;
 }
 
 @media(min-width:767px) {
