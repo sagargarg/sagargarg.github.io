@@ -16,10 +16,6 @@
     margin: 0;
 }
 
-.light {
-    font-weight: 400;
-}
-
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid white;
@@ -47,12 +43,8 @@
     }
 
     .navbar-custom.top-nav-collapse {
-        border-bottom: 1px solid rgba(255,255,255,.3);
+        border-bottom: 1px solid white;
     }
-}
-
-.navbar-custom .navbar-brand {
-    font-weight: 700;
 }
 
 .navbar-custom .navbar-brand:focus {
