@@ -36,3 +36,64 @@
     font-weight: bold;
 }
 
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        color: green;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+        background-color: rgba(0,0,0,0.5);
+    }
+
+    .navbar-custom.top-nav-collapse {
+        border-bottom: 1px solid white;
+        border-bottom: 2px solid black;
+    }
+}
+
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar-custom a {
+    color: #fff;
+}
+
+
+
+
+/*
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+
+
+
+
+.navbar-custom .nav li.active {
+    outline: none;
+    background-color: rgba(255,255,255,.3);
+}
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a.active {
+    outline: 0;
+    background-color: rgba(255,255,255,.3);
+}
+
+*/
+
