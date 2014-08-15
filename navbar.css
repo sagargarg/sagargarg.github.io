@@ -69,9 +69,11 @@
     color: #fff;
 }
 
-.navbar-custom .nav li a:hover{
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a.active {
     color: black;
-    font-weight: 900;
+    font-weight: 1500;
 }
 
 
