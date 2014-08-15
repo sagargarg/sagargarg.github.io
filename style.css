@@ -102,3 +102,8 @@ img::selection {
 img::-moz-selection {
     background: 0 0;
 }
+
+.maze-solver-title {
+    font-size: 30px;
+}
+
