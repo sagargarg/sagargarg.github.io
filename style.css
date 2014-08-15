@@ -103,7 +103,7 @@ img::-moz-selection {
     background: 0 0;
 }
 
-.maze-solver-title {
+.maze-solver-title, .led-cube-title {
     font-size: 30px;
 }
 
