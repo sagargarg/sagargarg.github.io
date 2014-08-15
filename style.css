@@ -103,7 +103,7 @@ img::-moz-selection {
     background: 0 0;
 }
 
-.maze-solver-title, .led-cube-title {
+.maze-solver-title, .led-cube-title, .molecule-title {
     font-size: 30px;
 }
 
