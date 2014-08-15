@@ -108,6 +108,7 @@ img::-moz-selection {
     text-align: center;
 }
 
-.maze-solver-info, .led-cube-info {
-    text-align: 
+.maze-solver-info, .led-cube-info, .molecule-info {
+    text-align: center;
+    font-size: 20px;
 }
