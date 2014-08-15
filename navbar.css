@@ -71,6 +71,7 @@
 
 .navbar-custom .nav li a:hover{
     color: black;
+    font-weight: bold;
 }
 
 
