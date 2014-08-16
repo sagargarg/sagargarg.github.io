@@ -76,6 +76,14 @@
     font-weight: bold;
 }
 
+body nav div a:hover {
+    font-size: 18px;
+}
+
+body nav div div li a:hover {
+    font-size: 14px;
+}
+
 
 /*
 .navbar-custom .navbar-brand .navbar-toggle:focus,
