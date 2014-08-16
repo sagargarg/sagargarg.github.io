@@ -48,34 +48,37 @@
 	<body id="" data-spy="scroll" data-target=".navbar-fixed-top">
 
 		<!-- Navigation -->
-		<header class="navbar-inverse navbar-fixed-top" role="banner">	
+		<nav class="navbar navbar-custom navbar-fixed-top" id="header" role="navigation">
 			<div class="container">	
-				<nav role="navigation">
-					<div class="container-fluid">
-					<!-- Brand and toggle get grouped for better mobile display -->
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-							<a class="navbar-brand" href="#">Sagar Garg</a>
-						</div>
-					<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-							<ul class="nav navbar-nav">
-								<li class="active"><a href="#about">About Me</a></li>
-								<li><a href="#skills">Skills</a></li>
-								<li><a href="#projects">Projects</a></li>
-								<!--<li><a href="#">Resume</a></li>-->
-								<li><a href="#contact">Contact Me</a></li>
-							</ul>
-						</div><!-- /.navbar-collapse -->
-					</div><!-- /.container-fluid -->
-				</nav>
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse" data-target="#bs-example-navbar-collapse-1">
+					<i class="fa fa-bars"></i>
+					</button>
+					<a class="navbar-brand page-scroll" href="#">
+						<span class="light">Sagar</span> Garg
+					</a>
+				</div>
+				<div class="collapse navbar-collapse navbar-right navbar-main-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="hidden">
+							<a href="#page-top"></a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#about">About</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#skills">Skills</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#projects">Projects</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#contact">Contact</a>
+						<li>
+					</ul>
+				</div>
 			</div>
-		</header>
+		</nav>
 
 		<!-- Intro -->
 		<header class="intro">
