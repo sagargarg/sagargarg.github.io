@@ -73,7 +73,7 @@
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a.active {
     color: black;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 
