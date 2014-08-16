@@ -78,14 +78,10 @@
 
 
 /*
-
 .navbar-custom .navbar-brand .navbar-toggle:focus,
 .navbar-custom .navbar-brand .navbar-toggle:active {
     outline: 0;
 }
-
-
-
 
 .navbar-custom .nav li.active {
     outline: none;
@@ -98,6 +94,5 @@
     outline: 0;
     background-color: rgba(255,255,255,.3);
 }
-
 */
 
