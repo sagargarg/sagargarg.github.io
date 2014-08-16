@@ -26,15 +26,19 @@ body div div div div a:hover {
 
 .contact-box {
 	font-size: 40px;
-	background-color: green;
+	background-color: red;
 }
 
 .email {
 	font-size: 40px;
 	margin-top: -5px;
 	color: white;
-	background-color: green;
 }
+
+a.e-pic:hover{
+	color: black;
+}
+
 
 /*
 a:hover - when user hover over link
