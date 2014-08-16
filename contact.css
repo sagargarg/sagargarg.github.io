@@ -23,3 +23,22 @@ body div div div div a:hover {
     text-decoration: none;
     color: white;
 }
+
+.contact-box {
+	font-size: 20px;
+	color: white;
+}
+
+
+/*
+
+a:hover - when user hover over link
+a:active - when user clicks the link
+
+a:visited - An unvisted link
+a:link - A visted link
+
+
+a:focus - when user
+a:focus:hover
+*/
