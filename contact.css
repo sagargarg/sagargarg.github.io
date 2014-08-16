@@ -32,10 +32,10 @@ body div div div div a:hover {
 .email {
 	font-size: 40px;
 	margin-top: -5px;
+	color: blue;
 }
 
 /*
-
 a:hover - when user hover over link
 a:active - when user clicks the link
 
