@@ -18,3 +18,8 @@
     background: #222;
     color: white;
 }
+
+body div div div div a:hover {
+    font-size: 18px;
+    text-decoration: none;
+}
