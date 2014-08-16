@@ -48,6 +48,10 @@ h5 {
     text-align: center;
 }
 
+body nav div a:hover {
+    font-size: 18px;
+}
+
 body nav div div li a:hover {
     font-size: 14px;
 }
