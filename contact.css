@@ -56,7 +56,9 @@ div.social a.icon-mail:hover {
     color: rgb(39, 174, 96);
 }
 
-
+div.social a.icon-facebook {
+    background-color: #3b5998;
+}
 
 
 
