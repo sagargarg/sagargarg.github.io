@@ -26,7 +26,8 @@ body div div div div a:hover {
 
 .email-box,
 .facebook-box,
-.github-box {
+.github-box,
+.facebook-box {
 	font-size: 40px;
 	color: red;
 }
