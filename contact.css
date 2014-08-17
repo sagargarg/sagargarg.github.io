@@ -77,6 +77,10 @@ div.social a.icon-twitter:before {
     content: "\e800";
 }
 
+div.social a.icon-twitter:hover {
+    background-color: #fff;
+    color: #00acee;
+}
 
 .email-picture,
 .github-picture,
