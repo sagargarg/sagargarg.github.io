@@ -81,13 +81,6 @@ div.social a.icon-github:hover {
     color: #00acee;
 }
 
-.email-picture,
-.github-picture,
-.facebook-picture,
-.google-picture {
-    text-align: center;
-}
-
 .contact-containter {
     background: #222;
     color: white;
@@ -97,6 +90,15 @@ body div div div div a:hover {
     text-decoration: none;
 }
 
+
+
+
+.email-picture,
+.github-picture,
+.facebook-picture,
+.google-picture {
+    text-align: center;
+}
 
 .email-box,
 .facebook-box,
