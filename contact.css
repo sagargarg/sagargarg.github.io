@@ -72,7 +72,7 @@ div.social a.icon-github {
     background-color: #00acee;
 }
 
-div.social a.icon-twitter:before {
+div.social a.icon-github:before {
     content: "\e800";
 }
 
