@@ -33,7 +33,8 @@ body div div div div a:hover {
 
 .email,
 .facebook,
-.github {
+.github,
+.facebook {
 	font-size: 40px;
 	margin-top: -5px;
 	color: white;
