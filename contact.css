@@ -76,7 +76,7 @@ div.social a.icon-github:before {
     content: "\e800";
 }
 
-div.social a.icon-twitter:hover {
+div.social a.icon-github:hover {
     background-color: #fff;
     color: #00acee;
 }
