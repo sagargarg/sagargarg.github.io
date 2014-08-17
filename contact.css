@@ -46,7 +46,10 @@ div.social a.icon-mail {
     height: 29px;
 }
 
-
+div.social a.icon-mail:before {
+    font-family: "Socialico Plus";
+    content: "M";
+}
 
 
 
