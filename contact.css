@@ -31,7 +31,13 @@ div.social a:not(.first-social) {
     margin-left: 20px;
 }
 
-
+div.social a:before {
+    width: inherit;
+    height: inherit;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
 
 
 
