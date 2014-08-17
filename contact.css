@@ -73,6 +73,9 @@ div.social a.icon-twitter {
     background-color: #00acee;
 }
 
+div.social a.icon-twitter:before {
+    content: "\e800";
+}
 
 
 .email-picture,
