@@ -29,7 +29,7 @@ body div div div div a:hover {
 	color: red;
 }
 
-.email {
+.email, .facebook {
 	font-size: 40px;
 	margin-top: -5px;
 	color: white;
