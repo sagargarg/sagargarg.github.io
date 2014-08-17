@@ -24,12 +24,14 @@ body div div div div a:hover {
 }
 
 
-.email-box, .facebook-box {
+.email-box,
+.facebook-box {
 	font-size: 40px;
 	color: red;
 }
 
-.email, .facebook {
+.email,
+.facebook {
 	font-size: 40px;
 	margin-top: -5px;
 	color: white;
