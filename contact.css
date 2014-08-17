@@ -51,7 +51,10 @@ div.social a.icon-mail:before {
     content: "M";
 }
 
-
+div.social a.icon-mail:hover {
+    background-color: #fff;
+    color: rgb(39, 174, 96);
+}
 
 
 
