@@ -19,6 +19,13 @@ div.social a {
     height: 35px;
     display: inline-block;
     border-radius: 5px;
+    font-family: "scicons";
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color .2s linear, color .2s linear;
+}
 
 
 
