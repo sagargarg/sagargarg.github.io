@@ -52,7 +52,7 @@ div.social a:before {
 
 div.social a.icon-mail {
     background-color: rgb(39, 174, 96);
-    font-size: 26px;
+    font-size: 45px;
 }
 
 div.social a.icon-mail:hover {
@@ -64,7 +64,7 @@ div.social a.icon-mail:hover {
 
 div.social a.icon-facebook {
     background-color: #3b5998;
-    font-size: 26px;
+    font-size: 45px;
 }
 
 div.social a.icon-facebook:hover {
@@ -75,7 +75,7 @@ div.social a.icon-facebook:hover {
 
 div.social a.icon-github {
     background-color: #00acee;
-    font-size: 26px;
+    font-size: 45px;
 }
 
 div.social a.icon-github:hover {
@@ -85,7 +85,7 @@ div.social a.icon-github:hover {
 
 div.social a.icon-google {
     background-color: #D34836;
-    font-size: 26px;
+    font-size: 45px;
 }
 
 div.social a.icon-google:hover {
