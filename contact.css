@@ -11,7 +11,6 @@
 	text-align: center;
 }
 
-
 section#footer {
     background-color: #000000;
     text-align: center;
@@ -25,8 +24,8 @@ div.social {
 }
 
 div.social a {
-    width: 35px;
-    height: 35px;
+    width: 60px;
+    height: 60px;
     display: inline-block;
     border-radius: 5px;
     font-family: "scicons";
