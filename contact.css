@@ -79,12 +79,12 @@ div.social a.icon-github:hover {
     color: #00acee;
 }
 
-div.social a.icon-github {
+div.social a.icon-google {
     background-color: #D34836;
     font-size: 26px;
 }
 
-div.social a.icon-github:hover {
+div.social a.icon-google:hover {
     background-color: #fff;
     color: #D34836;
 }
