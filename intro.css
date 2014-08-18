@@ -37,13 +37,13 @@ body header div div div div a:hover {
 }
 
 .intro .intro-body .intro-text {
-    font-size: 18px;
+    font-size: 20px;
     color: white;
 }
 
 .scroll-text {
-    font-size: 10px;
-    margin-top: 30px;
+    font-size: 15px;
+    margin-top: 75px;
 }
 
 @media(min-width:767px) {
@@ -64,7 +64,7 @@ body header div div div div a:hover {
 .btn-circle {
     width: 70px;
     height: 70px;
-    margin-top: 50px;
+    margin-top: 15px;
     padding: 7px 16px;
     border: 2px solid #fff;
     border-radius: 35px;
