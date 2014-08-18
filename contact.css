@@ -111,7 +111,6 @@ body div div div div a:hover {
 .github-box,
 .google-box {
 	font-size: 40px;
-	color: red;
 }
 
 .email,
@@ -123,7 +122,7 @@ body div div div div a:hover {
 	color: white;
 }
 
-
+/*
 a:hover - when user hover over link
 a:active - when user clicks the link
 
@@ -133,3 +132,4 @@ a:link - A visted link
 
 a:focus - when user
 a:focus:hover
+*/
