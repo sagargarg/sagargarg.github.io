@@ -51,11 +51,6 @@ div.social a.icon-mail {
     height: 29px;
 }
 
-div.social a.icon-mail:before {
-    font-family: "Socialico Plus";
-    content: "M";
-}
-
 div.social a.icon-mail:hover {
     background-color: #fff;
     color: rgb(39, 174, 96);
