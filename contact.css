@@ -7,6 +7,12 @@
                                                                  
 */
 
+section#footer {
+    background-color: #000000;
+    text-align: center;
+    padding: 30px;
+}
+
 div.social {
     width: 300px;
     margin: 0 auto;
@@ -91,7 +97,7 @@ body div div div div a:hover {
 }
 
 
-/*
+
 
 .email-picture,
 .github-picture,
@@ -127,4 +133,3 @@ a:link - A visted link
 
 a:focus - when user
 a:focus:hover
-*/
