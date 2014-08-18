@@ -68,13 +68,13 @@ div.social a.icon-facebook:hover {
 
 
 div.social a.icon-github {
-    background-color: #00acee;
+    background-color: #000;
     font-size: 45px;
 }
 
 div.social a.icon-github:hover {
     background-color: #fff;
-    color: #00acee;
+    color: #000;
 }
 
 div.social a.icon-google {
