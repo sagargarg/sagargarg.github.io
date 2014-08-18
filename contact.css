@@ -62,14 +62,11 @@ div.social a.icon-facebook {
     background-color: #3b5998;
 }
 
-div.social a.icon-facebook:before {
-    content: "\e801";
-}
-
 div.social a.icon-facebook:hover {
     background-color: #fff;
     color: #3b5998;
 }
+
 
 div.social a.icon-github {
     background-color: #00acee;
