@@ -41,6 +41,11 @@ body header div div div div a:hover {
     color: white;
 }
 
+.scroll-text {
+    font-size: 10px;
+    margin-top: 30px;
+}
+
 @media(min-width:767px) {
     .intro {
         height: 100%;
