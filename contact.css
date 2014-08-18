@@ -79,6 +79,18 @@ div.social a.icon-github:hover {
     color: #00acee;
 }
 
+div.social a.icon-github {
+    background-color: #00acee;
+    font-size: 26px;
+}
+
+div.social a.icon-github:hover {
+    background-color: #fff;
+    color: #00acee;
+}
+
+
+
 
 
 .contact-containter {
