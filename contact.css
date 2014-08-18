@@ -44,17 +44,19 @@ div.social a:before {
     vertical-align: middle;
 }
 
+
+
 div.social a.icon-mail {
     background-color: rgb(39, 174, 96);
     font-size: 26px;
-    padding-top: 6px;
-    height: 29px;
 }
 
 div.social a.icon-mail:hover {
     background-color: #fff;
     color: rgb(39, 174, 96);
 }
+
+
 
 div.social a.icon-facebook {
     background-color: #3b5998;
