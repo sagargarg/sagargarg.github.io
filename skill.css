@@ -10,9 +10,11 @@
 .skill-containter {
     background: #333;
     color: white;
+    text-align: center;
+    font-size: 20px;
 }
 
-.htmlfin,
+/*.htmlfin,
 .cssfin,
 .jsfin,
 .jqfin,
@@ -23,7 +25,7 @@
 .arduinofin {
     text-align: center;
     font-size: 20px;
-}
+}*/
 
 .pythonfin,
 .jq {
