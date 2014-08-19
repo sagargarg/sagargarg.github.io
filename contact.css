@@ -43,7 +43,6 @@ div.social a.icon-mail:hover {
 }
 
 
-
 div.social a.icon-facebook {
     background-color: #3b5998;
     font-size: 45px;
@@ -65,6 +64,7 @@ div.social a.icon-github:hover {
     color: #000;
 }
 
+
 div.social a.icon-google {
     background-color: #D34836;
     font-size: 45px;
@@ -74,9 +74,6 @@ div.social a.icon-google:hover {
     background-color: #fff;
     color: #D34836;
 }
-
-
-
 
 
 .contact-containter {
@@ -90,7 +87,7 @@ body div div div div a:hover {
 
 
 
-
+/*
 .email-picture,
 .github-picture,
 .facebook-picture,
@@ -114,7 +111,6 @@ body div div div div a:hover {
 	color: white;
 }
 
-/*
 a:hover - when user hover over link
 a:active - when user clicks the link
 
