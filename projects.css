@@ -21,7 +21,23 @@
     font-size: 20px;
 }
 
-#led-cube-button{
-	padding: 15px 10px 15px 10px;
-	font-size: 20px;
+.btnProject{
+    padding: 10px 15px 10px 15px;
+    text-align: center;
+    cursor: pointer;
+    -moz-border-radius: 3px; 
+    -webkit-border-radius: 3px; 
+    border-radius: 3px;
+    color: #5bc0de;
+    border: 2px solid #5bc0de;
+    background: none;
+    font-family: 'Open Sans', sans-serif;
+    transition: all 150ms ease-in-out 0s;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.btnProject:hover{
+    background-color: #5bc0de;
+    color: #FFF;
 }
