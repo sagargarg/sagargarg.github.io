@@ -24,10 +24,6 @@ div.social a {
     transition: background-color .2s linear, color .2s linear;
 }
 
-div.social a:not(.first-social) {
-    margin-left: 20px;
-}
-
 div.social a:before {
     width: inherit;
     height: inherit;
@@ -35,8 +31,6 @@ div.social a:before {
     text-align: center;
     vertical-align: middle;
 }
-
-
 
 div.social a.icon-mail {
     background-color: rgb(39, 174, 96);
