@@ -82,3 +82,9 @@ a:focus {
     animation-iteration-count:infinite; 
     -webkit-animation-iteration-count:infinite; 
 }
+
+@-webkit-keyframes pulse { 
+    0% { -webkit-transform: scale(1); } 
+    50% { -webkit-transform: scale(1.1); } 
+    100% { -webkit-transform: scale(1); } 
+} 
