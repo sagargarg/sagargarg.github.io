@@ -56,3 +56,8 @@ a:focus {
 .footer {
     font-size: 30px;
 }
+
+.fa-heart {
+    color: red;
+    text-shadow:0 0 10px red;
+}
