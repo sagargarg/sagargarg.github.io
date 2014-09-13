@@ -31,10 +31,10 @@
     border: 0;
     height: 2px;
     background: #2f64ea;
-    background-image: -webkit-linear-gradient(left, #D1D1D1, #2f64ea, #D1D1D1); 
-    background-image: -moz-linear-gradient(left, #D1D1D1, #2f64ea, #D1D1D1); 
-    background-image: -ms-linear-gradient(left, #D1D1D1, #2f64ea, #D1D1D1); 
-    background-image: -o-linear-gradient(left, #D1D1D1, #2f64ea, #D1D1D1); 
+    background-image: -webkit-linear-gradient(left, #E5E5E5, #2f64ea, #E5E5E5); 
+    background-image: -moz-linear-gradient(left, #E5E5E5, #2f64ea, #E5E5E5); 
+    background-image: -ms-linear-gradient(left, #E5E5E5, #2f64ea, #E5E5E5); 
+    background-image: -o-linear-gradient(left, #E5E5E5, #2f64ea, #E5E5E5); 
 }
 
 .red-divider2 {
