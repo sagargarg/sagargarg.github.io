@@ -41,8 +41,8 @@
     border: 0;
     height: 2px;
     background: #e74c3c;
-    background-image: -webkit-linear-gradient(left, #444, #e74c3c, #444); 
-    background-image: -moz-linear-gradient(left, #444, #e74c3c, #444); 
-    background-image: -ms-linear-gradient(left, #444, #e74c3c, #444); 
-    background-image: -o-linear-gradient(left, #444, #e74c3c, #444); 
+    background-image: -webkit-linear-gradient(left, #555555, #e74c3c, #555555); 
+    background-image: -moz-linear-gradient(left, #555555, #e74c3c, #555555); 
+    background-image: -ms-linear-gradient(left, #555555, #e74c3c, #555555); 
+    background-image: -o-linear-gradient(left, #555555, #e74c3c, #555555); 
 }
