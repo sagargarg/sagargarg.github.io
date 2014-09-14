@@ -20,7 +20,7 @@ padding: 0;
 }
 
 ul.fallingtextrotator > li{
-position: relative;
+position: absolute;
 text-align: center;
 opacity: 0;
 top: 0;
