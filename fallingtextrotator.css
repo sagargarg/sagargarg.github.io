@@ -6,6 +6,7 @@ color: #217C23;
 letter-spacing: 10px;
 font-weight: 800;
 text-transform: uppercase;
+position: relative;
 text-align: center;
 list-style: none;
 margin: 0;
@@ -14,6 +15,7 @@ padding: 0;
 
 ul.fallingtextrotator > li{
 position: absolute;
+text-align: center;
 opacity: 0;
 top: 0;
 left: 0;
