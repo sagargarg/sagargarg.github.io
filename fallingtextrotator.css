@@ -9,6 +9,7 @@ text-transform: uppercase;
 position: relative;
 text-align: center;
 list-style: none;
+margin-left: 100px;
 margin: 0;
 padding: 0;
 }
