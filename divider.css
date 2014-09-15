@@ -46,3 +46,13 @@
     background-image: -ms-linear-gradient(left, #555555, #e74c3c, #555555); 
     background-image: -o-linear-gradient(left, #555555, #e74c3c, #555555); 
 }
+
+.yellow-divider {
+    border: 0;
+    height: 2px;
+    background: #ff0000;
+    background-image: -webkit-linear-gradient(left, #8C8C8C, #FF0000, #8C8C8C);
+    background-image: -moz-linear-gradient(left, #8C8C8C, #FF0000, #8C8C8C);
+    background-image: -ms-linear-gradient(left, #8C8C8C, #FF0000, #8C8C8C);
+    background-image: -o-linear-gradient(left, #8C8C8C, #FF0000, #8C8C8C);
+}
