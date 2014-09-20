@@ -51,8 +51,8 @@
     border: 0;
     height: 2px;
     background: #ff0000;
-    background-image: -webkit-linear-gradient(left, #8C8C8C, #FFFF00, #8C8C8C);
-    background-image: -moz-linear-gradient(left, #8C8C8C, #FFFF00, #8C8C8C);
-    background-image: -ms-linear-gradient(left, #8C8C8C, #FFFF00, #8C8C8C);
-    background-image: -o-linear-gradient(left, #8C8C8C, #FFFF00, #8C8C8C);
+    background-image: -webkit-linear-gradient(left, #CCCCCC, #FFFF00, #CCCCCC);
+    background-image: -moz-linear-gradient(left, #CCCCCC, #FFFF00, #CCCCCC);
+    background-image: -ms-linear-gradient(left, #CCCCCC, #FFFF00, #CCCCCC);
+    background-image: -o-linear-gradient(left, #CCCCCC, #FFFF00, #CCCCCC);
 }
