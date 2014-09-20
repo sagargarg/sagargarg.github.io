@@ -31,12 +31,12 @@ body header div div div div a:hover {
     vertical-align: middle;
 }
 
-.intro .intro-body .brand-heading {
+.brand-heading {
     font-size: 40px;
     color:rgba(0,0,0,0.75);
 }
 
-.intro .intro-body .intro-text {
+.intro-text {
     font-size: 20px;
     color: white;
 }
