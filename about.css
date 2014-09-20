@@ -13,14 +13,14 @@
     font-size: 20px;
 }
 
-.facebook-picture {
-    text-align: center;
-    margin-top: 10px;
-} 
-
 .aboutme-header {
     text-align: center;
     font-size: 50px;
+}
+
+.facebook-picture {
+    text-align: center;
+    margin-top: 10px;
 }
 
 .about-info {
