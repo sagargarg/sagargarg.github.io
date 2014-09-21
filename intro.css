@@ -31,33 +31,27 @@ body header div div div div a:hover {
     vertical-align: middle;
 }
 
+.intro {
+    height: 100%;
+}
+
 .brand-heading {
-    font-size: 40px;
+    font-size: 70px;
     color:rgba(0,0,0,0.80);
 }
 
-.intro-text {
-    font-size: 25px;
-    color: white;
-}
-
 .scroll-text {
-    font-size: 15px;
+    font-size: 10px;
     margin-top: 75px;
 }
 
 @media(min-width:767px) {
-    .intro {
-        height: 100%;
-        padding: 0;
-    }
-
     .intro .intro-body .brand-heading {
         font-size: 100px;
     }
 
-    .intro .intro-body .intro-text {
-        font-size: 25px;
+    .scroll-text {
+        font-size: 15px;
     }
 }
 
