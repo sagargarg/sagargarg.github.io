@@ -45,6 +45,11 @@ body header div div div div a:hover {
     margin-top: 75px;
 }
 
+.engineer-programmer-innovator-student {
+    font-size: 25px;
+    text-align: center;
+}
+
 @media(min-width:767px) {
     .intro .intro-body .brand-heading {
         font-size: 100px;
