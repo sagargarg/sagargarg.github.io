@@ -12,6 +12,7 @@
     color: black;
     text-align: center;
     font-size: 20px;
+    font-family: 'Nunito', sans-serif, serif;
 }
 
 .maze-solver-title,
