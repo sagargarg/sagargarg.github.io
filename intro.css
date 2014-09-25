@@ -114,66 +114,6 @@ body img {
   overflow: hidden;
 }
 
-#background #spacer {
-  filter: blur(1px);
-  -o-filter: blur(1px);
-  -ms-filter: blur(1px);
-  -moz-filter: blur(1px);
-  -webkit-filter: blur(1px);
-  margin: auto 0px;
-  padding: 0px;
-  width: 2px;
-  height: calc(100% -  30px);
-  display: inline-block;
-  vertical-align: middle;
-  background: #222;
-}
-@media all and (max-width: 640px) {
-  #background #spacer {
-    width: 0px;
-    height: 0px;
-    display: none;
-  }
-}
-#background #pane1,
-#background #pane2 {
-  filter: blur(1px);
-  -o-filter: blur(1px);
-  -ms-filter: blur(1px);
-  -moz-filter: blur(1px);
-  -webkit-filter: blur(1px);
-  margin: 0px;
-  padding: 15px;
-  width: calc(50% -  31px);
-  height: calc(100% -  30px);
-  display: inline-block;
-  vertical-align: middle;
-  overflow: hidden;
-  white-space: nowrap;
-  opacity: 0.2;
-  background-image: url('../images/slash_it.png');
-  background-size: cover;
-}
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  #background #pane1,
-  #background #pane2 {
-    background-image: url('../images/slash_it@2x.png');
-    background-size: cover;
-  }
-}
-@media all and (max-width: 640px) {
-  #background #pane1 {
-    width: calc(100% -  30px);
-    height: calc(100% -  30px);
-  }
-}
-@media all and (max-width: 640px) {
-  #background #pane2 {
-    width: 0px;
-    height: 0px;
-    display: none;
-  }
-}
 #panel1 {
   padding: 0px;
   width: 100%;
