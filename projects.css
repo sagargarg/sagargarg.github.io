@@ -1,51 +1,51 @@
 /*
-    ____                  _              __                           
+	____                  _              __                           
    / __ \ _____ ____     (_)___   _____ / /_ _____   _____ _____ _____
   / /_/ // ___// __ \   / // _ \ / ___// __// ___/  / ___// ___// ___/
  / ____// /   / /_/ /  / //  __// /__ / /_ (__  )_ / /__ (__  )(__  ) 
 /_/    /_/    \____/__/ / \___/ \___/ \__//____/(_)\___//____//____/  
-                   /___/                                              
+				   /___/                                              
 */
 
 .project-container {
-    background: #E5E5E5;
-    color: black;
-    text-align: center;
-    font-size: 20px;
-    font-family: 'Nunito', sans-serif, serif;
+	background: #E5E5E5;
+	color: black;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Nunito', sans-serif, serif;
 }
 
 .maze-solver-title,
 .led-cube-title,
 .molecule-title {
-    font-size: 30px;
-    text-align: center;
+	font-size: 30px;
+	text-align: center;
 }
 
 .maze-solver-info,
 .led-cube-info,
 .molecule-info {
-    text-align: center;
-    font-size: 20px;
+	text-align: center;
+	font-size: 20px;
 }
 
 .btnProject{
-    padding: 10px 15px 10px 15px;
-    text-align: center;
-    cursor: pointer;
-    -moz-border-radius: 3px; 
-    -webkit-border-radius: 3px; 
-    border-radius: 3px;
-    color: #5bc0de;
-    border: 2px solid #5bc0de;
-    background: none;
-    font-family: 'Open Sans', sans-serif;
-    transition: all 150ms ease-in-out 0s;
-    font-weight: 300;
-    font-size: 25px;
+	padding: 10px 15px 10px 15px;
+	text-align: center;
+	cursor: pointer;
+	-moz-border-radius: 3px; 
+	-webkit-border-radius: 3px; 
+	border-radius: 3px;
+	color: #5bc0de;
+	border: 2px solid #5bc0de;
+	background: none;
+	font-family: 'Open Sans', sans-serif;
+	transition: all 150ms ease-in-out 0s;
+	font-weight: 300;
+	font-size: 25px;
 }
 
 .btnProject:hover{
-    background-color: #5bc0de;
-    color: #FFF;
+	background-color: #5bc0de;
+	color: #FFF;
 }
