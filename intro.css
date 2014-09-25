@@ -57,3 +57,91 @@
     color: #000;
     background-color: #219ab3;
 }
+
+
+
+#tooltip1,
+#tooltip2,
+#tooltip3,
+#tooltip4 {
+  width: 40px;
+  height: 0px;
+  display: inline-block;
+  vertical-align: middle;
+  transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transform: translateX(-90px) scale(0);
+  -o-transform: translateX(-90px) scale(0);
+  -ms-transform: translateX(-90px) scale(0);
+  -moz-transform: translateX(-90px) scale(0);
+  -webkit-transform: translateX(-90px) scale(0);
+  opacity: 0.0;
+}
+#tooltip1 #developer,
+#tooltip2 #developer,
+#tooltip3 #developer,
+#tooltip4 #developer {
+  position: relative;
+  top: 20px;
+  left: -170px;
+  right: auto;
+  bottom: auto;
+  width: 200px;
+  height: 150px;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 20px;
+  color: #333;
+  background: #ffffff;
+  border-radius: 10px;
+  font-variant: normal;
+}
+
+#tooltip1 #developer {
+  left: -175px;
+}
+
+#tooltip2 #developer {
+  left: -165px;
+}
+
+#tooltip3 #developer {
+  left: -180px;
+}
+
+#tooltip4 #developer {
+  left: -175px;
+}
+
+#tooltip1 #developer:before,
+#tooltip2 #developer:before,
+#tooltip3 #developer:before,
+#tooltip4 #developer:before {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: -20px;
+  left: 100px;
+  right: auto;
+  bottom: auto;
+  content: "";
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent #FFFFFF transparent;
+}
+#tooltip1 #developer > :first-child,
+#tooltip2 #developer > :first-child,
+#tooltip3 #developer > :first-child,
+#tooltip4 #developer > :first-child {
+  font-size: 20px;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 24px;
+}
