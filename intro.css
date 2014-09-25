@@ -7,21 +7,6 @@
 													
 */
 
-.intro {
-	display: table;
-	width: 100%;
-	height: auto;
-	padding: 100px 0;
-	text-align: center;
-	color: white;
-	background: url(https://github.com/sagargarg/sagargarg.github.io/raw/3b3194024a1cf8c0db2ed8bcdf17c9fd8366566a/Images/space-picture.jpg?raw=true) no-repeat bottom center scroll;
-	background-color: #000;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
-}
-
 .btn-circle {
 	width: 70px;
 	height: 70px;
@@ -286,3 +271,21 @@ body img {
   font-family: 'Open Sans', sans-serif;
   line-height: 24px;
 }
+
+/*
+
+.intro {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+  background: url(https://github.com/sagargarg/sagargarg.github.io/raw/3b3194024a1cf8c0db2ed8bcdf17c9fd8366566a/Images/space-picture.jpg?raw=true) no-repeat bottom center scroll;
+  background-color: #000;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+*/
