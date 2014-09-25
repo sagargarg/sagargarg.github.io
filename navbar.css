@@ -1,86 +1,86 @@
 /*
-    _   __               __                                  
+	_   __               __                                  
    / | / /____ _ _   __ / /_   ____ _ _____ _____ _____ _____
   /  |/ // __ `/| | / // __ \ / __ `// ___// ___// ___// ___/
  / /|  // /_/ / | |/ // /_/ // /_/ // /_  / /__ (__  )(__  ) 
 /_/ |_/ \__,_/  |___//_.___/ \__,_//_/(_) \___//____//____/  
-                                                            
+															
 */
 
 #header {
-    background-color: black;
-    /*Opacity start*/
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-    filter: alpha(opacity=80);
-    -moz-opacity: 0.80;
-    -khtml-opacity: 0.8;
-    opacity: 0.6;
-    /*Opacity end*/
-    position: fixed;
-    top: 0px;
-    left: 0;
-    width: 100%;
-    height: 50px;
-    padding: 0;
-    margin: 0;
-    border-bottom: 1px solid white;
-    color: white;
+	background-color: black;
+	/*Opacity start*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=80);
+	-moz-opacity: 0.80;
+	-khtml-opacity: 0.8;
+	opacity: 0.6;
+	/*Opacity end*/
+	position: fixed;
+	top: 0px;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	padding: 0;
+	margin: 0;
+	border-bottom: 1px solid white;
+	color: white;
 }
 
 .navbar-custom {
-    margin-bottom: 0;
-    border-bottom: 1px solid white;
-    text-transform: uppercase;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: #fff;
-    font-weight: bold;
+	margin-bottom: 0;
+	border-bottom: 1px solid white;
+	text-transform: uppercase;
+	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #fff;
+	font-weight: bold;
 }
 
 @media(min-width:767px) {
-    .navbar {
-        padding: 20px 0;
-        border-bottom: 0;
-        letter-spacing: 1px;
-        background: 0 0;
-        color: green;
-    }
+	.navbar {
+		padding: 20px 0;
+		border-bottom: 0;
+		letter-spacing: 1px;
+		background: 0 0;
+		color: green;
+	}
 
-    .top-nav-collapse {
-        padding: 0;
-        background-color: rgba(0,0,0,0.5);
-    }
+	.top-nav-collapse {
+		padding: 0;
+		background-color: rgba(0,0,0,0.5);
+	}
 
-    .navbar-custom.top-nav-collapse {
-        border-bottom: 1px solid white;
-    }
+	.navbar-custom.top-nav-collapse {
+		border-bottom: 1px solid white;
+	}
 }
 
 .navbar-custom .navbar-brand:focus {
-    outline: 0;
+	outline: 0;
 }
 
 .navbar-custom .navbar-brand .navbar-toggle {
-    padding: 4px 6px;
-    font-size: 16px;
-    color: #fff;
+	padding: 4px 6px;
+	font-size: 16px;
+	color: #fff;
 }
 
 .navbar-custom a {
-    color: #fff;
+	color: #fff;
 }
 
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a.active {
-    color: black;
-    font-weight: bold;
+	color: black;
+	font-weight: bold;
 }
 
 body nav div a:hover {
-    font-size: 18px;
+	font-size: 18px;
 }
 
 body nav div div li a:hover {
-    font-size: 14px;
+	font-size: 14px;
 }
 
