@@ -4,89 +4,89 @@
  / /    / __ \ / __ \ / __// __ `// ___// __/  / ___// ___// ___/
 / /___ / /_/ // / / // /_ / /_/ // /__ / /_ _ / /__ (__  )(__  ) 
 \____/ \____//_/ /_/ \__/ \__,_/ \___/ \__/(_)\___//____//____/  
-                                                                 
+																 
 */
 
 .contact-container {
-    background: #555555;
-    color: white;
-    text-align: center;
-    font-size: 20px;
-    font-family: 'Nunito', sans-serif, serif;
+	background: #555555;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Nunito', sans-serif, serif;
 }
 
 div.social a {
-    width: 60px;
-    height: 60px;
-    display: inline-block;
-    border-radius: 5px;
-    font-family: "scicons";
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: none;
-    color: #fff;
-    transition: background-color .2s linear, color .2s linear;
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	border-radius: 5px;
+	font-family: "scicons";
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	color: #fff;
+	transition: background-color .2s linear, color .2s linear;
 }
 
 div.social a:before {
-    width: inherit;
-    height: inherit;
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
+	width: inherit;
+	height: inherit;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
 }
 
 div.social a.icon-mail {
-    background-color: rgb(39, 174, 96);
-    font-size: 45px;
+	background-color: rgb(39, 174, 96);
+	font-size: 45px;
 }
 
 div.social a.icon-mail:hover {
-    background-color: #fff;
-    color: rgb(39, 174, 96);
+	background-color: #fff;
+	color: rgb(39, 174, 96);
 }
 
 
 div.social a.icon-facebook {
-    background-color: #3b5998;
-    font-size: 45px;
+	background-color: #3b5998;
+	font-size: 45px;
 }
 
 div.social a.icon-facebook:hover {
-    background-color: #fff;
-    color: #3b5998;
+	background-color: #fff;
+	color: #3b5998;
 }
 
 
 div.social a.icon-github {
-    background-color: #000;
-    font-size: 45px;
+	background-color: #000;
+	font-size: 45px;
 }
 
 div.social a.icon-github:hover {
-    background-color: #fff;
-    color: #000;
+	background-color: #fff;
+	color: #000;
 }
 
 
 div.social a.icon-google {
-    background-color: #D34836;
-    font-size: 45px;
+	background-color: #D34836;
+	font-size: 45px;
 }
 
 div.social a.icon-google:hover {
-    background-color: #fff;
-    color: #D34836;
+	background-color: #fff;
+	color: #D34836;
 }
 
 
 .contact-containter {
-    background: #444;
-    color: white;
+	background: #444;
+	color: white;
 }
 
 body div div div div a:hover {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 
@@ -96,7 +96,7 @@ body div div div div a:hover {
 .github-picture,
 .facebook-picture,
 .google-picture {
-    text-align: center;
+	text-align: center;
 }
 
 .email-box,
