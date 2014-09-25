@@ -49,8 +49,9 @@ h5 {
 	text-align: center;
 }
 
-a:hover,
-a:focus {
-	text-decoration: none;
-}
+a { text-decoration: none; }
+a:visited { color: #3498db; }
+a:not(.button) { color: #3a3a3a; transition: background 1s; -webkit-transition: background 1s; padding: 0.01rem 0.2rem; border-bottom: 3px solid #3498db; }
+a:not(.button):hover { background: #3498db; color: #FFF; }
+a:not(.button).noBorder { border-bottom: none; }
 
