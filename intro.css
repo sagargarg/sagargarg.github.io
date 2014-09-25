@@ -109,7 +109,8 @@ body img {
   right: 0;
   bottom: 0;
   color: #FFF;
-  background: #111;
+  background: url(https://raw.githubusercontent.com/sagargarg/sagargarg.github.io/master/Images/coding%20background.png) no-repeat bottom center scroll;
+  background-color: #111;
   z-index: -1;
   overflow: hidden;
 }
