@@ -57,9 +57,18 @@ h5 {
 .link { color: black; }
 
 .footer-contatiner {
+	text-align: center;
 	color: white;
 	font-size: 20px;
 	font-family: 'Nunito', sans-serif, serif;
 	width: 100%;
 	height: auto;
+}
+
+.madeby {
+	font-size: 30px;
+}
+
+.builtwith {
+	font-size: 25px;
 }
