@@ -20,9 +20,17 @@
 }
 
 .courses {
-	padding-left: -10px;
+	margin-left: -10px;
 }
 
 .class {
 	padding-left: 40px;
+}
+
+.highschool {
+	font-size: 25px;
+}
+
+.educationcourses {
+	font-size: 23px;
 }
