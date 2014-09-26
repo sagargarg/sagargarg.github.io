@@ -16,7 +16,7 @@ html {
 body {
 	width: 100%;
 	height: 100%;
-	font-family: 'Nunito', sans-serif, serif;
+	font-family: 'Open Sans', 'Nunito', sans-serif, serif;
 	background-color: #fff;
 	webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
@@ -27,7 +27,7 @@ h4,
 h5,
 h6 {
 	margin: 0 0 35px;
-	font-family: 'Nunito', sans-serif, serif;
+	font-family: 'Open Sans', 'Nunito', sans-serif, serif;
 	letter-spacing: 1px;
 }
 
