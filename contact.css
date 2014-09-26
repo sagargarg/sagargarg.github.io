@@ -88,7 +88,139 @@ body div div div div a:hover {
 	text-decoration: none;
 }
 
+#panel4 {
+  width: 100%;
+  height: auto;
+  padding: 15px 0px;
+  font-variant: small-caps;
+  text-align: center;
+  border-top: 2px solid #ff3b30;
+  border-bottom: 2px solid #ff3b30;
+  background: rgba(255, 255, 255, 0.9);
+  color: #ff3b30;
+}
+#panel4 h2 {
+  font-size: 64px;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+  text-align: center;
+}
+#panel4 h3 {
+  font-size: 32px;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+  text-align: center;
+}
+#panel4 .col {
+  width: 400px;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 15px;
+  vertical-align: text-top;
+  text-align: left;
+}
 
+#panel4 a {
+  color: #ff3b30;
+  font-weight: 600;
+}
+#panel4 form {
+  margin: 10px 0px 0px 0px;
+  display: block;
+  border-radius: 5px;
+  background: white;
+  overflow: hidden;
+}
+#panel4 form input,
+#panel4 form textarea {
+  width: calc(100% - 20px);
+  height: 40px;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  padding: 0px 10px;
+  border-width: 0px;
+  outline: none;
+}
+#panel4 form textarea {
+  height: 80px;
+  resize: none;
+  overflow: auto;
+  line-height: 40px;
+}
+#panel4 form hr {
+  width: calc(100% - 20px);
+  height: 1px;
+  margin: 0px auto;
+  background: #ff3b30;
+  border-width: 0px;
+}
+#panel4 form #submitform {
+  width: 100%;
+  height: 40px;
+  padding: 0px;
+  transition: background 0.4s ease-in-out;
+  -o-transition: background 0.4s ease-in-out;
+  -ms-transition: background 0.4s ease-in-out;
+  -moz-transition: background 0.4s ease-in-out;
+  -webkit-transition: background 0.4s ease-in-out;
+  font-size: 24px;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  line-height: 38px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  background: rgba(255, 59, 48, 0.8);
+}
+#panel4 form #submitform:hover {
+  background: #ff3b30;
+}
+
+#panel4 .box {
+  width: 118px;
+  height: 118px;
+  margin: 8px 0px 0px 8px;
+  padding: 7px 5px 3px 5px;
+  display: inline-block;
+  vertical-align: middle;
+  transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  text-align: center;
+  text-decoration: none;
+  background: rgba(255, 59, 48, 0.8);
+  color: white;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+@media all and (min-device-width: 320px) and (max-device-width: 568px) {
+  #panel4 .box:nth-child(2n+2) {
+    margin-left: 0px;
+  }
+}
+@media all and (min-device-width: 568px) {
+  #panel4 .box:nth-child(3n+2) {
+    margin-left: 0px;
+  }
+}
+
+#panel4 .box span {
+  font-size: 24px;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+}
 
 /*
 .email-picture,
