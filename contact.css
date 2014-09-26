@@ -113,20 +113,7 @@ body div div div div a:hover {
   margin: 0px;
   text-align: center;
 }
-#panel4 .col {
-  width: 400px;
-  height: auto;
-  display: inline-block;
-  vertical-align: middle;
-  padding: 15px;
-  vertical-align: text-top;
-  text-align: left;
-}
 
-#panel4 a {
-  color: #ff3b30;
-  font-weight: 600;
-}
 #panel4 form {
   margin: 10px 0px 0px 0px;
   display: block;
