@@ -28,7 +28,12 @@
 	font-size: 20px;
 }
 
-.maze-solver-info {
+.maze-solver-info-center {
+	font-size: 20px;
+	text-align: center;
+}
+
+.maze-solver-info-left {
 	font-size: 20px;
 	text-align: left;
 }
