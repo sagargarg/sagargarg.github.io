@@ -38,6 +38,10 @@
 	text-align: left;
 }
 
+.project-indent {
+	padding-left: 45px;
+}
+
 .btnProject{
 	padding: 10px 15px 10px 15px;
 	text-align: center;
