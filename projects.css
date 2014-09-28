@@ -28,12 +28,14 @@
 	font-size: 20px;
 }
 
-.maze-solver-info-center {
+.maze-solver-info-center
+.molecule-info-center {
 	font-size: 20px;
 	text-align: center;
 }
 
-.maze-solver-info-left {
+.maze-solver-info-left,
+.molecule-info-left {
 	font-size: 20px;
 	text-align: left;
 }
