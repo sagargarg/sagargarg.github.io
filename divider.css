@@ -41,10 +41,10 @@
 	border: 0;
 	height: 2px;
 	background: #e74c3c;
-	background-image: -webkit-linear-gradient(left, #E5E5E5, #e74c3c, #E5E5E5); 
-	background-image: -moz-linear-gradient(left, #E5E5E5, #e74c3c, #E5E5E5); 
-	background-image: -ms-linear-gradient(left, #E5E5E5, #e74c3c, #E5E5E5); 
-	background-image: -o-linear-gradient(left, #E5E5E5, #e74c3c, #E5E5E5); 
+	background-image: -webkit-linear-gradient(left, #D3D3D3, #e74c3c, #D3D3D3); 
+	background-image: -moz-linear-gradient(left, #D3D3D3, #e74c3c, #D3D3D3); 
+	background-image: -ms-linear-gradient(left, #D3D3D3, #e74c3c, #D3D3D3); 
+	background-image: -o-linear-gradient(left, #D3D3D3, #e74c3c, #D3D3D3); 
 }
 
 .yellow-divider {
