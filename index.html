@@ -55,42 +55,7 @@
 		ga('send', 'pageview');
 
 		</script>
-		<script type="text/javascript">
-$(document).ready(function() {
-	// navigation click actions	
-	$('.scroll-link').on('click', function(event){
-		event.preventDefault();
-		var sectionID = $(this).attr("data-id");
-		scrollToID('#' + sectionID, 750);
-	});
-	// scroll to top action
-	$('.scroll-top').on('click', function(event) {
-		event.preventDefault();
-		$('html, body').animate({scrollTop:0}, 'slow'); 		
-	});
-	// mobile nav toggle
-	$('#nav-toggle').on('click', function (event) {
-		event.preventDefault();
-		$('#main-nav').toggleClass("open");
-	});
-});
-// scroll function
-function scrollToID(id, speed){
-	var offSet = 50;
-	var targetOffset = $(id).offset().top - offSet;
-	var mainNav = $('#main-nav');
-	$('html,body').animate({scrollTop:targetOffset}, speed);
-	if (mainNav.hasClass("open")) {
-		mainNav.css("height", "1px").removeClass("in").addClass("collapse");
-		mainNav.removeClass("open");
-	}
-}
-if (typeof console === "undefined") {
-    console = {
-        log: function() { }
-    };
-}
-</script>
+
 	</head>
 	<body>
 
@@ -136,13 +101,11 @@ class='active'
 		<div id='cssmenu'>
 			<ul>
 				<li class='active'><a href="#">Sagar Garg</a></li>
-				<li class="right-aligned">
-					<li><a href="#about">About</a></li>
-					<li><a href="#skills">Skills</a>
-					<li><a href="#projects">Projects</a></li>
-					<li><a href="#education">Education</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</li>	
+				<li><a href="#about">About</a></li>
+				<li><a href="#skills">Skills</a>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#education">Education</a></li>
+				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</div>
 
@@ -218,7 +181,7 @@ class='active'
 				<h1 class="aboutme-header">About Me</h1>
 				<hr class="red-divider">
 				<div class="facebook-picture">
-					<img src="https://raw.githubusercontent.com/sagargarg/sagargarg.github.io/master/Images/blank-face.jpeg" height="150" width="200">
+					<img src="/images/me.jpg" height="150" width="200">
 				</div>
 				<br>
 				<br>
