@@ -23,3 +23,50 @@
 
 .navcolor a { text-decoration: none; }
 .navcolor a:visited { color: #FFFFFF; }
+.navcolor a:hover {color:black;}
+
+
+.navbar-custom {
+	margin-bottom: 0;
+	border-bottom: 1px solid white;
+	background-color: #fff;
+ }
+ 
+@media(min-width:767px) {
+	.navbar {
+		padding: 20px 0;
+		border-bottom: 0;
+		background: 0 0;
+	}
+ 
+	.top-nav-collapse {
+		padding: 0;
+		background-color: #666;
+	}
+ 
+	.navbar-custom.top-nav-collapse {
+		border-bottom: 1px solid white;
+	}
+ }
+ 
+ .navbar-custom .navbar-brand:focus {
+	outline: 0;
+ }
+ 
+ .navbar-custom .navbar-brand .navbar-toggle {
+	padding: 4px 6px;
+	font-size: 16px;
+	color: #fff;
+}
+ 
+ .navbar-custom a {
+	color: #fff;
+ }
+ 
+
+
+
+
+
+
+ 
