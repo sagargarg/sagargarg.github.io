@@ -1,0 +1,260 @@
+/*
+   _____  __          __                         
+  / ___/ / /_ __  __ / /___     _____ _____ _____
+  \__ \ / __// / / // // _ \   / ___// ___// ___/
+ ___/ // /_ / /_/ // //  __/_ / /__ (__  )(__  ) 
+/____/ \__/ \__, //_/ \___/(_)\___//____//____/  
+		   /____/                                
+*/
+
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	font-family: "Ruda","Helvetica Neue",Helvetica,Arial,sans-serif;
+	background-color: #fff;
+	webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+h1,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 35px;
+	font-family: "Ruda","Helvetica Neue",Helvetica,Arial,sans-serif;
+	letter-spacing: 1px;
+}
+
+h2 {
+	margin: 0 0 35px;
+	font-family: "Ruda","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 50px;
+}
+
+h3,
+h5 {
+	text-align: center;
+}
+
+.link a { text-decoration: none; }
+.link a:visited { color: #3498db; }
+.link a:not(.button) { color: #3a3a3a; transition: background 1s; -webkit-transition: background 1s; padding: 0.01rem 0.2rem; border-bottom: 3px solid #3498db; }
+.link a:not(.button):hover { background: #3498db; color: #FFF; }
+.link a:not(.button).noBorder { border-bottom: none; }
+.link { color: black; }
+
+.footer-contatiner {
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	font-family: 'Nunito', sans-serif, serif;
+	width: 100%;
+	height: auto;
+}
+
+.madeby {
+	font-size: 25px;
+}
+
+.builtwith {
+	font-size: 20px;
+}
+
+/*img{
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+img:hover{
+	-webkit-transform: scale(1.1);
+  	-moz-transform: scale(1.1);
+  	-o-transform: scale(1.1);
+  	transform: scale(1.1);
+}*/
+
+
+.me {
+	width: 250px;
+	height: 250px;
+	border-radius: 125px;
+	-webkit-border-radius: 125px;
+	-moz-border-radius: 125px;
+	background: url(images/me.jpg) no-repeat;
+	background-size: 1536px 1020px;
+	background-position: -750px -300px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.skill {
+
+    text-align: left!important;
+
+    margin-left: -40px;  
+
+    margin-top: 40px;
+
+    }
+
+    
+
+.skill li {
+
+    list-style: none!important;
+
+    }
+
+    
+
+.skill li:last-child span {
+
+    margin-bottom: 0px;
+
+    }
+
+    
+
+.skill li .skill-wrap {
+
+    margin-bottom:50px;
+
+    border-radius: 3px 3px 3px 3px;
+
+    -webkit-border-radius: 3px 3px 3px 3px;
+
+    -o-border-radius: 3px 3px 3px 3px;
+
+    -moz-border-radius: 3px 3px 3px 3px;
+
+    background:#dddddd;
+
+    }
+
+    
+
+.skill li span { 
+
+    height: 35px;
+
+    width: 0px;
+
+    display: block;
+
+    border-radius: 3px 3px 3px 3px;
+
+    -webkit-border-radius: 3px 3px 3px 3px;
+
+    -o-border-radius: 3px 3px 3px 3px;
+
+    -moz-border-radius: 3px 3px 3px 3px;
+
+    }
+
+    
+
+.skill li p {
+
+    padding-bottom: 2px;
+
+    }
+
+    
+
+.skill li span {
+
+    overflow: visible!important;
+
+    position: relative;
+
+}
+
+    
+
+.skill li span strong {
+
+    position: absolute;
+
+    top: 10px;
+
+    left: 10px;
+
+    color: #FFFFFF;
+
+    line-height: 12px!important;
+
+    display: block;
+
+}
+
+.percentage22{
+	width: 22%;
+}
+
+
+
+.bar {
+	width: 100%;
+	border-radius: 3px;
+	height: 35px;
+	margin-top: 50px;
+	background-color: #CECECE;	
+
+}
+
+.barfill {
+	border-radius: 3px;
+	height: 100%;
+	background-color: #222222;
+	text-align: left;
+}
+
+.lis {
+	list-style: none;
+}
+
+.lis li {
+	margin-bottom: 5%;
+	width: 100%;
+}
+
+.language {
+	color: white;
+	margin-left: 15px;
+	font-size: 20px;
+	font-weight: bolder;
+	font-family: "ruda", 'Open Sans', sans-serif;
+	vertical-align: middle;
+	position: absolute;
+	margin-top: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+
