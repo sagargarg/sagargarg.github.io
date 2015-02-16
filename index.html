@@ -41,6 +41,7 @@
 		<link type="text/css" rel=stylesheet href="css/projects.css">
 		<link type="text/css" rel=stylesheet href="css/contact.css">
 		<link type="text/css" rel=stylesheet href="css/divider.css">
+		<link rel="stylesheet" href="animate.css">
 		<link href='http://fonts.googleapis.com/css?family=Ruda' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 		<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
@@ -154,10 +155,16 @@ class='active'
 			<div id="content">
 				<br>
 				<br>
-				<h2>Sagar Garg</h2>
+				<div class="wow bounceInDown" data-wow-delay="1s" data-wow-duration="2s">
+					<div class="wow pulse" data-wow-delay="2.5s" data-wow-iteration="infinite">
+						<h2>Sagar Garg</h2>
+					</div>
+				</div>
 				<br>
 				<div id="items">
-					<h3>Engineer</h3>
+					<span class="wow lightSpeedIn" data-wow-delay="3s" data-wow-duration="2s">
+						<h3>Engineer</h3>
+					</span>
 					<div id="tooltip1">
 						<div id="developer">
 							<span>en&#183;gin&#183;eer</span>
@@ -165,7 +172,9 @@ class='active'
 							<span>A talented individual responsible for the design and creation of all man-made objects in the known universe</span>
 						</div>
 					</div>
-					<h3>Developer</h3>
+					<span class="wow lightSpeedIn" data-wow-delay="4s" data-wow-duration="2s">
+						<h3>Developer</h3>
+					</span>
 					<div id="tooltip2">
 						<div id="developer">
 							<span>de&#183;vel&#183;op&#183;er</span>
@@ -173,7 +182,9 @@ class='active'
 							<span>A hard-working person devoted to transforming dreams into tangible products</span>
 						</div>
 					</div>
-					<h3>Hacker</h3>
+					<span class="wow lightSpeedIn" data-wow-delay="5s" data-wow-duration="2s">
+						<h3>Hacker</h3>
+					</span>
 					<div id="tooltip3">
 						<div id="developer">
 							<span>hack&#183;er</span>
@@ -181,7 +192,9 @@ class='active'
 							<span>A person skilled with the use of computers that uses his talents to gain knowledge  for the enjoyment of exploration</span>
 						</div>
 					</div>
-					<h3>Student</h3>
+					<span class="wow lightSpeedIn" data-wow-delay="6s" data-wow-duration="2s">
+						<h3>Student</h3>
+					</span>
 					<div id="tooltip4">
 						<div id="developer">
 							<span>stu&#183;dent</span>
@@ -704,6 +717,11 @@ class='active'
 			<br>
 			<br>
 		</div>
+
+		<script src="wow.min.js"></script>
+		<script>
+			new WOW().init();
+		</script>
 
 		
 
