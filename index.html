@@ -62,26 +62,7 @@
 		ga('send', 'pageview');
 
 		</script>
-		<script type="text/javascript">
-	$(document).ready(function(){
-		$('body').plusAnchor({
-			easing: 'easeInOutExpo',
-			speed:1000
-		});
-
-		// var id = window.location.hash.substring(1);
-		// if (id) {cation.hash.substring(1));}
-		// if (id) {activate(window.location.hash.substring(1));}
-	});
-
-	var shown = false;
-	function populate() {
-		$.get('soundsculptr-tweets.txt', function(data) {
-			$('#soundsculptr-tweets').empty();
-			$('#soundsculptr-tweets').append(data);
-		});
-	}
-	</script>
+		
 
 	</head>
 	<body>
@@ -109,44 +90,7 @@
 			</div>
 		</div> 
 
-		<!-- div id="navbar-scroll" data-scrollspy="scrollspy" class="navbar navbar-inverse black-navbar navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#about">Sagar Garg</a>
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-          	<span class="icon-bar"></span>
-          	<span class="icon-bar"></span>
-          	<span class="icon-bar"></span>
-          </button>
-        </div>
-        <div class="navbar-collapse navbar-responsive-collapse collapse bs-js-navbar-scrollspy">
-          <ul class="nav navbar-nav">
-				<li id="aboutnav"><a href="#about">About Me</a></li>
-				<li id="projectsnav"><a href="#projects">Projects</a></li>
-				<li id="educationnav"><a href="#education">Education</a></li>
-				<li id="experiencenav"><a href="#experience">Experience</a></li>
-				<li id="contactnav"><a href="#contact">Contact/Links</a></li>
-			</ul>
-        </div>/.nav-collapse
-      </div>
-    </div> -->
-<!-- 
-class='active'
-	
-
-		<div id='cssmenu'>
-			<ul>
-				<li class='active'><a href="#">Sagar Garg</a></li>
-				<li><a href="#about">About</a></li>
-				<li><a href="#skills">Skills</a>
-				<li><a href="#projects">Projects</a></li>
-				<li><a href="#education">Education</a></li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-		</div>
--->
 		<!-- Intro Section -->
-		<!-- <div id="background"></div> -->
 		<div class="bannerPart">
 			<img alt="" class="bannerImg" src="https://raw.githubusercontent.com/sagargarg/sagargarg.github.io/master/Images/coding%20background.png">
 		</div>
@@ -214,9 +158,11 @@ class='active'
 				<!--<p class="scroll-text">Scroll down to learn more about me and what I've done.
 				</p>-->
 				<div class="wow bounceInUp" data-wow-delay="7s" data-wow-duration="1s">
-					<a href="#about" class="btn btn-circle page-scroll">
-						<i class="fa fa-angle-double-down animated"></i>
-					</a>
+					<div class="wow bounce" data-wow-delay="8s" data-wow-duration="1.5s" data-wow-iteration="infinite">
+						<a href="#about" class="btn btn-circle page-scroll">
+							<i class="fa fa-angle-double-down animated"></i>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -229,46 +175,59 @@ class='active'
 			<br>
 			<br>
 			<div class="container">
-				<h1 class="aboutme-header">About Me</h1>
-				<hr class="red-divider">
+				<div class="wow zoomInDown" data-wow-delay="1s">
+					<h1 class="aboutme-header">About Me</h1>
+				</div>
+				<div class="wow fadeIn" data-wow-delay="1.5s" data-wow-duration="2s">
+					<hr class="red-divider">
+				</div>
 				<br>
-				<div class="me">
+				<div class="wow fadeInRightBig" data-wow-delay="2.5s">
+					<div class="me"></div>
 				</div>
 				<br>
 				<br>
-				<p class="about-info">I am currently a junior at <span class ="link"><a target="_blank" href="http://bcts.bergen.org/index.php/bergen-county-academies?layout=blog">Bergen County Academies</a></span> in New Jersey. I am enrolled in the <span class ="link"><a target="_blank" href="http://bcts.bergen.org/index.php/academy-for-the-engineering-and-design-technology">Academy for Engineering and Design Technology (AEDT)</a></span>.
-				<br>
-				<br>
-				I love engineering and programming. I spend most of my time <span class ="link"><a href="#education">learning how to program</a></span> and working on <span class ="link"><a href="#projects">engineering and programming projects</a></span>.</p>
+				<div class="wow rotateIn" data-wow-delay="3s">
+					<p class="about-info">I am currently a junior at <span class ="link"><a target="_blank" href="http://bcts.bergen.org/index.php/bergen-county-academies?layout=blog">Bergen County Academies</a></span> in New Jersey. I am enrolled in the <span class ="link"><a target="_blank" href="http://bcts.bergen.org/index.php/academy-for-the-engineering-and-design-technology">Academy for Engineering and Design Technology (AEDT)</a></span>.
+					<br>
+					<br>
+					I love engineering and programming. I spend most of my time <span class ="link"><a href="#education">learning how to program</a></span> and working on <span class ="link"><a href="#projects">engineering and programming projects</a></span>.</p>
+				</div>
 				<br>
 				<br>
 			</div>
 
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-4">
-						<div class="engineer">
-							<i class="fa fa-cogs fa-5x"></i>
-							<p class="engineer-title">Engineer</p>
-							<i class="fa fa-minus fa-2x"></i>
-							<p class="engineer-text">I love to build things. I usually use Arduino microcontrollers for my projects.</p><br>
+					<div class="wow lightSpeedIn" data-wow-delay="4s">
+						<div class="col-sm-4">
+							<div class="engineer">
+								<i class="fa fa-cogs fa-5x"></i>
+								<p class="engineer-title">Engineer</p>
+								<i class="fa fa-minus fa-2x"></i>
+								<p class="engineer-text">I love to build things. I usually use Arduino microcontrollers for my projects.</p><br>
+							</div>
 						</div>
 					</div>
-					<div class="col-sm-4">
-						<div class="web">
-							<i class="fa fa-desktop fa-5x"></i>
-							<p class="web-title">Web</p>
-							<i class="fa fa-minus fa-2x"></i>
-							<p class="web-text">I develop web pages using HTML, CSS, and JavaScript. I am currently looking for freelance, so contact me if you are interested.</p>
-						</div><br>
+					<div class="wow lightSpeedIn" data-wow-delay="5s">
+						<div class="col-sm-4">
+							<div class="web">
+								<i class="fa fa-desktop fa-5x"></i>
+								<p class="web-title">Web</p>
+								<i class="fa fa-minus fa-2x"></i>
+								<p class="web-text">I develop web pages using HTML, CSS, and JavaScript. I am currently looking for freelance, so contact me if you are interested.</p><br>
+							</div>
+						</div>
 					</div>
-					<div class="col-sm-4">
-						<div class="mobile">
-							<i class="fa fa-mobile fa-5x"></i>
-							<p class="mobile-title">Mobile</p>
-							<i class="fa fa-minus fa-2x"></i>
-							<p class="mobile-text">I am an Android developer. I am currently working on several apps that I hope to launch soon.</p>
-						</div><br>
+					<div class="wow lightSpeedIn" data-wow-delay="6s">
+						<div class="col-sm-4">
+							<div class="mobile">
+								<i class="fa fa-mobile fa-5x"></i>
+								<p class="mobile-title">Mobile</p>
+								<i class="fa fa-minus fa-2x"></i>
+								<p class="mobile-text">I am an Android developer. I am currently working on several apps that I hope to launch soon.</p><br>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
