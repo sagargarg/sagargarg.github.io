@@ -217,7 +217,8 @@ img:hover{
 	border-radius: 3px;
 	height: 35px;
 	margin-top: 50px;
-	background-color: #CECECE;	
+	background-color: #CECECE;
+	z-index: 900;
 
 }
 
@@ -246,12 +247,133 @@ img:hover{
 	vertical-align: middle;
 	position: absolute;
 	margin-top: 5px;
+	z-index: 999;
 
 }
 
 
 
 
+.bars {
+   width: 95%;
+   float: left;
+   padding: 0;
+   text-align: left;
+}
+
+.bars li {
+   position: relative;
+   margin-bottom: 60px;
+   background: #bdc3c7;
+   height: 42px;
+   border-radius: 3px;
+   overflow: hidden;
+}
+.fonts {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: "ruda", 'Open Sans', sans-serif;
+  padding-left: 20px;
+  position: relative;
+}
+.bar-expand {
+   position: absolute;
+   left: 0;
+   top: 0;
+   margin: 0;
+   padding-right: 24px;
+   background: #34495e;
+   display: inline-block;
+   height: 42px;
+   line-height: 42px;
+   border-radius: 3px 0 0 3px;
+   background: #222;
+}
+
+.html {
+  width: 95%;
+   -moz-animation: html 2s ease;
+   -webkit-animation: html 2s ease;
+}
+@-moz-keyframes html {
+  0%   { width: 0px;  }
+  100% { width: 95%;  }
+}
+@-webkit-keyframes html {
+  0%   { width: 0px;  }
+  100% { width: 95%;  }
+}
+
+.css {
+   width: 85%;
+   -moz-animation: css 2s ease;
+   -webkit-animation: css 2s ease;
+}
+@-moz-keyframes css {
+  0%   { width: 0px;  }
+  100% { width: 85%;  }
+}
+@-webkit-keyframes css {
+  0%   { width: 0px;  }
+  100% { width: 85%;  }
+}
+
+.python {
+   width: 70%;
+   -moz-animation: python 2s ease;
+   -webkit-animation: python 2s ease;
+}
+@-moz-keyframes python {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-webkit-keyframes python {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+
+.java {
+   width: 60%;
+   -moz-animation: java 2s ease;
+   -webkit-animation: java 2s ease;
+}
+@-moz-keyframes java {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+@-webkit-keyframes java {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+
+.javascript {
+   width: 45%;
+   -moz-animation: javascript 2s ease;
+   -webkit-animation: javascript 2s ease;
+}
+@-moz-keyframes javascript {
+  0%   { width: 0px;  }
+  100% { width: 45%;  }
+}
+@-webkit-keyframes javascript {
+  0%   { width: 0px;  }
+  100% { width: 45%;  }
+}
+
+.cplusplus {
+   width: 25%;
+   -moz-animation: cplusplus 2s ease;
+   -webkit-animation: cplusplus 2s ease;
+}
+@-moz-keyframes cplusplus {
+  0%   { width: 0px;  }
+  100% { width: 25%;  }
+}
+@-webkit-keyframes cplusplus {
+  0%   { width: 0px;  }
+  100% { width: 25%;  }
+}
 
 
 
