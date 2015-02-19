@@ -319,30 +319,30 @@ img:hover{
   100% { width: 85%;  }
 }
 
-.python {
-   width: 70%;
-   -moz-animation: python 2s ease;
-   -webkit-animation: python 2s ease;
-}
-@-moz-keyframes python {
-  0%   { width: 0px;  }
-  100% { width: 70%;  }
-}
-@-webkit-keyframes python {
-  0%   { width: 0px;  }
-  100% { width: 70%;  }
-}
-
 .java {
-   width: 60%;
+   width: 70%;
    -moz-animation: java 2s ease;
    -webkit-animation: java 2s ease;
 }
 @-moz-keyframes java {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 70%;  }
 }
 @-webkit-keyframes java {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+
+.python {
+   width: 60%;
+   -moz-animation: python 2s ease;
+   -webkit-animation: python 2s ease;
+}
+@-moz-keyframes python {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+@-webkit-keyframes python {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
