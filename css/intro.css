@@ -67,6 +67,7 @@
   display: table;
   overflow-x: hidden;
 }
+
 #panel1 #content {
   padding: 30px;
   font-variant: small-caps;
@@ -75,6 +76,7 @@
   vertical-align: middle;
   color: white;
 }
+
 #panel1 #content h2 {
   font-size: 64px;
   font-weight: 300;
@@ -82,9 +84,11 @@
   margin: 0px;
   text-align: center;
 }
+
 #panel1 #content #items {
   text-align: center;
 }
+
 #panel1 #content #items h3 {
   font-size: 24px;
   font-weight: 300;
@@ -96,6 +100,7 @@
   width: 100px;
   height: auto;
 }
+
 #panel1 #content #items h3:hover + div {
   opacity: 1.0;
   transform: translateX(0px) scale(1);
@@ -104,6 +109,7 @@
   -moz-transform: translateX(0px) scale(1);
   -webkit-transform: translateX(0px) scale(1);
 }
+
 #panel1 #content h4 {
   font-size: 32px;
   font-weight: 300;
@@ -111,6 +117,7 @@
   margin: 0px;
   text-align: center;
 }
+
 #panel1 #content #down-button {
   width: 40px;
   height: 40px;
@@ -126,20 +133,17 @@
   display: block;
   opacity: 1.0;
 }
+
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   #panel1 #content #down-button {
 	background: url(../images/chevron@2x.png);
 	background-size: cover;
   }
 }
+
 #panel1 #content #down-button:hover {
   opacity: 0.8;
 }
-
-
-
-
-
 
 #tooltip1,
 #tooltip2,
@@ -161,6 +165,7 @@
   -webkit-transform: translateX(-90px) scale(0);
   opacity: 0.0;
 }
+
 #tooltip1 #developer,
 #tooltip2 #developer,
 #tooltip3 #developer,
@@ -218,6 +223,7 @@
   border-style: solid;
   border-color: transparent transparent #FFFFFF transparent;
 }
+
 #tooltip1 #developer > :first-child,
 #tooltip2 #developer > :first-child,
 #tooltip3 #developer > :first-child,
@@ -227,24 +233,6 @@
   font-family: 'Open Sans', sans-serif;
   line-height: 24px;
 }
-
-/*
-
-.intro {
-  display: table;
-  width: 100%;
-  height: auto;
-  padding: 100px 0;
-  text-align: center;
-  color: white;
-  background: url(https://github.com/sagargarg/sagargarg.github.io/raw/3b3194024a1cf8c0db2ed8bcdf17c9fd8366566a/Images/space-picture.jpg?raw=true) no-repeat bottom center scroll;
-  background-color: #000;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-*/
 
 .bannerPart{
   height:100%;
@@ -265,19 +253,19 @@
   bottom: 0;
   z-index: -1;
   overflow: hidden;
-  }
+}
 
 .bgwidth{
   width:100%
-  }
+}
 
 .bgheight{
   height:100%
-  }
+}
 
 .bannerPart{
-  background:#111111
-  }
+  background:#111
+}
 
 .bannerPart img{
   opacity:.2;
