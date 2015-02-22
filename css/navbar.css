@@ -1,4 +1,4 @@
- #header {
+#header {
  	background-color: #333;
 	position: fixed;
 	top: 0px;
@@ -9,18 +9,24 @@
 	margin: 0;
 	border-bottom: 1px solid black;
 	color: white;
-
  }
 
-.navcolor a { text-decoration: none; }
-.navcolor a:visited { color: #FFFFFF; }
-.navcolor a:hover {color:black;}
+.navcolor a {
+	text-decoration: none;
+}
 
+.navcolor a:visited { 
+	color: #FFF;
+}
+
+.navcolor a:hover {
+	color:black;
+}
 
 .navbar-custom {
 	margin-bottom: 0;
 	border-bottom: 1px solid white;
-	background-color: #fff;
+	background-color: #FFF;
  }
  
 @media(min-width:767px) {
@@ -47,11 +53,11 @@
  .navbar-custom .navbar-brand .navbar-toggle {
 	padding: 4px 6px;
 	font-size: 16px;
-	color: #fff;
+	color: #FFF;
 }
  
  .navbar-custom a {
-	color: #fff;
+	color: #FFF;
  }
  
 

@@ -8,3 +8,326 @@
 	height: auto;
 }
 
+.bars {
+	 width: 95%;
+	 float: left;
+	 padding: 0;
+	 text-align: left;
+}
+
+.bars li {
+	 position: relative;
+	 margin-bottom: 40px;
+	 background: #bdc3c7;
+	 height: 38px;
+	 border-radius: 3px;
+	 overflow: hidden;
+}
+.fonts {
+	color: #fff;
+	font-size: 18px;
+	font-weight: bolder;
+	font-family: "ruda", 'Open Sans', sans-serif;
+	padding-left: 20px;
+	position: relative;
+}
+.bar-expand {
+	 position: absolute;
+	 left: 0;
+	 top: 0;
+	 margin: 0;
+	 padding-right: 24px;
+	 background: #34495e;
+	 display: inline-block;
+	 height: 42px;
+	 line-height: 42px;
+	 border-radius: 3px 0 0 3px;
+	 background: #222;
+}
+
+.html {
+	width: 95%;
+	 -moz-animation: html 2s ease;
+	 -webkit-animation: html 2s ease;
+}
+@-moz-keyframes html {
+	0%   { width: 0px;  }
+	100% { width: 95%;  }
+}
+@-webkit-keyframes html {
+	0%   { width: 0px;  }
+	100% { width: 95%;  }
+}
+
+.css {
+	 width: 85%;
+	 -moz-animation: css 2s ease;
+	 -webkit-animation: css 2s ease;
+}
+@-moz-keyframes css {
+	0%   { width: 0px;  }
+	100% { width: 85%;  }
+}
+@-webkit-keyframes css {
+	0%   { width: 0px;  }
+	100% { width: 85%;  }
+}
+
+.java {
+	 width: 70%;
+	 -moz-animation: java 2s ease;
+	 -webkit-animation: java 2s ease;
+}
+@-moz-keyframes java {
+	0%   { width: 0px;  }
+	100% { width: 70%;  }
+}
+@-webkit-keyframes java {
+	0%   { width: 0px;  }
+	100% { width: 70%;  }
+}
+
+.python {
+	 width: 60%;
+	 -moz-animation: python 2s ease;
+	 -webkit-animation: python 2s ease;
+}
+@-moz-keyframes python {
+	0%   { width: 0px;  }
+	100% { width: 60%;  }
+}
+@-webkit-keyframes python {
+	0%   { width: 0px;  }
+	100% { width: 60%;  }
+}
+
+.javascript {
+	 width: 45%;
+	 -moz-animation: javascript 2s ease;
+	 -webkit-animation: javascript 2s ease;
+}
+@-moz-keyframes javascript {
+	0%   { width: 0px;  }
+	100% { width: 45%;  }
+}
+@-webkit-keyframes javascript {
+	0%   { width: 0px;  }
+	100% { width: 45%;  }
+}
+
+.cplusplus {
+	 width: 25%;
+	 -moz-animation: cplusplus 2s ease;
+	 -webkit-animation: cplusplus 2s ease;
+}
+@-moz-keyframes cplusplus {
+	0%   { width: 0px;  }
+	100% { width: 25%;  }
+}
+@-webkit-keyframes cplusplus {
+	0%   { width: 0px;  }
+	100% { width: 25%;  }
+}
+
+
+.autodesk {
+	 width: 90%;
+	 -moz-animation: autodesk 2s ease;
+	 -webkit-animation: autodesk 2s ease;
+}
+@-moz-keyframes autodesk {
+	0%   { width: 0px;  }
+	100% { width: 90%;  }
+}
+@-webkit-keyframes autodesk {
+	0%   { width: 0px;  }
+	100% { width: 90%;  }
+}
+
+.soldering {
+	 width: 90%;
+	 -moz-animation: soldering 2s ease;
+	 -webkit-animation: soldering 2s ease;
+}
+@-moz-keyframes soldering {
+	0%   { width: 0px;  }
+	100% { width: 90%;  }
+}
+@-webkit-keyframes soldering {
+	0%   { width: 0px;  }
+	100% { width: 90%;  }
+}
+
+.cnc-machine {
+	 width: 85%;
+	 -moz-animation: cnc-machine 2s ease;
+	 -webkit-animation: cnc-machine 2s ease;
+}
+@-moz-keyframes cnc-machine {
+	0%   { width: 0px;  }
+	100% { width: 85%;  }
+}
+@-webkit-keyframes cnc-machine {
+	0%   { width: 0px;  }
+	100% { width: 85%;  }
+}
+
+.autocad {
+	 width: 75%;
+	 -moz-animation: autocad 2s ease;
+	 -webkit-animation: autocad 2s ease;
+}
+@-moz-keyframes autocad {
+	0%   { width: 0px;  }
+	100% { width: 75%;  }
+}
+@-webkit-keyframes autocad {
+	0%   { width: 0px;  }
+	100% { width: 75%;  }
+}
+
+.printing {
+	 width: 70%;
+	 -moz-animation: printing 2s ease;
+	 -webkit-animation: printing 2s ease;
+}
+@-moz-keyframes printing {
+	0%   { width: 0px;  }
+	100% { width: 70%;  }
+}
+@-webkit-keyframes printing {
+	0%   { width: 0px;  }
+	100% { width: 70%;  }
+}
+
+.cnc {
+	 width: 65%;
+	 -moz-animation: cnc 2s ease;
+	 -webkit-animation: cnc 2s ease;
+}
+@-moz-keyframes cnc {
+	0%   { width: 0px;  }
+	100% { width: 65%;  }
+}
+@-webkit-keyframes cnc {
+	0%   { width: 0px;  }
+	100% { width: 65%;  }
+}
+
+.solidworks {
+	 width: 45%;
+	 -moz-animation: solidworks 2s ease;
+	 -webkit-animation: solidworks 2s ease;
+}
+@-moz-keyframes solidworks {
+	0%   { width: 0px;  }
+	100% { width: 45%;  }
+}
+@-webkit-keyframes solidworks {
+	0%   { width: 0px;  }
+	100% { width: 45%;  }
+}
+
+.arduino {
+	 width: 80%;
+	 -moz-animation: arduino 2s ease;
+	 -webkit-animation: arduino 2s ease;
+}
+@-moz-keyframes arduino {
+	0%   { width: 0px;  }
+	100% { width: 80%;  }
+}
+@-webkit-keyframes arduino {
+	0%   { width: 0px;  }
+	100% { width: 80%;  }
+}
+
+
+.bootstrap {
+	 width: 70%;
+	 -moz-animation: bootstrap 2s ease;
+	 -webkit-animation: bootstrap 2s ease;
+}
+@-moz-keyframes bootstrap {
+	0%   { width: 0px;  }
+	100% { width: 70%;  }
+}
+@-webkit-keyframes bootstrap {
+	0%   { width: 0px;  }
+	100% { width: 70%;  }
+}
+
+
+.android {
+	 width: 65%;
+	 -moz-animation: android 2s ease;
+	 -webkit-animation: android 2s ease;
+}
+@-moz-keyframes android {
+	0%   { width: 0px;  }
+	100% { width: 65%;  }
+}
+@-webkit-keyframes android {
+	0%   { width: 0px;  }
+	100% { width: 65%;  }
+}
+
+
+.chrome {
+	 width: 50%;
+	 -moz-animation: chrome 2s ease;
+	 -webkit-animation: chrome 2s ease;
+}
+@-moz-keyframes chrome {
+	0%   { width: 0px;  }
+	100% { width: 50%;  }
+}
+@-webkit-keyframes chrome {
+	0%   { width: 0px;  }
+	100% { width: 50%;  }
+}
+
+
+.flask {
+	 width: 50%;
+	 -moz-animation: flask 2s ease;
+	 -webkit-animation: flask 2s ease;
+}
+@-moz-keyframes flask {
+	0%   { width: 0px;  }
+	100% { width: 50%;  }
+}
+@-webkit-keyframes flask {
+	0%   { width: 0px;  }
+	100% { width: 50%;  }
+}
+
+
+.django {
+	 width: 50%;
+	 -moz-animation: django 2s ease;
+	 -webkit-animation: django 2s ease;
+}
+@-moz-keyframes django {
+	0%   { width: 0px;  }
+	100% { width: 50%;  }
+}
+@-webkit-keyframes django {
+	0%   { width: 0px;  }
+	100% { width: 50%;  }
+}
+
+
+.ios {
+	 width: 25%;
+	 -moz-animation: ios 2s ease;
+	 -webkit-animation: ios 2s ease;
+}
+@-moz-keyframes ios {
+	0%   { width: 0px;  }
+	100% { width: 25%;  }
+}
+@-webkit-keyframes ios {
+	0%   { width: 0px;  }
+	100% { width: 25%;  }
+}
