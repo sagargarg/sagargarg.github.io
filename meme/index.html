@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Nice Meme!</title>
+		<link type="text/css" rel=stylesheet href="style.css">
+		<script type="text/javascript">
+
+		audioElement.setAttribute('src', "nicememe.mp3"); audioElement.play();
+		</script>
+	</head>
+	<body onclick='window.location.href="javascript:play_single_sound();"'>
+		
+		<h1>Nice meme!</h1>
+		<audio id="meme" src="nicememe.mp3" type="audio/mpeg" preload="auto" autoplay></audio>
+
+		<script type="text/javascript">
+		function play_single_sound() {
+			document.getElementById('meme').play();
+		}
+		</script>
+	<!-- <a href="javascript:play_single_sound();"></a> -->
+	</body>
+</html>
+	
