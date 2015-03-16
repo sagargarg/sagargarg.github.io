@@ -1,5 +1,6 @@
 html {
 	font-family: sans-serif;
+	width: 100%;
 }
 
 
@@ -8,13 +9,20 @@ body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	height: 97.25%;
+	height: 100%
 }
 
 h1 {
-	font-size: 5em;
-	margin: 0.67em 0;
+	font-size: 100px;
 	text-align: center;
+	position: absolute;
+    display: block;
+    margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	padding: 0;
+	margin-bottom: 0;
 }
 
 audio:not([controls]) {
@@ -33,6 +41,5 @@ a:visited {
 a {
 	color: #000;
 	display: block;
-	width: 100%;
-	height: 100%;
 }
+
