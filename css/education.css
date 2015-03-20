@@ -12,7 +12,14 @@
 
 .courses {
 	margin-left: -15px;
+	font-weight: bold;
 }
+
+.educationcourses {
+	text-align: center;
+	font-size: 30px;
+}
+
 
 .class {
 	padding-left: 30px;
@@ -23,7 +30,8 @@
 }
 
 .educationcourses {
-	font-size: 23px;
+	text-align: center;
+	font-size: 40px;
 }
 
 .highschoolonly {
@@ -33,3 +41,4 @@
 .academies {
 	font-size: 20px;
 }
+
