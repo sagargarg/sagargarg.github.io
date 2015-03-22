@@ -1,7 +1,7 @@
 .phone_final {
-	margin-top: 100px;
-	margin-left: 100px;
+	margin-top: 150px;
 	position: relative;
+	margin-left: -500px;
 }
 
 .main_final {
@@ -23,7 +23,7 @@
 .main2_final {
 	height: 442px;
 	width: 249px;
-	position: fixed;
+	position: absolute;
 	margin-top: 75px;
 	margin-left: 263px;
 }
@@ -34,64 +34,25 @@
 	position: absolute;
 }
 
-/*
 
-.phone {
-	margin-top: 100px;
-	margin-left: 100px;
-	position: relative;
+html {
+	background-color: #3a9bdc;
 }
 
-.nexus5 {
-	height: 600px;
-	width: 302px;
-	z-index: 10px;
+body {
+	background-color: #3a9bdc;
 }
 
-.main {
-	height: 485px;
-	width: 277px;
-	position: absolute;
-	margin-top: 49px;
-	margin-left: 11px;
-	z-index: 100px;
+.title {
+	margin-top: 200px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
 }
 
-
-
-.nexus52 {
-	height: 480px;
-	width: 242px;
+.description {
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 40px;
 }
-
-.main2 {
-	height: 388px;
-	width: 222px;
-	position: absolute;
-	margin-top: 159px;
-	margin-left: 9px;
-	z-index: -100px;
-}
-
-
-
-
-.phone3 {
-	margin-top: 100px;
-	margin-left: 100px;
-	position: relative;
-}
-
-.nexus53 {
-	height: 600px;
-	width: 302px;
-}
-
-.main3 {
-	height: 485px;
-	width: 277px;
-	position: absolute;
-	margin-top: 49px;
-	margin-left: 11px;
-}
-*/
