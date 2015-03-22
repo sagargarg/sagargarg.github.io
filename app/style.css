@@ -1,0 +1,97 @@
+.phone_final {
+	margin-top: 100px;
+	margin-left: 100px;
+	position: relative;
+}
+
+.main_final {
+	height: 462px;
+	width: 258px;
+	position: absolute;
+	margin-top: 59px;
+	margin-left: 21px;
+	z-index: 100px;
+}
+
+.nexus5_final {
+	height: 600px;
+	width: 302px;
+	z-index: 10px;
+	position: absolute;
+}
+
+.main2_final {
+	height: 442px;
+	width: 249px;
+	position: fixed;
+	margin-top: 75px;
+	margin-left: 263px;
+}
+
+.galaxy_final {
+	margin-left: 250px;
+	margin-top: 30px;
+	position: absolute;
+}
+
+/*
+
+.phone {
+	margin-top: 100px;
+	margin-left: 100px;
+	position: relative;
+}
+
+.nexus5 {
+	height: 600px;
+	width: 302px;
+	z-index: 10px;
+}
+
+.main {
+	height: 485px;
+	width: 277px;
+	position: absolute;
+	margin-top: 49px;
+	margin-left: 11px;
+	z-index: 100px;
+}
+
+
+
+.nexus52 {
+	height: 480px;
+	width: 242px;
+}
+
+.main2 {
+	height: 388px;
+	width: 222px;
+	position: absolute;
+	margin-top: 159px;
+	margin-left: 9px;
+	z-index: -100px;
+}
+
+
+
+
+.phone3 {
+	margin-top: 100px;
+	margin-left: 100px;
+	position: relative;
+}
+
+.nexus53 {
+	height: 600px;
+	width: 302px;
+}
+
+.main3 {
+	height: 485px;
+	width: 277px;
+	position: absolute;
+	margin-top: 49px;
+	margin-left: 11px;
+}
+*/
