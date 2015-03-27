@@ -1,45 +1,4 @@
-.phone_final {
-	position: relative;
-	margin-left: -420px;
-}
-
-.main_final {
-	height: 462px;
-	width: 258px;
-	position: absolute;
-	margin-top: 59px;
-	margin-left: 21px;
-	z-index: 100px;
-}
-
-.nexus5_final {
-	height: 600px;
-	width: 302px;
-	z-index: 10px;
-	position: absolute;
-}
-
-.main2_final {
-	height: 443px;
-	width: 250px;
-	position: absolute;
-	margin-top: 75px;
-	margin-left: 263px;
-}
-
-.galaxy_final {
-	height: 540px;
-	width: 277px;
-	margin-left: 250px;
-	margin-top: 30px;
-}
-
-
 html {
-	background-color: #3a9bdc;
-}
-
-body {
 	background-color: #3a9bdc;
 }
 
@@ -58,52 +17,41 @@ body {
 }
 
 .top {
-	margin-top: 100px;
+	margin-top: 75px;
 }
 
-.new {
+.top2 {
+	margin-top: 140px;
+}
+
+.thanks {
 	text-align: center;
 	color: white;
-	margin-top: 100px;
+	margin-top: 50px;
+	margin-bottom: 15px;
 	font-size: 20px;
 }
 
 
 @media screen and (max-width: 700px){
-	.main_final {
-	height: 277px;
-	width: 155px;
-	position: absolute;
-	margin-top: 35px;
-	margin-left: 13px;
-	z-index: 100px;
-	}
-
-	.nexus5_final {
-		height: 360px;
-		width: 181px;
-		z-index: 10px;
-		position: absolute;
-	}
-
-	.main2_final {
-		height: 266px;
-		width: 150px;
-		position: absolute;
-		margin-top: 57px;
-		margin-left: 258px;
-	}
-
-	.galaxy_final {
-		height: 324px;
-		width: 166px;
-	}
-
 	.play{
-		width: 187px;
-		height: 62px;
+		width: 198px;
+		height: 66px;
 	}
 
+	.front {
+		height: 525px;
+		width: 292px;
+		position: absolute;
+		margin-left: -20px;
+	}
+
+	.back {
+		height: 48px;
+		width: 243px;
+		margin-left: 200px;
+		margin-top: 30px;
+	}
 
 }
 
@@ -111,8 +59,21 @@ body {
 	.top {
 	margin-top: 10px;
 	}
-
-	.phone_final {
-		margin-top: 50px;
+	.top2 {
+	margin-top: 10px;
 	}
+}
+
+.front {
+	height: 657px;
+	width: 365px;
+	position: absolute;
+	margin-left: -20px;
+}
+
+.back {
+	height: 569px;
+	width: 316px;
+	margin-left: 200px;
+	margin-top: 30px;
 }
