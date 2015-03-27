@@ -50,18 +50,7 @@ html {
 	.play{
 		width: 198px;
 		height: 66px;
-	}.front {
-	height: 27px;
-	width: 365px;
-	position: absolute;
-	margin-left: -20px;
-}
-
-.back {
-	height: 569px;
-	width: 316px;
-	margin-left: 200px;
-	ma
+	}
 }
 
 @media screen and (max-width: 1000px){
