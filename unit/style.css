@@ -24,13 +24,6 @@ html {
 	margin-top: 140px;
 }
 
-.thanks {
-	text-align: center;
-	color: white;
-	margin-top: 50px;
-	margin-bottom: 15px;
-	font-size: 20px;
-}
 
 .front {
 	height: 657px;
@@ -78,3 +71,27 @@ html {
 		margin-top: 10px;
 	}
 }
+
+.designedbyme {
+	text-align: center;
+	color: white;
+	margin-top: 50px;
+	margin-bottom: 15px;
+	font-size: 20px;
+}
+
+.thanks {
+	text-align: center;
+	color: white;
+	margin-top: 50px;
+	margin-bottom: 15px;
+	font-size: 20px;
+}
+
+.link a { text-decoration: none; }
+.link a:link { text-decoration: none; }
+.link a:visited { color: #e74c3c; }
+.link a:not(.button) { color: #fff; transition: background 1s; -webkit-transition: background 1s; padding: 0.01rem 0.2rem; border-bottom: 3px solid #e74c3c; }
+.link a:not(.button):hover { background: #e74c3c; color: #fff; }
+.link a:not(.button).noBorder { border-bottom: none; }
+.link { color: black; }
