@@ -3,8 +3,23 @@
 <head>
 	<title>Marquee</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+
+<!-- Add the script to the HEAD of your document -->
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Begin
+var scrl = " Marquees are awesome ";
+function scrlsts() {
+ scrl = scrl.substring(1, scrl.length) + scrl.substring(0, 1);
+ document.title = scrl;
+ setTimeout("scrlsts()", 300);
+ }
+//  End -->
+</script>
 </head>
-<body>
+
+<!-- Add the event loader to the body tag as below -->
+
+<body onLoad="scrlsts()">
 	<marquee behavior="scroll" direction="right" scrollamount="25" class="hello1">Hello</marquee>
 	<marquee behavior="scroll" direction="right" scrollamount="50" class="hello2">Hello</marquee>
 	<marquee behavior="alternate" direction="right" scrollamount="50" class="hello3">Hello</marquee>
