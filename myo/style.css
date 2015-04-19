@@ -1,3 +1,25 @@
 html {
 	background-color: #ecf0f1;
 }
+
+body {
+	background-color: #ecf0f1;
+}
+
+.title {
+	text-align: center;
+	margin-top: 100px;
+}
+
+.madeby {
+	text-align: center;
+}
+
+.madeat {
+	text-align: center;
+	margin-top: 25px;
+}
+
+.des {
+	text-align: center;
+}
