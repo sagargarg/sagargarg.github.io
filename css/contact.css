@@ -71,6 +71,28 @@ div.social a.icon-google:hover {
 }
 
 
+div.social a.icon-linkedin {
+	background-color: #0077B5;
+	font-size: 45px;
+}
+
+div.social a.icon-linkedin:hover {
+	background-color: #fff;
+	color: #0077B5;
+}
+
+
+div.social a.icon-android {
+	background-color: #A4C639;
+	font-size: 45px;
+}
+
+div.social a.icon-android:hover {
+	background-color: #fff;
+	color: #A4C639;
+}
+
+
 .contact-containter {
 	background: #444;
 	color: white;
