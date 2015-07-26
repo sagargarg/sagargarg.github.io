@@ -97,7 +97,7 @@
   vertical-align: middle;
   margin: 20px;
   padding: 20px;
-  width: 100px;
+  width: 140px;
   height: auto;
 }
 
@@ -149,7 +149,7 @@
 #tooltip2,
 #tooltip3,
 #tooltip4 {
-  width: 40px;
+  width: 0px;
   height: 0px;
   display: inline-block;
   vertical-align: middle;
@@ -191,20 +191,20 @@
 }
 
 #tooltip1 #developer {
-  left: -175px;
+  left: -195px;
 }
 
 #tooltip2 #developer {
-  left: -165px;
+  left: -195px;
 }
 
 #tooltip3 #developer {
-  left: -180px;
+  left: -195px;
   font-size: 15px;
 }
 
 #tooltip4 #developer {
-  left: -175px;
+  left: -195px;
 }
 
 #tooltip1 #developer:before,
@@ -215,7 +215,7 @@
   height: 0;
   position: absolute;
   top: -20px;
-  left: 100px;
+  left: 90px;
   right: auto;
   bottom: auto;
   content: "";
