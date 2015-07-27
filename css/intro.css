@@ -145,10 +145,10 @@
   opacity: 0.8;
 }
 
-#tooltip1,
-#tooltip2,
-#tooltip3,
-#tooltip4 {
+.tooltip1,
+.tooltip2,
+.tooltip3,
+.tooltip4 {
   width: 0px;
   height: 0px;
   display: inline-block;
@@ -166,10 +166,7 @@
   opacity: 0.0;
 }
 
-#tooltip1 #developer,
-#tooltip2 #developer,
-#tooltip3 #developer,
-#tooltip4 #developer {
+.developer {
   position: relative;
   top: 20px;
   left: -170px;
@@ -190,27 +187,15 @@
   font-variant: normal;
 }
 
-#tooltip1 #developer {
+.developer {
   left: -195px;
 }
 
-#tooltip2 #developer {
-  left: -195px;
-}
-
-#tooltip3 #developer {
-  left: -195px;
+.tooltip3 .developer {
   font-size: 15px;
 }
 
-#tooltip4 #developer {
-  left: -195px;
-}
-
-#tooltip1 #developer:before,
-#tooltip2 #developer:before,
-#tooltip3 #developer:before,
-#tooltip4 #developer:before {
+.developer:before {
   width: 0;
   height: 0;
   position: absolute;
@@ -224,10 +209,7 @@
   border-color: transparent transparent #FFFFFF transparent;
 }
 
-#tooltip1 #developer > :first-child,
-#tooltip2 #developer > :first-child,
-#tooltip3 #developer > :first-child,
-#tooltip4 #developer > :first-child {
+.developer > :first-child {
   font-size: 20px;
   font-weight: 300;
   font-family: 'Open Sans', sans-serif;
