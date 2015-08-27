@@ -10,18 +10,15 @@ body {
   -moz-user-select: none;
   -webkit-user-select: none;
 }
-
 html img,
 body img {
   -webkit-user-drag: none;
 }
-
 body {
 	font-family: "Ruda","Helvetica Neue",Helvetica,Arial,sans-serif;
 	background-color: #fff;
 	webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
-
 h1,
 h3,
 h4,
@@ -31,28 +28,33 @@ h6 {
 	font-family: "Ruda","Helvetica Neue",Helvetica,Arial,sans-serif;
 	letter-spacing: 1px;
 }
-
 h2 {
 	margin: 0 0 35px;
 	font-family: "Ruda","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-weight: bold;
 	letter-spacing: 1px;
 }
-
 h1 {
 	text-align: center;
 	margin-top: 50px;
 	font-size: 50px;
 }
-
 h3,
 h5 {
 	text-align: center;
 }
-
 .link a { text-decoration: none; }
 .link a:visited { color: #3498db; }
-.link a:not(.button) { color: #3a3a3a; transition: background 1s; -webkit-transition: background 1s; padding: 0.01rem 0.2rem; border-bottom: 3px solid #3498db; }
+
+.link a:not(.button) {
+	color: #3a3a3a;
+	-webkit-transition: all 0.75s;
+	-moz-transition: all 0.75s;
+	transition: all 0.75s;
+	padding: 0.01rem 0.2rem;
+	border-bottom: 3px solid #3498db;
+}
+
 .link a:not(.button):hover { background: #3498db; color: #FFF; }
 .link { color: black; }
 

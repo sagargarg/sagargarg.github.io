@@ -6,9 +6,14 @@
 	width: 100%;
 	padding: 0;
 	margin: 0;
-	border-bottom: 1px solid black;
+	border-bottom: none;
 	color: white;
- }
+}
+
+.navbar-toggle {
+	margin: 0 15px 0 0;
+	padding: 14px 10px;
+}
 
 .navcolor a {
 	text-decoration: none;
@@ -20,20 +25,6 @@
 
 .navcolor a:hover {
 	color:black;
-}
-
-.navbar-custom {
-	margin-bottom: 0;
-	border-bottom: 1px solid white;
-	background-color: #FFF;
-}
-
-@media(min-width:767px) {
-	.navbar {
-		padding: 20px 0;
-		border-bottom: 0;
-		background: 0 0;
-	}
 }
 
 .navbar-custom .navbar-brand:focus {
