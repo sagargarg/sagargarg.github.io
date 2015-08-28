@@ -92,6 +92,18 @@ div.social a.icon-android:hover {
 	color: #A4C639;
 }
 
+div.social a.icon-resume {
+	background-color: #8e44ad;
+	font-size: 45px;
+}
+
+div.social a.icon-resume:hover {
+	background-color: #D3D3D3;
+	color: #8e44ad;
+}
+
+
+
 body div div div div a:hover {
 	text-decoration: none;
 }
@@ -111,6 +123,11 @@ body div div div div a:hover {
 	-ms-transform: scale(0);
 	transform: scale(0);
 	-webkit-backface-visibility: hidden; /*for a smooth font */
+}
+
+.ch-info h3 {
+	margin-top: 5px;
+	margin-bottom: 10px;
 }
 
 div.social a.icon:hover + .ch-info {
