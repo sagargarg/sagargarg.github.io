@@ -5,39 +5,6 @@
 	font-size: 20px;
 	font-family: 'Open Sans', 'Nunito', sans-serif, serif;
 }
-
-div.social a {
-	width: 60px;
-	height: 60px;
-	display: inline-block;
-	border-radius: 5px;
-	font-family: "scicons";
-	font-style: normal;
-	font-weight: normal;
-	text-decoration: none;
-	color: #fff;
-	transition: background-color .35s linear, color .35s linear;
-}
-
-div.social a:before {
-	width: inherit;
-	height: inherit;
-	display: table-cell;
-	text-align: center;
-	vertical-align: middle;
-}
-
-div.social a.icon-mail {
-	background-color: rgb(39, 174, 96);
-	font-size: 45px;
-}
-
-div.social a.icon-mail:hover {
-	background-color: #D3D3D3;
-	color: rgb(39, 174, 96);
-}
-
-
 div.social a.icon-facebook {
 	background-color: #3b5998;
 	font-size: 45px;
@@ -47,70 +14,9 @@ div.social a.icon-facebook:hover {
 	background-color: #D3D3D3;
 	color: #3b5998;
 }
-
-
-div.social a.icon-github {
-	background-color: #000;
-	font-size: 45px;
-}
-
-div.social a.icon-github:hover {
-	background-color: #D3D3D3;
-	color: #000;
-}
-
-
-div.social a.icon-google {
-	background-color: #D34836;
-	font-size: 45px;
-}
-
-div.social a.icon-google:hover {
-	background-color: #D3D3D3;
-	color: #D34836;
-}
-
-
-div.social a.icon-linkedin {
-	background-color: #0077B5;
-	font-size: 45px;
-}
-
-div.social a.icon-linkedin:hover {
-	background-color: #D3D3D3;
-	color: #0077B5;
-}
-
-
-div.social a.icon-android {
-	background-color: #A4C639;
-	font-size: 45px;
-}
-
-div.social a.icon-android:hover {
-	background-color: #D3D3D3;
-	color: #A4C639;
-}
-
-div.social a.icon-resume {
-	background-color: #8e44ad;
-	font-size: 45px;
-}
-
-div.social a.icon-resume:hover {
-	background-color: #D3D3D3;
-	color: #8e44ad;
-}
-
-
-
 body div div div div a:hover {
 	text-decoration: none;
 }
-
-
-
-
 .ch-info {
 	-webkit-transition: all 0.35s ease-in-out;
 	-moz-transition: all 0.35s ease-in-out;
@@ -124,12 +30,10 @@ body div div div div a:hover {
 	transform: scale(0);
 	-webkit-backface-visibility: hidden; /*for a smooth font */
 }
-
 .ch-info h3 {
-	margin-top: 5px;
+	margin-top: 10px;
 	margin-bottom: 10px;
 }
-
 div.social a.icon:hover + .ch-info {
 	opacity: 1;
 	-webkit-transform: scale(1);
@@ -138,3 +42,79 @@ div.social a.icon:hover + .ch-info {
 	-ms-transform: scale(1);
 	transform: scale(1);	
 }
+
+
+body:not(.device-touch) .social-icon {
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+.social-icon {
+	width: 50px;
+	height: 50px;
+	font-size: 40px;
+	border-radius: 5px;
+	overflow: hidden;
+	display: inline-block;
+	color: #fff;
+}
+.social-icon i {
+	display: block;
+	position: relative;
+	height: 50px;
+	padding-top: 5px;
+}
+body:not(.device-touch) .social-icon i {
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+.social-icon:hover i:first-child { 
+	margin-top: -50px; 
+	color: #fff;
+}
+
+.email1 {
+	background-color: rgb(39, 174, 96);
+}
+.email2 {
+	color: rgb(39, 174, 96);
+	background-color: #D3D3D3;
+}
+.linkedin1 {
+	background-color: #0E76A8;
+}
+.linkedin2 {
+	color: #0E76A8;
+	background-color: #D3D3D3;
+}
+.github1 {
+	background-color: #000;
+}
+.github2 {
+	color: #000;
+	background-color: #D3D3D3;
+}
+.google1 {
+	background-color: #D34836;
+}
+.google2 {
+	color: #D34836;
+	background-color: #D3D3D3;
+}
+.android1 {
+	background-color: #A4C639;
+}
+.android2 {
+	color: #A4C639;
+	background-color: #D3D3D3;
+}
+.resume1 {
+	background-color: #8e44ad;
+}
+.resume2 {
+	color: #8e44ad;
+	background-color: #D3D3D3;
+}
+
+
