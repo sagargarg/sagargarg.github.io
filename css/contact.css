@@ -16,7 +16,7 @@ div.social a {
 	font-weight: normal;
 	text-decoration: none;
 	color: #fff;
-	transition: background-color .2s linear, color .2s linear;
+	transition: background-color .35s linear, color .35s linear;
 }
 
 div.social a:before {
@@ -33,7 +33,7 @@ div.social a.icon-mail {
 }
 
 div.social a.icon-mail:hover {
-	background-color: #fff;
+	background-color: #D3D3D3;
 	color: rgb(39, 174, 96);
 }
 
@@ -44,7 +44,7 @@ div.social a.icon-facebook {
 }
 
 div.social a.icon-facebook:hover {
-	background-color: #fff;
+	background-color: #D3D3D3;
 	color: #3b5998;
 }
 
@@ -55,7 +55,7 @@ div.social a.icon-github {
 }
 
 div.social a.icon-github:hover {
-	background-color: #fff;
+	background-color: #D3D3D3;
 	color: #000;
 }
 
@@ -66,7 +66,7 @@ div.social a.icon-google {
 }
 
 div.social a.icon-google:hover {
-	background-color: #fff;
+	background-color: #D3D3D3;
 	color: #D34836;
 }
 
@@ -77,7 +77,7 @@ div.social a.icon-linkedin {
 }
 
 div.social a.icon-linkedin:hover {
-	background-color: #fff;
+	background-color: #D3D3D3;
 	color: #0077B5;
 }
 
@@ -88,10 +88,36 @@ div.social a.icon-android {
 }
 
 div.social a.icon-android:hover {
-	background-color: #fff;
+	background-color: #D3D3D3;
 	color: #A4C639;
 }
 
 body div div div div a:hover {
 	text-decoration: none;
+}
+
+
+
+
+.ch-info {
+	-webkit-transition: all 0.35s ease-in-out;
+	-moz-transition: all 0.35s ease-in-out;
+	-o-transition: all 0.35s ease-in-out;
+	-ms-transition: all 0.35s ease-in-out;
+	transition: all 0.35s ease-in-out;
+	-webkit-transform: scale(0);
+	-moz-transform: scale(0);
+	-o-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0);
+	-webkit-backface-visibility: hidden; /*for a smooth font */
+}
+
+div.social a.icon:hover + .ch-info {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);	
 }
