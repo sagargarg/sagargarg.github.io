@@ -5,15 +5,6 @@
 	font-size: 20px;
 	font-family: 'Open Sans', 'Nunito', sans-serif, serif;
 }
-div.social a.icon-facebook {
-	background-color: #3b5998;
-	font-size: 45px;
-}
-
-div.social a.icon-facebook:hover {
-	background-color: #D3D3D3;
-	color: #3b5998;
-}
 body div div div div a:hover {
 	text-decoration: none;
 }
