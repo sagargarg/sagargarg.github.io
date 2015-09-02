@@ -1,0 +1,29 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.div_centered {
+	text-align: center;
+	margin-top: 100px;
+}
+
+.text_title {
+	font-size: 70px;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin: 0;
+}
+
+.body_text {
+	font-family: 'Ruda';
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 100px;
+	font-size: 25px;
+}
+
+.igs_text {
+	margin: 0;
+	margin-top: 20px;
+}

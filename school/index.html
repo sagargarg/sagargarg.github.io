@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+	<title>Time for IGS</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Ruda' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="div_centered">
+		<h1 class="text_title">Time for IGS</h1>
+		<div class="body_text">
+			<span id="countdown">September 3rd, 2015 7:57</span>
+			<p class="igs_text">It's 7:57, please report to IGS.</p>
+		</div>
+		
+	</div>
+
+	<script type="text/javascript">
+		var target_date = new Date("September 3, 2015 7:57:00").getTime();
+		var days, hours, minutes, seconds;
+		var countdown = document.getElementById("countdown");
+		setInterval(function () {
+			var current_date = new Date().getTime();
+			var seconds_left = (target_date - current_date) / 1000;
+			days = parseInt(seconds_left / 86400);
+			seconds_left = seconds_left % 86400;
+			hours = parseInt(seconds_left / 3600);
+			seconds_left = seconds_left % 3600;
+			minutes = parseInt(seconds_left / 60);
+			seconds = parseInt(seconds_left % 60);
+			countdown.innerHTML = days + " Day, " + hours + " Hours, "
+			+ minutes + "m, " + seconds + "s";  
+		}, 1000);
+	</script>
+</body>
+
