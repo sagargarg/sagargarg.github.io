@@ -44,6 +44,10 @@ body {
 	line-height: 25px;
 }
 
+.countdown_div {
+	margin-bottom: 30px;
+}
+
 #countdown,
 #death {
 	font-size: 30px;
