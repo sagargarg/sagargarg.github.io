@@ -11,11 +11,11 @@
 <body ng-controller="MyController">
 	<div class="example-chat l-demo-container">
 		<h1 class="center_div">Firebase Chat Demo</h1>
-		<ul id="example-messages" class="example-chat-messages">
+		<ul class="example-chat-messages example-messages">
 			<li ng-repeat="msg in messages">
-				<div id="left_right_text">
+				<div class="left_right_text right_side_text">
 					<p class="example-chat-username">{{ msg.sender }}</p>
-					<p class="example-chat-message" id="left_right_background_color">{{ msg.text }}</p>
+					<p class="example-chat-message right_side_color_blue left_right_background_color">{{ msg.text }}</p>
 				</div>
 			</li>
 			<div class="message_input_center_div_center">
@@ -49,10 +49,10 @@
 			  	var url = window.location.href;
 			  	var name = decodeURI(url.substring(url.indexOf('?user=') + 6));
 			  	console.log(name);
-			  	document.getElementById('left_right_text').classList.add('right_side_text');
-				document.getElementById('left_right_text').classList.remove('left_side_text');
-				document.getElementById('left_right_background_color').classList.add('right_side_color_blue');
-				document.getElementById('left_right_background_color').classList.remove('left_side_color_blue');
+			  	document.getElementsByClassName('left_right_text').classList.add('right_side_text');
+				document.getElementsByClassName('left_right_text').classList.remove('left_side_text');
+				document.getElementsByClassName('left_right_background_color').classList.add('right_side_color_blue');
+				document.getElementsByClassName('left_right_background_color').classList.remove('left_side_color_blue');
 				$scope.messages.$add({
 					sender: name,
 					imageUrl: "",
