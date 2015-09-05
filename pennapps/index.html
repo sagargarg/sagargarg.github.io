@@ -45,19 +45,18 @@
 
 			//LISTEN FOR RETURN KEY
 			if (e.keyCode === 13 && $scope.msg) {
-				console.log('here');
 			  //ADD MESSAGE TO FIREBASE
 			  	//get name
 			  	var url = window.location.href;
 			  	var name = decodeURI(url.substring(url.indexOf('?user=') + 6));
 			  	console.log(name);
-			 //  	document.getElementsByClassName('left_right_text').classList.add('right_side_text');
+			    // document.getElementsByClassName('left_right_text').classList.add('right_side_text');
 				// document.getElementsByClassName('left_right_text').classList.remove('left_side_text');
 				// document.getElementsByClassName('left_right_background_color').classList.add('right_side_color_blue');
 				// document.getElementsByClassName('left_right_background_color').classList.remove('left_side_color_blue');
 				$scope.messages.$add({
 					sender: name,
-					console.log(name);
+					console.log(name + " says hi");
 					imageUrl: "",
 					text: $scope.msg
 				});
