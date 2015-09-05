@@ -49,6 +49,10 @@
 			  	var url = window.location.href;
 			  	var name = decodeURI(url.substring(url.indexOf('?user=') + 6));
 			  	console.log(name);
+			  	document.getElementById('left_right_text').classList.add('right_side_text');
+				document.getElementById('left_right_text').classList.remove('left_side_text');
+				document.getElementById('left_right_background_color').classList.add('right_side_color_blue');
+				document.getElementById('left_right_background_color').classList.remove('left_side_color_blue');
 				$scope.messages.$add({
 					sender: name,
 					imageUrl: "",
