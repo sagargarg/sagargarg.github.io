@@ -17,7 +17,7 @@ body {
 	float: right;
 }
 
-.example-chat-message {
+.example_chat_message {
 	color: #393939;
 	background-color: #E3E2DF;
 	font-size: 17px;
@@ -28,7 +28,7 @@ body {
 	margin: 0 0 6px 0;
 }
 
-.example-chat-username {
+.example_chat_username {
 	margin-top: 5px;
 	margin-bottom: 2px;
 	color: #333;
@@ -60,7 +60,7 @@ li {
 	list-style-type: none;
 }
 
-#example-messages,
+.example_messages,
 .username {
 	padding: 0;
 	width: 50%;
