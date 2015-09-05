@@ -51,7 +51,8 @@
 			  	var name = decodeURI(url.substring(url.indexOf('?user=') + 6));
 			  	console.log(name);
 
-			  	document.getElementsByClassName("example_chat_message").style.backgroundColor = "#00B0FF";
+			  	var element = document.getElementsByClassName('example_chat_message');
+			  	element.style.background = '#00B0FF';
 
 			    // document.getElementsByClassName('left_right_text').classList.add('right_side_text');
 				// document.getElementsByClassName('left_right_text').classList.remove('left_side_text');
