@@ -1,6 +1,7 @@
 html,
 body {
 	background-color: #ecf0f1;
+	font-family: 'Ruda';
 }
 
 .message_text_box {
@@ -9,12 +10,13 @@ body {
 	border-radius: 18px;
 	padding: 8px 12px;
 	display: inline-block;
-	margin: 10px 0 6px 0;
+	margin: 10px 0 50px 0;
 	color: #fff;
 	background-color: #00B0FF;
 	border: none;
 	outline: 0;
 	float: right;
+	margin-left: 50%;
 }
 
 .example_chat_message {
@@ -24,24 +26,18 @@ body {
 	border-radius: 18px;
 	padding: 8px 12px;
 	display: inline-block;
-	margin: 0 0 6px 0;background-color: #E3E2DF;
+	margin: 0 0 6px 0;
+	background-color: #E3E2DF;
 }
 
 .example_chat_message.me {
 	background-color: #E3E2DF;
-	text-align: right;
 }
 
 .example_chat_message.someone-else {
 	background-color: #00B0FF;
 	text-align: left;
-}
-
-.list_of_messages.me div {
-	display: inline-block;
-    margin: 0 0 6px 0;
-    float: right;
-    margin-left: 50%
+	color: #fff;
 }
 
 .list_of_messages.someone-else div .example_chat_username {
@@ -64,7 +60,20 @@ body {
 	display: inline-block;
 	margin: 0 0 6px 0;
     float: left;
-    margin-right: 50%
+    width: 70%;
+    text-align: left;
+}
+
+.list_of_messages.me div {
+	display: inline-block;
+    margin: 0 0 6px 0;
+    float: right;
+    width: 70%;
+    text-align: right;
+}
+
+.list_of_messages div p {
+	text-align: left;
 }
 
 /* do not group these rules */
@@ -95,34 +104,121 @@ li {
 .example_messages,
 .username {
 	padding: 0;
-	width: 50%;
 	margin: 0 auto;
+	width: 60%;
 }
 
 .message_input_center_div_center {
 	text-align: right;
 }
 
+.example-chat {
+	margin-top: 100px;
+}
+
+.example-chat_two {
+	margin-top: 50px;
+}
 .center_div {
 	text-align: center;
+	font-size: 70px;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin: 0;
+	color: #494949;
+}
+.center_div_two {
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin: 0;
+	color: #494949;
+	margin-bottom: 25px;
+}
+
+.center_second_title {
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin: 0;
+	color: #494949;
 }
 
 .username {
-	margin-bottom: 15px;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	top: 45%;
+	position: absolute;
 }
 
-/*.right_side_color_blue {
-	background-color: #00B0FF;
+.username_text_box {
+	border: 1px solid #dadada;
+	font-size: 17px;
+	color: #878889;
+	vertical-align: middle;
+	width: 200px;
+	-webkit-transition: all .3s ease-in-out 0s;
+	-moz-transition: all .3s ease-in-out 0s;
+	-ms-transition: all .3s ease-in-out 0s;
+	-o-transition: all .3s ease-in-out 0s;
+	outline: medium none;
+	box-shadow: none;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    display: inline-block;
+    height: 30px;
+    background: #fff;
+    vertical-align: bottom;
+    padding: 5px 0 2px 10px;
+}
+.nameInput {
+	display: inline;
+	font-size: 25px;
 }
 
-.right_side_text {
-	text-align: right;
+.developed_by {
+	text-align: center;
+	font-size: 18px;
+	top: 75%;
+	position: absolute;
+	width: 100%;
 }
 
-.left_side_color_blue {
-	background-color: #E3E2DF;
+@media screen and (max-width: 1000px) {
+	.example_messages {
+		width: 70%;
+	}
 }
 
-.left_side_text {
-	text-align: left;
-}*/
+@media screen and (max-width: 800px) {
+	.example_messages {
+		width: 80%;
+	}
+	.list_of_messages.someone-else div {
+		margin-right: 30%;
+	}
+
+	.list_of_messages.me div {
+		margin-left: 30%;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.example_messages {
+		width: 85%;
+	}
+}
+
+@media screen and (max-width: 525px) {
+	.example_messages {
+		width: 95%;
+	}
+	.center_div_two {
+		font-size: 40px;
+		margin-bottom: 15px;
+	}
+	.example-chat_two {
+		margin-top: 25px;
+	}
+}

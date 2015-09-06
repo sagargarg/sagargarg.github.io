@@ -10,17 +10,15 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </head>
 <body ng-controller="MyController">
-	<div class="example-chat l-demo-container">
-		<h1 class="center_div">Firebase Chat Demo</h1>
+	<div class="example-chat_two l-demo-container">
+		<h1 class="center_div_two">Firebase Chat Demo</h1>
 
 		<ul class="example_messages">
 			<li class="list_of_messages" ng-repeat="msg in messages" ng-class="{me: msg.sender == user, 'someone-else': msg.sender !== user}">
 				<div>
 					<p class="example_chat_username">{{ msg.sender }}</p>
 					<p class="foo example_chat_message"
-					   ng-class="{me: msg.sender == user,
-					              'someone-else': msg.sender !== user}"
-					>{{ msg.text }}</p>
+					   ng-class="{me: msg.sender == user,'someone-else': msg.sender !== user}">{{ msg.text }}</p>
 				</div>
 			</li>
 			<div class="message_input_center_div_center">
@@ -60,7 +58,7 @@
 			if (e.keyCode === 13 && $scope.msg) {
 				var newChildRef = ref.push();
 				var id = newChildRef.key();console.log(id[0]);
-				
+
 				$scope.messages.$add({
 					sender: name,
 					imageUrl: "",
