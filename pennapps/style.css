@@ -2,6 +2,7 @@ html,
 body {
 	background-color: #ecf0f1;
 	font-family: 'Ruda';
+	margin: 0;
 }
 
 .message_text_box {
@@ -148,17 +149,14 @@ li {
 	display: inline-block;
 	width: 100%;
 	text-align: center;
-	top: 45%;
-	position: absolute;
+	margin-top: 75px;
 }
 
 .radius {
 	display: inline-block;
 	width: 100%;
 	text-align: center;
-	top: 45%;
-	margin-top: 50px;
-	position: absolute;
+	margin-top: 25px;
 }
 
 .username_text_box,
@@ -191,8 +189,7 @@ li {
 .developed_by {
 	text-align: center;
 	font-size: 18px;
-	top: 75%;
-	position: absolute;
+	margin-top: 100px;
 	width: 100%;
 }
 
