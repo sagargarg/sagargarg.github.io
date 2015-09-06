@@ -13,11 +13,11 @@
 		<h1 class="center_div_two">Firebase Chat Demo</h1>
 
 		<ul class="example_messages">
-			<li class="list_of_messages" ng-repeat="msg in messages" ng-class="{me: msg.sender == user, 'someone-else': msg.sender !== user}">
+			<li class="list_of_messages" ng-repeat="msg in messages" ng-class="{me: msg.name == user, 'someone-else': msg.name !== user}">
 				<div>
 					<p class="example_chat_username">{{ msg.name }}</p>
 					<p class="foo example_chat_message"
-					   ng-class="{me: msg.sender == user,'someone-else': msg.sender !== user}">{{ msg.text }}</p>
+					   ng-class="{me: msg.name == user,'someone-else': msg.name !== user}">{{ msg.text }}</p>
 				</div>
 			</li>
 			<div class="message_input_center_div_center">
@@ -45,17 +45,13 @@
 			$scope.messages = $firebaseArray(ref);
 			$scope.users = $firebaseArray(ref_users);
 
-			console.log($scope.users);
-
-
 		  //ADD MESSAGE METHOD
 		  $scope.addMessage = function(e) {
-
 
 			//LISTEN FOR RETURN KEY
 			if (e.keyCode === 13 && $scope.msg) {
 				var newChildRef = ref.push();
-				var id = newChildRef.key();console.log(id[0]);
+				var id = newChildRef.key();
 
 				$scope.messages.$add({
 					name: name,
