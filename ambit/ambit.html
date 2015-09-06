@@ -13,11 +13,11 @@
 		<h1 class="center_div_two">Ambit</h1>
 
 		<ul class="example_messages">
-			<li class="list_of_messages" ng-repeat="msg in messages" ng-class="{me: msg.sender == user, 'someone-else': msg.sender !== user}">
+			<li class="list_of_messages" ng-repeat="msg in messages" ng-class="{me: msg.name == user, 'someone-else': msg.name !== user}">
 				<div>
-					<p class="example_chat_username">{{ msg.sender }}</p>
+					<p class="example_chat_username">{{ msg.name }}</p>
 					<p class="foo example_chat_message"
-					   ng-class="{me: msg.sender == user,'someone-else': msg.sender !== user}">{{ msg.text }}</p>
+					   ng-class="{me: msg.name == user,'someone-else': msg.name !== user}">{{ msg.text }}</p>
 				</div>
 			</li>
 			<div class="message_input_center_div_center">
@@ -54,7 +54,7 @@
 				var id = newChildRef.key();
 
 				$scope.messages.$add({
-					sender: name,
+					name: name,
 					imageUrl: "",
 					text: $scope.msg,
 					id: id
