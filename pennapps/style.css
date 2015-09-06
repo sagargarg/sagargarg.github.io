@@ -102,7 +102,8 @@ li {
 }
 
 .example_messages,
-.username {
+.username,
+.radius {
 	padding: 0;
 	margin: 0 auto;
 	width: 60%;
@@ -143,7 +144,7 @@ li {
 	color: #494949;
 }
 
-.username {
+.username{
 	display: inline-block;
 	width: 100%;
 	text-align: center;
@@ -151,7 +152,17 @@ li {
 	position: absolute;
 }
 
-.username_text_box {
+.radius {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	top: 45%;
+	margin-top: 50px;
+	position: absolute;
+}
+
+.username_text_box,
+.radius_text_box {
 	border: 1px solid #dadada;
 	font-size: 17px;
 	color: #878889;

@@ -20,6 +20,12 @@
 				<input ng-model="name"  ng-keydown="addUser($event)" type="text" id="nameInput" placeholder="Enter a Username..." class="username_text_box">
 			</div>
 		</div>
+		<div class="radius">
+			<div class="centered_username">
+				<p class="nameInput">Radius (m): </p>
+				<input ng-model="radius"  ng-keydown="addUser($event)" type="number" id="nameInput" placeholder="Enter a Radius..." class="radius_text_box">
+			</div>
+		</div>
 		<div class="developed_by">
 			<p>Developed by Sagar Garg, Tim Lupo, Joseph Goodman, and Kaushik Mahadevan at PennApps XII Fall 2015</p>
 		</div>
@@ -38,8 +44,15 @@
 			$scope.addUser = function(e) {
 				if (e.keyCode === 13) {
 					var name = $scope.name || "Anonymous";
+					var radius = $scope.radius;
+
+					var newChildRef = ref.push();
+					var id = newChildRef.key();console.log(id[0]);
+
 					$scope.users.$add({
-						sender: name
+						sender: name,
+						radius: radius,
+						id: id
 					});
 					window.location="index.html?user="+name;
 				}
