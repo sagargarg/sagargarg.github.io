@@ -33,12 +33,13 @@ body {
 
 .example_chat_message.me {
 	background-color: #00B0FF;
+	color: #fff;
 }
 
 .example_chat_message.someone-else {
 	background-color: #E3E2DF;
 	text-align: left;
-	color: #fff;
+	
 }
 
 .list_of_messages.someone-else div .example_chat_username {
