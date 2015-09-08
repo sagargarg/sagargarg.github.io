@@ -32,11 +32,11 @@ body {
 }
 
 .example_chat_message.me {
-	background-color: #E3E2DF;
+	background-color: #00B0FF;
 }
 
 .example_chat_message.someone-else {
-	background-color: #00B0FF;
+	background-color: #E3E2DF;
 	text-align: left;
 	color: #fff;
 }
