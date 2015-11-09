@@ -45,17 +45,17 @@
 	background: #222;
 }
 
-.html {
+.html5 {
 	width: 95%;
 	-moz-animation: html 2s ease;
 	-webkit-animation: html 2s ease;
 }
 
-@-moz-keyframes html {
+@-moz-keyframes html5 {
 	0%   { width: 0px;  }
 	100% { width: 95%;  }
 }
-@-webkit-keyframes html {
+@-webkit-keyframes html5 {
 	0%   { width: 0px;  }
 	100% { width: 95%;  }
 }
@@ -90,34 +90,34 @@
 	100% { width: 70%;  }
 }
 
-.python {
-	width: 60%;
-	-moz-animation: python 2s ease;
-	-webkit-animation: python 2s ease;
-}
-
-@-moz-keyframes python {
-	0%   { width: 0px;  }
-	100% { width: 60%;  }
-}
-@-webkit-keyframes python {
-	0%   { width: 0px;  }
-	100% { width: 60%;  }
-}
-
 .javascript {
-	width: 45%;
+	width: 60%;
 	-moz-animation: javascript 2s ease;
 	-webkit-animation: javascript 2s ease;
 }
 
 @-moz-keyframes javascript {
 	0%   { width: 0px;  }
-	100% { width: 45%;  }
+	100% { width: 60%;  }
 }
 @-webkit-keyframes javascript {
 	0%   { width: 0px;  }
-	100% { width: 45%;  }
+	100% { width: 60%;  }
+}
+
+.python {
+	width: 35%;
+	-moz-animation: python 2s ease;
+	-webkit-animation: python 2s ease;
+}
+
+@-moz-keyframes python {
+	0%   { width: 0px;  }
+	100% { width: 35%;  }
+}
+@-webkit-keyframes python {
+	0%   { width: 0px;  }
+	100% { width: 35%;  }
 }
 
 .autodesk {
