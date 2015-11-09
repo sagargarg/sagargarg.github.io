@@ -27,6 +27,9 @@
 		<script src="js/jquery.easing.1.3.js"></script>
 		<script src="js/jquery.plusanchor.js"></script>
 		<script src="js/bootstrap-scrollspy.js"></script>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="js/revealOnScroll.js"></script>
 		
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -148,7 +151,7 @@
 				<br>
 				<br>
 				<div class=" zoomIn">
-					<p class="about-info">I am currently a junior in high school at <span class ="link"><a target="_blank" href="http://bcts.bergen.org/index.php/bergen-county-academies?layout=blog">Bergen County Academies</a></span> in New Jersey. I am enrolled in the <span class ="link"><a target="_blank" href="http://bcts.bergen.org/index.php/academy-for-the-engineering-and-design-technology">Academy for Engineering and Design Technology (AEDT)</a></span>.</p>
+					<p class="about-info">I am currently a senior in high school at <span class ="link"><a target="_blank" href="http://bcts.bergen.org/index.php/bergen-county-academies?layout=blog">Bergen County Academies</a></span> in New Jersey. I am enrolled in the <span class ="link"><a target="_blank" href="http://bcts.bergen.org/index.php/academy-for-the-engineering-and-design-technology">Academy for Engineering and Design Technology (AEDT)</a></span>.</p>
 				</div>
 				<br>
 				<br>
@@ -161,34 +164,28 @@
 
 			<div class="container">
 				<div class="row">
-					<div class=" bounceInUp">
-						<div class="col-sm-4">
-							<div class="engineer">
-								<i class="fa fa-cogs fa-5x"></i>
-								<p class="engineer-title">Engineer</p>
-								<i class="fa fa-minus fa-2x"></i>
-								<p class="engineer-text">I love to build things. I usually use Arduino microcontrollers for my projects.</p><br>
-							</div>
+					<div class="col-sm-4 revealOnScroll" data-animation="fadeInUp" data-timeout="400">
+						<div class="engineer">
+							<i class="fa fa-cogs fa-5x"></i>
+							<p class="engineer-title">Engineer</p>
+							<i class="fa fa-minus fa-2x"></i>
+							<p class="engineer-text">I love to build things. I usually use Arduino microcontrollers for my projects.</p><br>
 						</div>
 					</div>
-					<div class=" bounceInUp" data-wow-delay="0.25s">
-						<div class="col-sm-4">
-							<div class="web">
-								<i class="fa fa-desktop fa-5x"></i>
-								<p class="web-title">Web</p>
-								<i class="fa fa-minus fa-2x"></i>
-								<p class="web-text">I develop web pages using HTML, CSS, and JavaScript. I am available for freelance, so <span class = "link"><a href = "#contact">contact me</a></span> if you are interested.</p><br>
-							</div>
+					<div class="col-sm-4 revealOnScroll" data-animation="fadeInUp" data-timeout="600">
+						<div class="mobile">
+							<i class="fa fa-mobile fa-5x"></i>
+							<p class="mobile-title">Mobile</p>
+							<i class="fa fa-minus fa-2x"></i>
+							<p class="mobile-text">I am an Android developer. I currently have two apps on the Google Play store, and hope to add more soon.</p><br>
 						</div>
 					</div>
-					<div class=" bounceInUp" data-wow-delay="0.50s">
-						<div class="col-sm-4">
-							<div class="mobile">
-								<i class="fa fa-mobile fa-5x"></i>
-								<p class="mobile-title">Mobile</p>
-								<i class="fa fa-minus fa-2x"></i>
-								<p class="mobile-text">I am an Android developer. I currently have two apps on the Google Play store, and hope to add more soon.</p><br>
-							</div>
+					<div class="col-sm-4 revealOnScroll" data-animation="fadeInUp" data-timeout="800">
+						<div class="web">
+							<i class="fa fa-desktop fa-5x"></i>
+							<p class="web-title">Web</p>
+							<i class="fa fa-minus fa-2x"></i>
+							<p class="web-text">I develop web pages using HTML, CSS, and JavaScript. I am available for freelance, so <span class = "link"><a href = "#contact">contact me</a></span> if you are interested.</p><br>
 						</div>
 					</div>
 				</div>
