@@ -34,7 +34,8 @@
 
 
 	<script type="text/javascript">
-		var target_date = new Date("October 27, 2025 19:00:00").getTime();
+		var target_date_final = new Date("October 27, 2025 19:00:00");
+		var target_date = target_date_final.getTime();
 		var years, days, hours, minutes, seconds, current_date, current_date2, seconds_left, seconds_left2, seconds_timer, seconds_fixed;
 		var countdown = document.getElementById("countdown");
 		var death = document.getElementById("death");
@@ -44,8 +45,8 @@
 			current_date = new Date().getTime();
 			seconds_left = (target_date - current_date) / 1000;
 
-			years = parseInt(seconds_left / 31557600);
-			seconds_left = seconds_left % 31557600;
+			//years = parseInt(seconds_left / 31557600);
+			//seconds_left = seconds_left % 31557600;
 
 			days = parseInt(seconds_left / 86400);
 			seconds_left = seconds_left % 86400;
@@ -53,18 +54,44 @@
 			seconds_left = seconds_left % 3600;
 			minutes = parseInt(seconds_left / 60);
 			seconds = parseInt(seconds_left % 60);
-			countdown.innerHTML = years + " Years, " + days + " Days, " + hours + " Hours, "
-			+ minutes + "m, " + seconds + "s";  
-		}, 100);
 
-		setInterval(function two() {
+
 			current_date2 = new Date().getTime();
 			seconds_left2 = (target_date - current_date2) / 1000;
 			seconds_timer = seconds_left2 / 31557600;
 			seconds_fixed = seconds_timer.toFixed(10);
 			var split = seconds_fixed.toString().split('.');
-			death.innerHTML = split[0];
-			decimals.innerHTML = "." + split[1];  
+			var years_final = split[0];
+			death.innerHTML = years_final;
+			decimals.innerHTML = "." + split[1];
+
+			var current_year_final = new Date();
+			var current_year = new Date().getFullYear();
+			var target_year = target_date_final.getFullYear();
+
+			var isSameDay = (current_year_final.getDate() == target_date_final.getDate() && current_year_final.getMonth() == target_date_final.getMonth());
+
+			//var isSameDay return date.toDateString() === target_date.toDateString();
+
+			if (isSameDay) {
+				current_year += 1;
+			}
+
+			for (i = (current_year); i < target_year; i++) { 
+				if (((i % 4 == 0) && (i % 100 != 0)) || (i % 400 == 0)){
+					days -= 366;
+				}
+				else {
+					//Not a leap year
+					days -= 365;
+				}
+			}
+
+
+
+			countdown.innerHTML = years_final + " Years, " + days + " Days, " + hours + " Hours, "
+			+ minutes + "m, " + seconds + "s";
+
 		}, 100);
 	</script>
 </body>
