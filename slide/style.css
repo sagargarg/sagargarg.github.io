@@ -13,10 +13,6 @@ body {
 }
 
 .range-slider {
-  margin: 60px 0 0 0%;
-}
-
-.range-slider {
   width: 100%;
 }
 
@@ -96,4 +92,11 @@ body {
 input::-moz-focus-inner,
 input::-moz-focus-outer {
   border: 0;
+}
+
+
+h3 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 15px;
 }
