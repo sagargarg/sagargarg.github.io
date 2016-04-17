@@ -1,4 +1,5 @@
 var rangeSlider1 = function(){
+	var letterGrade = $('.letter_grade');
 	var finalNumber = $('.final_number');
 
 
@@ -52,6 +53,39 @@ var rangeSlider1 = function(){
 			return finalNumber3 = this.value;
 		});
 		// console.log(finalNumber3);
+
+		if (finalNumber3 >= 93) {
+			letterGrade.html("A");
+			// console.log("A");
+		}
+		else if (finalNumber3 >= 90 && finalNumber3 < 93){
+			letterGrade.html("A-");
+			// console.log("A-");
+		}
+		else if (finalNumber3 >= 87 && finalNumber3 < 90){
+			letterGrade.html("B+");
+			// console.log("B+");
+		}
+		else if (finalNumber3 >= 83 && finalNumber3 < 87){
+			letterGrade.html("B");
+			// console.log("B");
+		}
+		else if (finalNumber3 >= 80 && finalNumber3 < 83){
+			letterGrade.html("B-");
+			// console.log("B-");
+		}
+		else if (finalNumber3 >= 77 && finalNumber3 < 80){
+			letterGrade.html("C+");
+			// console.log("C+");
+		}
+		else if (finalNumber3 >= 73 && finalNumber3 < 77){
+			letterGrade.html("C");
+			// console.log("C");
+		}
+		else if (finalNumber3 >= 70 && finalNumber3 < 73){
+			letterGrade.html("C-");
+			// console.log("C-");
+		}
 
 		var finalInt = (3 * finalNumber3) - (+finalNumber1 + +finalNumber2);
 		console.log(finalInt);
