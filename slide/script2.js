@@ -10,7 +10,7 @@ var rangeSlider1 = function(){
 	var slider2 = $('.slider2');
 	var range2 = $('#range2');
 	var value2 = $('#value2');
-	var finalNumber2 = 90.2;
+	var finalNumber2 = 90.3;
 
 	var slider3 = $('.slider3');
 	var range3 = $('#range3');
