@@ -18,7 +18,7 @@ var rangeSlider1 = function(){
 	var slider3 = $('.slider3');
 	var range3 = $('#range3');
 	var value3 = $('#value3');
-	var finalNumber3 = 93;
+	var finalNumber3 = 7;
 
 
 	value1.each(function(){
@@ -58,40 +58,55 @@ var rangeSlider1 = function(){
 		});
 		// console.log(finalNumber3);
 
-		if (finalNumber3 >= 93) {
+		var bigNum3;
+
+		if (finalNumber3 == 7) {
 			letterGrade.html("A");
+			bigNum3 = 93;
 			// console.log("A");
 		}
-		else if (finalNumber3 >= 90 && finalNumber3 < 93){
+		else if (finalNumber3 == 6){
 			letterGrade.html("A-");
+			bigNum3 = 90;
 			// console.log("A-");
 		}
-		else if (finalNumber3 >= 87 && finalNumber3 < 90){
+		else if (finalNumber3 == 5){
 			letterGrade.html("B+");
+			bigNum3 = 87;
 			// console.log("B+");
 		}
-		else if (finalNumber3 >= 83 && finalNumber3 < 87){
+		else if (finalNumber3 == 4){
 			letterGrade.html("B");
+			bigNum3 = 83;
 			// console.log("B");
 		}
-		else if (finalNumber3 >= 80 && finalNumber3 < 83){
+		else if (finalNumber3 == 3){
 			letterGrade.html("B-");
+			bigNum3 = 80;
 			// console.log("B-");
 		}
-		else if (finalNumber3 >= 77 && finalNumber3 < 80){
+		else if (finalNumber3 == 2){
 			letterGrade.html("C+");
+			bigNum3 = 77;
 			// console.log("C+");
 		}
-		else if (finalNumber3 >= 73 && finalNumber3 < 77){
+		else if (finalNumber3 == 1){
 			letterGrade.html("C");
+			bigNum3 = 73;
 			// console.log("C");
 		}
-		else if (finalNumber3 >= 70 && finalNumber3 < 73){
+		else if (finalNumber3 == 0){
 			letterGrade.html("C-");
+			bigNum3 = 70;
 			// console.log("C-");
 		}
+		else {
+			letterGrade.html("N/A");
+			bigNum3 = 100;
+			// console.log("N/A");
+		}
 
-		var finalInt = (3 * finalNumber3) - (+finalNumber1 + +finalNumber2);
+		var finalInt = (3 * bigNum3) - (+finalNumber1 + +finalNumber2);
 		// console.log(finalInt);
 		var finalIntRound = finalInt.toFixed(1);
 		// console.log(finalIntRound);
