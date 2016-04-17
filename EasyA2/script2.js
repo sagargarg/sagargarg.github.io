@@ -1,4 +1,6 @@
 var rangeSlider1 = function(){
+	var tri1 = $('.tri1');
+	var tri2 = $('.tri2');
 	var letterGrade = $('.letter_grade');
 	var finalNumber = $('.final_number');
 
@@ -41,12 +43,14 @@ var rangeSlider1 = function(){
 			return finalNumber1 = this.value;
 		});
 		// console.log(finalNumber1);
+		tri1.html(finalNumber1);
 
 		range2.on('input', function(){
 			$(this).next(value2).html(this.value);
 			return finalNumber2 = this.value;
 		});
 		// console.log(finalNumber2);
+		tri2.html(finalNumber2);
 
 		range3.on('input', function(){
 			$(this).next(value3).html(this.value);
