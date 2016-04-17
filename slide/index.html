@@ -8,22 +8,36 @@
 	<div>
 		<div class="range-slider slider1">
 			<h3>Trimester 1 Grade</h3>
-			<input class="range-slider_range" type="range" value="94.7" min="70" max="100" step="0.1">
-			<span class="range-slider_value">0</span>
+			<input id="range1" class="range-slider_range" type="range" value="94.7" min="70" max="100" step="0.1">
+			<span id="value1" class="range-slider_value">0</span>
 		</div>
 
 		<h3>Trimester 2 Grade</h3>
 		<div class="range-slider slider2">
-			<input class="range-slider_range" type="range" value="90.2" min="70" max="100" step="0.1">
-			<span class="range-slider_value">0</span>
+			<input id="range2" class="range-slider_range" type="range" value="90.2" min="70" max="100" step="0.1">
+			<span id="value2" class="range-slider_value">0</span>
 		</div>
 
 		<h3 class="test">Minimum Final Year Grade</h3>
 		<div class="range-slider slider3">
-			<input class="range-slider_range" type="range" value="93" min="70" max="100" step="1">
-			<span class="range-slider_value">0</span>
+			<input id="range3" class="range-slider_range" type="range" value="93" min="70" max="100" step="1">
+			<span id="value3" class="range-slider_value">0</span>
 		</div>
+		<p class="final_number">93</p>
 	</div>
+	<!-- <form oninput="final.value=(rangeInput1.value+rangeInput2.value)">
+		<form oninput="amount1.value=rangeInput1.value">
+			<input name="rangeInput1" id="rangeInput1" class="range-slider_range" type="range" value="94.7" min="70" max="100" step="0.1">
+			<output name="amount1" class="range-slider_value" for="rangeInput1">94.7</output>
+		</form>
+
+		<form oninput="amount2.value=rangeInput2.value">
+			<input name="rangeInput2" id="rangeInput2" class="range-slider_range" type="range" value="92.3" min="70" max="100" step="0.1">
+			<output name="amount2" class="range-slider_value" for="rangeInput2">92.3</output>
+		</form>
+
+		<output name="final" class="range-slider_value" for="rangeInput1 rangeInput2">187</output>
+	</form> -->
 	<!-- <div class="range-slider">
 	  <input class="range-slider_range" type="range" value="250" min="0" max="500" step="50">
 	  <span class="range-slider_value">0</span>
@@ -32,7 +46,8 @@
 	<div class="range-slider">
 	  <input class="range-slider_range" type="range" value="400" min="0" max="500">
 	  <span class="range-slider_value">0</span>
-	</div>  -->
-	<script src="script.js"></script>
+	</div>  
+	<script src="script.js"></script>-->
+	<script src="script2.js"></script>
 </body>
 </html>
