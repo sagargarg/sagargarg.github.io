@@ -1,6 +1,4 @@
 var rangeSlider1 = function(){
-	var tri1 = $('.tri1');
-	var tri2 = $('.tri2');
 	var letterGrade = $('.letter_grade');
 	var finalNumber = $('.final_number');
 
@@ -18,7 +16,7 @@ var rangeSlider1 = function(){
 	var slider3 = $('.slider3');
 	var range3 = $('#range3');
 	var value3 = $('#value3');
-	var finalNumber3 = 7;
+	var finalNumber3 = 93;
 
 
 	value1.each(function(){
@@ -43,14 +41,12 @@ var rangeSlider1 = function(){
 			return finalNumber1 = this.value;
 		});
 		// console.log(finalNumber1);
-		tri1.html(finalNumber1);
 
 		range2.on('input', function(){
 			$(this).next(value2).html(this.value);
 			return finalNumber2 = this.value;
 		});
 		// console.log(finalNumber2);
-		tri2.html(finalNumber2);
 
 		range3.on('input', function(){
 			$(this).next(value3).html(this.value);
@@ -58,55 +54,40 @@ var rangeSlider1 = function(){
 		});
 		// console.log(finalNumber3);
 
-		var bigNum3;
-
-		if (finalNumber3 == 7) {
+		if (finalNumber3 >= 93) {
 			letterGrade.html("A");
-			bigNum3 = 93;
 			// console.log("A");
 		}
-		else if (finalNumber3 == 6){
+		else if (finalNumber3 >= 90 && finalNumber3 < 93){
 			letterGrade.html("A-");
-			bigNum3 = 90;
 			// console.log("A-");
 		}
-		else if (finalNumber3 == 5){
+		else if (finalNumber3 >= 87 && finalNumber3 < 90){
 			letterGrade.html("B+");
-			bigNum3 = 87;
 			// console.log("B+");
 		}
-		else if (finalNumber3 == 4){
+		else if (finalNumber3 >= 83 && finalNumber3 < 87){
 			letterGrade.html("B");
-			bigNum3 = 83;
 			// console.log("B");
 		}
-		else if (finalNumber3 == 3){
+		else if (finalNumber3 >= 80 && finalNumber3 < 83){
 			letterGrade.html("B-");
-			bigNum3 = 80;
 			// console.log("B-");
 		}
-		else if (finalNumber3 == 2){
+		else if (finalNumber3 >= 77 && finalNumber3 < 80){
 			letterGrade.html("C+");
-			bigNum3 = 77;
 			// console.log("C+");
 		}
-		else if (finalNumber3 == 1){
+		else if (finalNumber3 >= 73 && finalNumber3 < 77){
 			letterGrade.html("C");
-			bigNum3 = 73;
 			// console.log("C");
 		}
-		else if (finalNumber3 == 0){
+		else if (finalNumber3 >= 70 && finalNumber3 < 73){
 			letterGrade.html("C-");
-			bigNum3 = 70;
 			// console.log("C-");
 		}
-		else {
-			letterGrade.html("N/A");
-			bigNum3 = 100;
-			// console.log("N/A");
-		}
 
-		var finalInt = (3 * bigNum3) - (+finalNumber1 + +finalNumber2);
+		var finalInt = (3 * finalNumber3) - (+finalNumber1 + +finalNumber2);
 		// console.log(finalInt);
 		var finalIntRound = finalInt.toFixed(1);
 		// console.log(finalIntRound);
