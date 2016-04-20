@@ -129,7 +129,7 @@ var rangeSlider1 = function(){
 		var finalIntRound = finalInt.toFixed(1);
 		// console.log(finalIntRound);
 		finalNumber.html(finalIntRound);
-	}, 10)
+	}, 50)
 };
 
 rangeSlider1();
