@@ -24,7 +24,7 @@ var rangeSlider1 = function(){
 	var slider4 = $('.slider4');
 	var range4 = $('#range4');
 	var value4 = $('#value4');
-	var finalNumber4 = 7;
+	var finalNumber4 = 93;
 
 
 	value1.each(function(){
@@ -78,43 +78,43 @@ var rangeSlider1 = function(){
 
 		var bigNum4;
 
-		if (finalNumber4 == 7) {
-			letterGrade.html("A");
+		if (finalNumber4 >= 93) {
+			letterGrade.html(finalNumber4 + " (A)");
 			bigNum4 = 93;
 			// console.log("A");
 		}
-		else if (finalNumber4 == 6){
-			letterGrade.html("A-");
+		else if (finalNumber4 >= 90){
+			letterGrade.html(finalNumber4 + "  (A-)");
 			bigNum4 = 90;
 			// console.log("A-");
 		}
-		else if (finalNumber4 == 5){
-			letterGrade.html("B+");
+		else if (finalNumber4 >= 87){
+			letterGrade.html(finalNumber4 + " (B+)");
 			bigNum4 = 87;
 			// console.log("B+");
 		}
-		else if (finalNumber4 == 4){
-			letterGrade.html("B");
+		else if (finalNumber4 >= 83){
+			letterGrade.html(finalNumber4 + " (B)");
 			bigNum4 = 83;
 			// console.log("B");
 		}
-		else if (finalNumber4 == 3){
-			letterGrade.html("B-");
+		else if (finalNumber4 >= 80){
+			letterGrade.html(finalNumber4 + " (B-)");
 			bigNum4 = 80;
 			// console.log("B-");
 		}
-		else if (finalNumber4 == 2){
-			letterGrade.html("C+");
+		else if (finalNumber4 >= 77){
+			letterGrade.html(finalNumber4 + " (C+)");
 			bigNum4 = 77;
 			// console.log("C+");
 		}
-		else if (finalNumber4 == 1){
-			letterGrade.html("C");
+		else if (finalNumber4 >= 73){
+			letterGrade.html(finalNumber4 + " (C)");
 			bigNum4 = 73;
 			// console.log("C");
 		}
-		else if (finalNumber4 == 0){
-			letterGrade.html("C-");
+		else if (finalNumber4 >= 70){
+			letterGrade.html(finalNumber4 + " (C-)");
 			bigNum4 = 70;
 			// console.log("C-");
 		}
@@ -124,7 +124,7 @@ var rangeSlider1 = function(){
 			// console.log("N/A");
 		}
 
-		var finalInt = (4 * bigNum4) - (+finalNumber1 + +finalNumber2 + +finalNumber3);
+		var finalInt = (4 * finalNumber4) - (+finalNumber1 + +finalNumber2 + +finalNumber3);
 		// console.log(finalInt);
 		var finalIntRound = finalInt.toFixed(1);
 		// console.log(finalIntRound);

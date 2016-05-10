@@ -13,7 +13,7 @@ var rangeSlider1 = function(){
 	var slider3 = $('.slider3');
 	var range3 = $('#range3');
 	var value3 = $('#value3');
-	var finalNumber3 = 7;
+	var finalNumber3 = 93;
 
 
 	value1.each(function(){
@@ -43,43 +43,43 @@ var rangeSlider1 = function(){
 
 		var bigNum3;
 
-		if (finalNumber3 == 7) {
-			letterGrade.html("A");
+		if (finalNumber3 >= 93) {
+			letterGrade.html(finalNumber3 + " (A)");
 			bigNum3 = 93;
 			// console.log("A");
 		}
-		else if (finalNumber3 == 6){
-			letterGrade.html("A-");
+		else if (finalNumber3 >= 90){
+			letterGrade.html(finalNumber3 + "  (A-)");
 			bigNum3 = 90;
 			// console.log("A-");
 		}
-		else if (finalNumber3 == 5){
-			letterGrade.html("B+");
+		else if (finalNumber3 >= 87){
+			letterGrade.html(finalNumber3 + " (B+)");
 			bigNum3 = 87;
 			// console.log("B+");
 		}
-		else if (finalNumber3 == 4){
-			letterGrade.html("B");
+		else if (finalNumber3 >= 83){
+			letterGrade.html(finalNumber3 + " (B)");
 			bigNum3 = 83;
 			// console.log("B");
 		}
-		else if (finalNumber3 == 3){
-			letterGrade.html("B-");
+		else if (finalNumber3 >= 80){
+			letterGrade.html(finalNumber3 + " (B-)");
 			bigNum3 = 80;
 			// console.log("B-");
 		}
-		else if (finalNumber3 == 2){
-			letterGrade.html("C+");
+		else if (finalNumber3 >= 77){
+			letterGrade.html(finalNumber3 + " (C+)");
 			bigNum3 = 77;
 			// console.log("C+");
 		}
-		else if (finalNumber3 == 1){
-			letterGrade.html("C");
+		else if (finalNumber3 >= 73){
+			letterGrade.html(finalNumber3 + " (C)");
 			bigNum3 = 73;
 			// console.log("C");
 		}
-		else if (finalNumber3 == 0){
-			letterGrade.html("C-");
+		else if (finalNumber3 >= 70){
+			letterGrade.html(finalNumber3 + " (C-)");
 			bigNum3 = 70;
 			// console.log("C-");
 		}
@@ -88,8 +88,8 @@ var rangeSlider1 = function(){
 			bigNum3 = 100;
 			// console.log("N/A");
 		}
-
-		var finalInt = (2 * bigNum3) - +finalNumber1;
+		
+		var finalInt = (2 * finalNumber3) - +finalNumber1;
 		// console.log(finalInt);
 		var finalIntRound = finalInt.toFixed(1);
 		// console.log(finalIntRound);
