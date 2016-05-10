@@ -158,7 +158,13 @@ var rangeSlider1 = function(){
 		// console.log(finalInt);
 		var finalIntRound = finalInt.toFixed(1);
 		// console.log(finalIntRound);
-		finalNumber.html(finalIntRound);
+		if (finalNumber <= 100){
+			finalNumber.html(finalIntRound);	
+		}
+		else if (finalNumber > 100){
+			finalNumber.html(finalIntRound + "Nah, You're Good");
+		}
+		
 	}, 50)
 };
 
