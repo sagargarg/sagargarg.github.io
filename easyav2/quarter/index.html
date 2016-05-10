@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+	<title>EasyA Quarter</title>
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+<body>
+	<div class="title">
+		<a href="..\">
+			<h1>EasyA Quarter</h1>
+		</a>
+	</div>
+	<div class="separator_line"></div>
+	<div class="buttons">
+		<a class="button b1" type="button" href="../semester">Semester</a>
+		<a class="button b2" type="button" href="../trimester">Trimester</a>
+		<button  type="button" class="button b3 highlighted" href="../quarter">Quarter</button>
+	</div>
+	
+	<div>
+		<h3>Quarter 1 Grade: <span class="tri1">0</span></h3>
+		<div class="range-slider slider1">
+			<input id="range1" class="range-slider_range" type="range" value="94.7" min="70" max="100" step="0.1">
+			<span id="value1" class="range-slider_value">0</span>
+		</div>
+
+		<h3>Quarter 2 Grade: <span class="tri2">0</span></h3>
+		<div class="range-slider slider2">
+			<input id="range2" class="range-slider_range" type="range" value="90.3" min="70" max="100" step="0.1">
+			<span id="value2" class="range-slider_value">0</span>
+		</div>
+
+		<h3>Quarter 3 Grade: <span class="tri3">0</span></h3>
+		<div class="range-slider slider3">
+			<input id="range3" class="range-slider_range" type="range" value="92.5" min="70" max="100" step="0.1">
+			<span id="value3" class="range-slider_value">0</span>
+		</div>
+
+		<h3 class="test">Minimum Final Year Grade: <span class="letter_grade">A</span></h3>
+		<div class="range-slider slider4">
+			<input id="range4" class="range-slider_range" type="range" value="7" min="0" max="7" step="1">
+			<span id="value4" class="range-slider_value">7</span>
+		</div>
+		<h3 class="final_text">Minimum 4th Quarter Grade: <span class="final_number">94</span></h3>
+	</div>
+	<script src="quarter.js"></script>
+</body>
+</html>
