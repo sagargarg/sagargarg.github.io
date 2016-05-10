@@ -61,42 +61,42 @@ var rangeSlider1 = function(){
 		var bigNum3;
 
 		if (finalNumber3 >= 93) {
-			letterGrade.html("A - " + finalNumber3);
+			letterGrade.html(finalNumber3 + " (A)");
 			bigNum3 = 93;
 			// console.log("A");
 		}
 		else if (finalNumber3 >= 90){
-			letterGrade.html("A-");
+			letterGrade.html(finalNumber3 + "  (A-)");
 			bigNum3 = 90;
 			// console.log("A-");
 		}
 		else if (finalNumber3 >= 87){
-			letterGrade.html("B+");
+			letterGrade.html(finalNumber3 + " (B+)");
 			bigNum3 = 87;
 			// console.log("B+");
 		}
 		else if (finalNumber3 >= 83){
-			letterGrade.html("B");
+			letterGrade.html(finalNumber3 + " (B)");
 			bigNum3 = 83;
 			// console.log("B");
 		}
 		else if (finalNumber3 >= 80){
-			letterGrade.html("B-");
+			letterGrade.html(finalNumber3 + " (B-)");
 			bigNum3 = 80;
 			// console.log("B-");
 		}
 		else if (finalNumber3 >= 77){
-			letterGrade.html("C+");
+			letterGrade.html(finalNumber3 + " (C+)");
 			bigNum3 = 77;
 			// console.log("C+");
 		}
 		else if (finalNumber3 >= 73){
-			letterGrade.html("C");
+			letterGrade.html(finalNumber3 + " (C)");
 			bigNum3 = 73;
 			// console.log("C");
 		}
 		else if (finalNumber3 >= 70){
-			letterGrade.html("C-");
+			letterGrade.html(finalNumber3 + " (C-)");
 			bigNum3 = 70;
 			// console.log("C-");
 		}
