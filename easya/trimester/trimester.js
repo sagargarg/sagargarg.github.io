@@ -162,7 +162,7 @@ var rangeSlider1 = function(){
 			finalNumber.html(finalIntRound);	
 		}
 		else if (finalIntRound > 100){
-			finalNumber.html(finalIntRound + "Nah, You're Good");
+			finalNumber.html(finalIntRound + " Nah, You're Good");
 		}
 		
 	}, 50)
