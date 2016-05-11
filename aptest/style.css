@@ -1,30 +1,6 @@
-html,
-body {
-	margin: 0;
-	padding: 0;
-	background-color: #ecf0f1;
-}
-
-body {
-	padding: 0 30px;
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-align-items: center;
-	-webkit-flex-direction: column;
-	-webkit-font-smoothing: antialiased;
-	-webkit-justify-content: center;
-	display: -webkit-flex;
-}
-
-.div_centered {
-	text-align: center;
-	margin-top: 100px;
-}
-
 .age-label {
   color: #B0B5B9;
-  font-size: 1.2rem;
-  line-height: 1;
-  margin: 0 0 0 2px;
+  font-size: 20px;
 }
 
 .text_title,
@@ -37,7 +13,6 @@ body {
 .body_text {
 	font-family: 'Ruda';
 	margin: 0 auto;
-	margin-top: 40px;
 	margin-bottom: 20px;
 	height: auto;
 	width: 620px;
@@ -45,9 +20,11 @@ body {
 }
 
 .countdown_div {
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
-
+.countdown_date {
+	font-size: 25px;
+}
 #countdown,
 #death {
 	font-size: 30px;

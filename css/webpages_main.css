@@ -1,0 +1,54 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	padding: 50px 60px 0;
+	font-family: 'Lato', sans-serif;
+	max-width: 900px;
+	margin: 0 auto;
+	background-color: #ecf0f1;
+}
+a {
+	color: #fff;
+	text-decoration: none;
+}
+.title {
+	text-align: center;
+}
+.title a {
+	color: #000;
+	text-decoration: none;
+}
+.title a:focus,
+.title a:hover {
+	color: #000;
+	text-decoration: none;
+}
+.title h1 {
+	font-size: 45px;
+	margin: 0;
+	font-weight: 300;
+	text-align: center;
+	display: inline-block;
+	    line-height: 1.1;
+}
+.separator_line {
+	border-bottom: 1px solid #D3D3D3;
+	width: 150px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.div_centered {
+	text-align: center;
+	margin-top: 25px;
+}
+/*
+<div class="title">
+	<a href="..\">
+		<h1>EasyA Trimester</h1>
+	</a>
+</div>
+<div class="separator_line"></div>
+*/
