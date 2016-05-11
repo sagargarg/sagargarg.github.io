@@ -1,6 +1,6 @@
 .age-label {
-  color: #B0B5B9;
-  font-size: 20px;
+	color: #3498db;
+	font-size: 20px;
 }
 
 .text_title,
@@ -24,11 +24,16 @@
 }
 .countdown_date {
 	font-size: 25px;
+	color: #2980b9;
 }
 #countdown,
 #death {
 	font-size: 30px;
 	font-weight: bold;
+}
+
+#countdown {
+	color: #2c3e50;
 }
 
 .igs_text {
