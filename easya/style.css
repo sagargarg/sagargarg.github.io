@@ -275,9 +275,11 @@ button {
 	.final_text {
 		margin-top: 25px;
 	}
-	.separator_line {
-		width: 120px;
-		margin-bottom: 40px;
+}
+@media screen and (max-width: 400px) {
+	.button {
+		display: block;
+		margin: 15px auto;
 	}
 }
 
