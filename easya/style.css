@@ -1,6 +1,5 @@
 .div_centered {
 	text-align: left;
-	font-family: "Roboto", "Roboto Condensed", sans-serif;
 }
 .range-slider {
 	width: 100%;
@@ -99,13 +98,6 @@ h3 {
 	font-weight: 400;
 	font-size: 17px;
 	line-height: 1.1;
-}
-
-h2 {
-	margin-top: 40px;
-	margin-bottom: 15px;
-	font-weight: 400;
-	font-size: 25px;
 }
 
 .final_text {
@@ -224,34 +216,6 @@ button {
 	border-color: #ac2925;
 }
 
-
-.btn {
-	width: 100px;
-}
-
-
-.btn-primary.active.focus,
-.btn-primary.active:focus,
-.btn-primary.active:hover,
-.btn-primary:active.focus,
-.btn-primary:active:focus,
-.btn-primary:active:hover {
-	/*background-color: #286090;
-	border-color: #204d74;*/
-	background-color: #204d74;
-	border-color: #122b40;
-}
-
-.btn-primary:active {
-	background-color: #204d74;
-	border-color: #122b40;
-}
-
-.btn-primary.active.b3:focus {
-	background-color: #c9302c;
-	border-color: #ac2925;
-}
-
 .b2_highlighted {
 	background-color: #286090;
 	border-color: #204d74;
@@ -269,8 +233,8 @@ button {
 		font-size: 30px;
 	}
 	h3 {
-		margin-top: 25px;
-		margin-bottom: 5px;
+		margin-top: 30px;
+		margin-bottom: 12px;
 	}
 	.final_text {
 		margin-top: 25px;
