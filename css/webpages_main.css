@@ -1,15 +1,13 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
-@import url(https://fonts.googleapis.com/css?family=Ruda);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,);
 
 *, *:before, *:after {
 	box-sizing: border-box;
 }
 
 body {
-	font-family: sans-serif;
-	padding: 50px 60px 0;
-	font-family: 'Lato', sans-serif;
+	font-family: "Roboto", "Roboto Condensed", sans-serif;
+	padding: 80px 60px 0;
 	max-width: 900px;
 	margin: 0 auto;
 	background-color: #ecf0f1;
@@ -31,22 +29,21 @@ a {
 	text-decoration: none;
 }
 .title h1 {
-	font-size: 42px;
+	font-size: 56px;
+	font-weight: 500;
+	color: #212121;
 	margin: 0;
-	font-weight: 300;
-	text-align: center;
-	display: inline-block;
-	    line-height: 1.1;
+	line-height: 1.25;
 }
 .separator_line {
-	border-bottom: 1px solid #D3D3D3;
-	width: 150px;
+	border-bottom: 2px solid #D3D3D3;
+	width: 200px;
 	margin: 0 auto;
 	margin-top: 10px;
 }
 .div_centered {
 	text-align: center;
-	margin-top: 35px;
+	margin-top: 50px;
 }
 /*
 <div class="title">
@@ -56,3 +53,26 @@ a {
 </div>
 <div class="separator_line"></div>
 */
+
+@media screen and (max-width: 600px) {
+	.title h1 {
+		font-size: 45px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	body {
+		padding: 30px 20px 0;
+	}
+	.title h1 {
+		font-size: 40px;
+	}
+}
+@media screen and (max-width: 400px) {
+	body {
+		padding: 30px 10px 0;
+	}
+	.title h1 {
+		font-size: 32px;
+	}
+}
