@@ -13,6 +13,7 @@ body {
 	font-family: "Ruda","Helvetica Neue",Helvetica,Arial,sans-serif;
 	background-color: #fff;
 	webkit-tap-highlight-color: rgba(255,255,255,.2);
+	position: relative; 
 }
 h1,
 h3,
