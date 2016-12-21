@@ -769,21 +769,22 @@ h5 {
 }
 
 .courses {
-	margin-left: -15px;
 	font-weight: bold;
+	font-size: 17px;
 }
 
 .educationcourses {
 	text-align: center;
-	font-size: 30px;
+	font-size: 20px;
 }
 
 .class {
-	padding-left: 30px;
+	font-size: 15px;
 }
 
 .highschool {
-	font-size: 23px;
+	font-size: 20px;
+	text-align: center;
 }
 
 .educationcourses {
@@ -792,11 +793,11 @@ h5 {
 }
 
 .highschoolonly {
-	font-size: 25px;
+	font-size: 22px;
 }
 
 .academies {
-	font-size: 20px;
+	font-size: 16px;
 }
 
 .greyed {
