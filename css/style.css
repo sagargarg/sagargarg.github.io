@@ -394,7 +394,7 @@ h5 {
 
 .bars li {
 	position: relative;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	background: #bdc3c7;
 	height: 38px;
 	border-radius: 3px;
@@ -468,18 +468,18 @@ h5 {
 }
 
 .javascript {
-	width: 60%;
+	width: 50%;
 	-moz-animation: javascript 2s ease;
 	-webkit-animation: javascript 2s ease;
 }
 
 @-moz-keyframes javascript {
 	0%   { width: 0px;  }
-	100% { width: 60%;  }
+	100% { width: 50%;  }
 }
 @-webkit-keyframes javascript {
 	0%   { width: 0px;  }
-	100% { width: 60%;  }
+	100% { width: 50%;  }
 }
 
 .python {
@@ -495,6 +495,21 @@ h5 {
 @-webkit-keyframes python {
 	0%   { width: 0px;  }
 	100% { width: 35%;  }
+}
+
+.cplusplus {
+	width: 60%;
+	-moz-animation: python 2s ease;
+	-webkit-animation: python 2s ease;
+}
+
+@-moz-keyframes python {
+	0%   { width: 0px;  }
+	100% { width: 60%;  }
+}
+@-webkit-keyframes python {
+	0%   { width: 0px;  }
+	100% { width: 60%;  }
 }
 
 .autodesk {
