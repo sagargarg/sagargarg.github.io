@@ -97,11 +97,6 @@ h5 {
 	border: none;
 	background-color: rgba(35,35,35,0.9);
 }
-.top-nav-collapse {
-	background-color: transparent;
-	border: none;
-	padding-top: 20px;
-}
 .navbar-toggle {
 	margin: 0 15px 0 0;
 	padding: 14px 10px;
@@ -124,6 +119,18 @@ h5 {
 	color: #e74c3c !important;
 }
 
+.top-nav-collapse {
+	background-color: rgba(35,35,35,0.9);
+	border: none;
+	padding-top: 0px;
+}
+@media (min-width: 768px) {
+	.top-nav-collapse {
+		background-color: transparent;
+		border: none;
+		padding-top: 20px;
+	}
+}
 
 /* End Navbar Section */
 
@@ -218,9 +225,15 @@ h5 {
 }
 #items {
 	text-align: center;
-	margin-bottom: 200px;
+	margin-bottom: 100px;
 	margin-top: 20px;
 }
+@media (max-width: 856px) {
+	#items {
+		margin-bottom: 25px;
+	}
+}
+
 #items h3 {
 	font-size: 24px;
 	font-weight: 300;
@@ -318,7 +331,7 @@ h5 {
 	}
 }
 
-@media screen and (max-width: 410px){
+@media screen and (max-width: 430px){
 	#panel1 #content #items h3 {
 		margin: 20px 0;
 		padding: 20px 10px;
