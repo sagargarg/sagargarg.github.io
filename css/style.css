@@ -944,6 +944,13 @@ h5 {
 body div div div div a:hover {
 	text-decoration: none;
 }
+.social {
+	font-size: 0;
+}
+.social .col-sm-2 {
+	float: none;
+	display: inline-block;
+}
 
 .email1 {
 	background-color: rgb(39, 174, 96);
