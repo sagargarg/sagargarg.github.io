@@ -512,45 +512,45 @@ h5 {
 }
 
 .html {
-	width: 95%;
+	width: 75%;
 	-moz-animation: html 2s ease;
 	-webkit-animation: html 2s ease;
 }
 @-moz-keyframes html {
 	0%   { width: 0px;  }
-	100% { width: 95%;  }
+	100% { width: 75%;  }
 }
 @-webkit-keyframes html {
 	0%   { width: 0px;  }
-	100% { width: 95%;  }
+	100% { width: 75%;  }
 }
 
 .javascript {
-	width: 80%;
+	width: 60%;
 	-moz-animation: javascript 2s ease;
 	-webkit-animation: javascript 2s ease;
 }
 @-moz-keyframes javascript {
 	0%   { width: 0px;  }
-	100% { width: 80%;  }
+	100% { width: 60%;  }
 }
 @-webkit-keyframes javascript {
 	0%   { width: 0px;  }
-	100% { width: 80%;  }
+	100% { width: 60%;  }
 }
 
-.c {
-	width: 75%;
-	-moz-animation: c 2s ease;
-	-webkit-animation: c 2s ease;
+.sql {
+	width: 80%;
+	-moz-animation: sql 2s ease;
+	-webkit-animation: sql 2s ease;
 }
-@-moz-keyframes c {
+@-moz-keyframes sql {
 	0%   { width: 0px;  }
-	100% { width: 75%;  }
+	100% { width: 80%;  }
 }
-@-webkit-keyframes c {
+@-webkit-keyframes sql {
 	0%   { width: 0px;  }
-	100% { width: 75%;  }
+	100% { width: 80%;  }
 }
 
 .java {
@@ -568,31 +568,31 @@ h5 {
 }
 
 .php {
-	width: 50%;
+	width: 30%;
 	-moz-animation: php 2s ease;
 	-webkit-animation: php 2s ease;
 }
 @-moz-keyframes php {
 	0%   { width: 0px;  }
-	100% { width: 50%;  }
+	100% { width: 30%;  }
 }
 @-webkit-keyframes pyphpthon {
 	0%   { width: 0px;  }
-	100% { width: 50%;  }
+	100% { width: 30%;  }
 }
 
 .python {
-	width: 30%;
+	width: 90%;
 	-moz-animation: python 2s ease;
 	-webkit-animation: python 2s ease;
 }
 @-moz-keyframes python {
 	0%   { width: 0px;  }
-	100% { width: 30%;  }
+	100% { width: 90%;  }
 }
 @-webkit-keyframes python {
 	0%   { width: 0px;  }
-	100% { width: 30%;  }
+	100% { width: 90%;  }
 }
 
 .autodesk {
